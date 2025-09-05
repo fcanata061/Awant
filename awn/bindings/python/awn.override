@@ -1,0 +1,347 @@
+%%
+headers
+#ifdef HAVE_CONFIG_H
+#include "config.h"
+#endif
+#include <pygobject.h>
+#include <pycairo.h>
+#include <pygtk/pygtk.h>
+#include <libawn/awn-enum-types.h>
+#include <libawn/libawn.h>
+#include <libawn/awn-utils.h>
+
+extern Pycairo_CAPI_t *Pycairo_CAPI;
+
+/* Some hacking to get GdkRegion to work. */
+#ifndef PYGDK_TYPE_REGION
+GType pygdk_region_get_type (void) G_GNUC_CONST;
+#define PYGDK_TYPE_REGION (pygdk_region_get_type ())
+GType
+pygdk_region_get_type (void)
+{
+  static GType our_type = 0;
+  
+  if (our_type == 0)
+    /* GdkRegion is already taken by pygtk in its boxing of GdkRegion. */
+    our_type = g_type_from_name("GdkRegion");
+  return our_type;
+}
+#endif /* GDK_TYPE_REGION */
+
+static gchar**
+_pysequence_to_gchar_array (PyObject *py_seq)
+{
+  gchar **seq;
+  if (PyList_Check (py_seq) || PyTuple_Check (py_seq))
+  {
+    Py_ssize_t len;
+    int i;
+    len = PySequence_Fast_GET_SIZE (py_seq);
+    seq = g_malloc (sizeof (gchar*) * (len + 1));
+    for (i = 0; i < len; i++)
+    {
+      PyObject *item;
+      item = PySequence_Fast_GET_ITEM (py_seq, i);
+      if (PyString_Check (item))
+      {
+        seq[i] = PyString_AsString (item);
+      }
+      else
+      {
+        g_free (seq);
+        return NULL;
+      }
+    }
+    seq[len] = NULL;
+  }
+  else
+  {
+    return NULL;
+  }
+  return seq;
+}
+%%
+modulename awn
+%%
+import gobject.GObject as PyGObject_Type
+import desktopagnostic.Color as PyDesktopAgnosticColor_Type
+import gtk.Alignment as PyGtkAlignment_Type
+import gtk.Dialog as PyGtkDialog_Type
+import gtk.EventBox as PyGtkEventBox_Type
+import gtk.Box as PyGtkBox_Type
+import gtk.HBox as PyGtkHBox_Type
+import gtk.IconTheme as PyGtkIconTheme_Type
+import gtk.Plug as PyGtkPlug_Type
+import gtk.Socket as PyGtkSocket_Type
+import gtk.VBox as PyGtkVBox_Type
+import gtk.Widget as PyGtkWidget_Type
+import gtk.Window as PyGtkWindow_Type
+import gtk.gdk.Pixbuf as PyGdkPixbuf_Type
+import gtk.DrawingArea as PyGtkDrawingArea_Type
+import gtk.Image as PyGtkImage_Type
+import gtk.Label as PyGtkLabel_Type
+%%
+ignore-glob
+  *_get_type
+%%
+override awn_applet_create_about_item kwargs
+static PyObject *
+_wrap_awn_applet_create_about_item (PyGObject *self, PyObject *args,
+                                    PyObject *kwargs)
+{
+  static char *kwlist[] = { "copyright", "license", "version", "comments",
+                            "website", "website_label", "icon-name",
+                            "translator_credits", "authors", "artists",
+                            "documentors", NULL };
+  char *copyright, *version, *comments, *website, *website_label, *icon_name,
+       *translator_credits;
+  PyObject *py_license = NULL;
+  PyObject *py_authors = NULL;
+  PyObject *py_artists = NULL;
+  PyObject *py_documentors = NULL;
+  GtkWidget *ret;
+  AwnAppletLicense license;
+  gchar **authors = NULL;
+  gchar **artists = NULL;
+  gchar **documentors = NULL;
+
+  if (!PyArg_ParseTupleAndKeywords (args, kwargs,
+                                    "sOzzzzzzOOO:AwnApplet.create_about_item",
+                                    kwlist, &copyright, &py_license, &version,
+                                    &comments, &website, &website_label,
+                                    &icon_name, &translator_credits,
+                                    &py_authors, &py_artists, &py_documentors))
+  {
+    return NULL;
+  }
+
+  if (pyg_enum_get_value (AWN_TYPE_APPLET_LICENSE, py_license,
+                          (gpointer)&license))
+  {
+    return NULL;
+  }
+
+  if (py_authors != Py_None)
+  {
+    authors = _pysequence_to_gchar_array (py_authors);
+  }
+  if (py_artists != Py_None)
+  {
+    artists = _pysequence_to_gchar_array (py_artists);
+  }
+  if (py_documentors != Py_None)
+  {
+    documentors = _pysequence_to_gchar_array (py_documentors);
+  }
+
+  ret = awn_applet_create_about_item (AWN_APPLET(self->obj), copyright,
+                                      license, version, comments, website,
+                                      website_label, icon_name,
+                                      translator_credits,
+                                      (const gchar **)authors,
+                                      (const gchar **)artists,
+                                      (const gchar **)documentors);
+
+  /* pygobject_new handles NULL checking */
+  return pygobject_new ((GObject *)ret);
+}
+%%
+override awn_effects_cairo_create
+static PyObject *
+_wrap_awn_effects_cairo_create(PyGObject *self)
+{
+    cairo_t *ret = awn_effects_cairo_create(AWN_EFFECTS(self->obj));
+
+    cairo_reference(ret);
+    /* bug in pygtk-codegen > sets second parameter to NULL in call to
+     * PycairoContext_FromContext, which causes segmentation error in newer
+     * versions of pycairo
+     */
+    return PycairoContext_FromContext(ret, &PycairoContext_Type, NULL);
+}
+%%
+override awn_effects_cairo_create_clipped
+static PyObject *
+_wrap_awn_effects_cairo_create_clipped(PyGObject *self, PyObject *args, PyObject *kwargs)
+{
+    static char *kwlist[] = { "event", NULL };
+    GdkEvent *event = NULL;
+    PyObject *py_event;
+    cairo_t *ret;
+
+    if (!PyArg_ParseTupleAndKeywords(args, kwargs,"O:AwnEffects.cairo_create_clipped", kwlist, &py_event))
+        return NULL;
+    if (pyg_boxed_check(py_event, GDK_TYPE_EVENT))
+        event = pyg_boxed_get(py_event, GdkEvent);
+    else {
+        PyErr_SetString(PyExc_TypeError, "event should be a GdkEvent");
+        return NULL;
+    }
+
+    ret = awn_effects_cairo_create_clipped(AWN_EFFECTS(self->obj), (GdkEventExpose *)event);
+
+    cairo_reference(ret);
+    /* bug in pygtk-codegen > sets second parameter to NULL in call to
+     * PycairoContext_FromContext, which causes segmentation error in newer
+     * versions of pycairo
+     */
+    return PycairoContext_FromContext(ret, &PycairoContext_Type, NULL);
+}
+%%
+override awn_themed_icon_set_info kwargs
+static PyObject *
+_wrap_awn_themed_icon_set_info (PyObject *self, PyObject *args, PyObject *kwargs)
+{
+  static char *kwlist[] = { "applet_name", "uid", "states", "icon_names", NULL };
+  gchar *applet_name;
+  gchar *uid;
+  PyObject *py_states;
+  PyObject *py_icon_names;
+  gchar **states = NULL;
+  gchar **icon_names = NULL;
+ 
+  if (!PyArg_ParseTupleAndKeywords (args, kwargs, "ssOO:AwnThemedIcon.set_info", kwlist, &applet_name, &uid, &py_states, &py_icon_names))
+  {
+    return NULL;
+  }
+ 
+  if (!PySequence_Check (py_states))
+  {
+    PyErr_SetString (PyExc_TypeError, "states argument must be a sequence.");
+    return NULL;
+  }
+
+  if (!PySequence_Check (py_icon_names))
+  {
+    PyErr_SetString (PyExc_TypeError, "icon_names argument must be a sequence.");
+    return NULL;
+  }
+
+  if (PySequence_Size (py_states) != PySequence_Size (py_icon_names))
+  {
+    PyErr_SetString (PyExc_ValueError, "The states and icon names sequences must have the same number of elements.");
+    return NULL;
+  }
+
+  states = _pysequence_to_gchar_array (py_states);
+  if (!states)
+  {
+    PyErr_SetString (PyExc_TypeError, "states argument must be a sequence only containing strings.");
+    return NULL;
+  }
+
+  icon_names = _pysequence_to_gchar_array (py_icon_names);
+  if (!icon_names)
+  {
+    PyErr_SetString (PyExc_TypeError, "icon_names argument must be a sequence only containing strings.");
+    return NULL;
+  }
+
+  if (g_strv_length (states) != g_strv_length (icon_names))
+  {
+    PyErr_SetString (PyExc_ValueError, "The states and icon names arrays must have the same number of elements.");
+    return NULL;
+  }
+
+  awn_themed_icon_set_info (AWN_THEMED_ICON (pygobject_get (self)),
+    (const gchar*) applet_name,
+    (const gchar*) uid,
+    (const GStrv) states,
+    (const GStrv) icon_names);
+
+  g_free (states);
+  g_free (icon_names);
+
+  Py_INCREF(Py_None);
+  return Py_None;
+}
+%%
+override awn_applet_simple_set_icon_info kwargs
+static PyObject *
+_wrap_awn_applet_simple_set_icon_info (PyObject *self, PyObject *args, PyObject *kwargs)
+{
+  static char *kwlist[] = { "states", "icon_names", NULL };
+  PyObject *py_states;
+  PyObject *py_icon_names;
+  gchar **states = NULL;
+  gchar **icon_names = NULL;
+ 
+  if (!PyArg_ParseTupleAndKeywords (args, kwargs, "OO:AwnAppletSimple.set_icon_info", kwlist, &py_states, &py_icon_names))
+  {
+    return NULL;
+  }
+ 
+  if (!PySequence_Check (py_states))
+  {
+    PyErr_SetString (PyExc_TypeError, "states argument must be a sequence.");
+    return NULL;
+  }
+
+  if (!PySequence_Check (py_icon_names))
+  {
+    PyErr_SetString (PyExc_TypeError, "icon_names argument must be a sequence.");
+    return NULL;
+  }
+
+  if (PySequence_Size (py_states) != PySequence_Size (py_icon_names))
+  {
+    PyErr_SetString (PyExc_ValueError, "The states and icon names sequences must have the same number of elements.");
+    return NULL;
+  }
+
+  states = _pysequence_to_gchar_array (py_states);
+  if (!states)
+  {
+    PyErr_SetString (PyExc_TypeError, "states argument must be a sequence only containing strings.");
+    return NULL;
+  }
+
+  icon_names = _pysequence_to_gchar_array (py_icon_names);
+  if (!icon_names)
+  {
+    PyErr_SetString (PyExc_TypeError, "icon_names argument must be a sequence only containing strings.");
+    return NULL;
+  }
+
+  if (g_strv_length (states) != g_strv_length (icon_names))
+  {
+    PyErr_SetString (PyExc_ValueError, "The states and icon names arrays must have the same number of elements.");
+    return NULL;
+  }
+
+  awn_applet_simple_set_icon_info (AWN_APPLET_SIMPLE (pygobject_get (self)),
+    (const GStrv) states,
+    (const GStrv) icon_names);
+
+  g_free (states);
+  g_free (icon_names);
+
+  Py_INCREF(Py_None);
+  return Py_None;
+}
+%%
+override gtk_image_menu_item_new_with_label kwargs
+static PyObject*
+_wrap_gtk_image_menu_item_new_with_label (PyObject *self, PyObject *args, PyObject *kwargs)
+{
+  static char *kwlist[] = { "label", NULL };
+
+  gchar *label;
+  GtkWidget *item;
+
+  if (!PyArg_ParseTupleAndKeywords (args, kwargs, "s:image_menu_item_new_with_label", kwlist, &label))
+  {
+    return NULL;
+  }
+
+  item = gtk_image_menu_item_new_with_label (label);
+
+  if (item)
+  {
+    return pygobject_new ((GObject*)item);
+  }
+  else
+  {
+    return NULL;
+  }
+}

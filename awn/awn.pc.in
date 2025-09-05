@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+vapidir=@datarootdir@/vala/vapi
+
+Name: libawn
+Description: Avant-Window-Navigator applets/plugin library
+Version: @VERSION@
+Libs: -L${libdir} -lawn
+Cflags: -I${includedir}
+Requires: @LIBRARY_MODULES@

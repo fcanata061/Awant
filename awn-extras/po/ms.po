@@ -1,0 +1,6044 @@
+# Malay translation for awn-extras
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the awn-extras package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awn-extras\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-09 20:47+0200\n"
+"PO-Revision-Date: 2010-10-11 23:24+0000\n"
+"Last-Translator: Michal Hruby <michal.mhr@gmail.com>\n"
+"Language-Team: Malay <ms@li.org>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-12-28 04:34+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../applets/maintained/animal-farm/animal-farm.desktop.in.h:1
+#: ../applets/maintained/animal-farm/animal-farm.py:30
+msgid "Animal Farm"
+msgstr "Animal Farm"
+
+#: ../applets/maintained/animal-farm/animal-farm.desktop.in.h:2
+msgid "Display fortune messages"
+msgstr "Papar mesej ramalan"
+
+#: ../applets/maintained/animal-farm/animal-farm.py:31
+msgid "Applet that displays fortune messages"
+msgstr "Aplet yang memaparkan mesej ramalan"
+
+#: ../applets/maintained/awnterm/awn-applet-awnterm.schema-ini.in.h:1
+msgid "Global hotkey used to activate the terminal."
+msgstr "Kekunci global digunakan untuk mengaktifkan terminal"
+
+#: ../applets/maintained/awnterm/awn-applet-awnterm.schema-ini.in.h:2
+msgid "Set whether the applet should hide itself when it loses focus."
+msgstr ""
+"Tetapkan sama ada applet menyembunyikan diri apabila ia kehilangan fokus."
+
+#: ../applets/maintained/awnterm/awn-applet-awnterm.schema-ini.in.h:3
+msgid "The applet's background image."
+msgstr "Imej latar belakang applet."
+
+#: ../applets/maintained/awnterm/awn-applet-awnterm.schema-ini.in.h:4
+msgid "The applet's opacity level."
+msgstr "Aras kelegapan applet."
+
+#: ../applets/maintained/awnterm/awn-applet-awnterm.schema-ini.in.h:5
+msgid "The default external terminal application."
+msgstr "Aplikasi terminal luaran lalai."
+
+#: ../applets/maintained/awnterm/awn-terminal.vala:100
+msgid "Disabled"
+msgstr "Dilumpuhkan"
+
+#: ../applets/maintained/awnterm/awn-terminal.vala:412
+#: ../applets/maintained/calendar/calendarprefs.py:75
+msgid "Preferences"
+msgstr "Tetapan"
+
+#: ../applets/maintained/awnterm/awn-terminal.vala:427
+#: ../applets/maintained/file-browser-launcher/prefs.py:165
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:16
+#, c-format
+msgid "Behavior"
+msgstr "Ciri-ciri"
+
+#. focus out behavior checkbox
+#: ../applets/maintained/awnterm/awn-terminal.vala:439
+msgid "Hide when focus is lost"
+msgstr "Sembunyi apabila hilang fokus"
+
+#: ../applets/maintained/awnterm/awn-terminal.vala:458
+#: ../applets/maintained/file-browser-launcher/prefs.py:262
+#: ../applets/maintained/file-browser-launcher/prefs.py:337
+msgid "Action"
+msgstr "Tindakan"
+
+#: ../applets/maintained/awnterm/awn-terminal.vala:478
+msgid "Shortcut"
+msgstr "Pintas"
+
+#: ../applets/maintained/awnterm/awn-terminal.vala:484
+msgid "Activate"
+msgstr "Aktifkan"
+
+#: ../applets/maintained/awnterm/awn-terminal.vala:493
+#, c-format
+msgid "Background image"
+msgstr "Imej latar belakang"
+
+#: ../applets/maintained/awnterm/awn-terminal.vala:505
+msgid "Select a file"
+msgstr "Pilih fail"
+
+#: ../applets/maintained/awnterm/awn-terminal.vala:547
+#, c-format
+msgid "Terminal opacity"
+msgstr "Kelegapan Terminal"
+
+#: ../applets/maintained/awnterm/awn-terminal.vala:574
+#, c-format
+msgid "External Terminal"
+msgstr "Terminal Luaran"
+
+#. vim: set ft=vala et ts=2 sts=2 sw=2 ai :
+#: ../applets/maintained/awnterm/awnterm.desktop.in.in.h:1
+msgid "A simple popup terminal"
+msgstr "Terminal timbul yang ringkas"
+
+#: ../applets/maintained/awnterm/awnterm.desktop.in.in.h:2
+msgid "Terminal Applet"
+msgstr "Applet Terminal"
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:1
+msgid "Adds or removes 5px to the value of the AWN setting \"Size of Icons\""
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:2
+msgid "Color to draw the background"
+msgstr "Warna pada latar belakang"
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:3
+msgid "Color to draw the border"
+msgstr "Warna pada sempadan"
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:4
+msgid "Desired applet font size"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:5
+msgid "Display parameters for interfaces"
+msgstr "Papar parameter untuk antara muka"
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:6
+msgid "Draw the applet background"
+msgstr "Lukis latar belakang applet"
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:7
+msgid "Draw the applet border"
+msgstr "Lukis sempadan applet"
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:8
+msgid ""
+"Enables/Disables dock reflection for this applet 0: Use awn setting, 1: Show "
+"reflection in horizontal docks only, 2: show reflection in vertical docks, "
+"3: Disable reflection for all dock orientations"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:9
+msgid ""
+"Enbables or disables drawing the applet graph - if disabled only the speed "
+"text will be displayed in the applet"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:10
+msgid ""
+"If enabled this will draw a line at the bottom of the graph even if the "
+"value is 0. If unchecked, values below 1 are not drawn"
+msgstr ""
+"Jika dibenarkan satu garisan dilukis pada bawah graf walaupun nilai ialah 0. "
+"Jika tidak ditanda, nilai dibawah 1 tidak akan dilukis"
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:11
+msgid "Minimum threshold to draw meter (dependent upon DEFAULT/unit)"
+msgstr "Ambang minimum semasa melukis meter (bergantung pada LALAI/unit)"
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:12
+msgid ""
+"Sets the default scale of the applet traffic graph - the scale is the amount "
+"of linear data to display at one time"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:13
+msgid ""
+"Sets the default scale of the applet wireless signal graph - the scale is "
+"the amount of linear data to display at one time"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:14
+msgid ""
+"Sets the default scale of the popup-dialog traffic graph - the scale is the "
+"amount of linear data to display at one time"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:15
+msgid ""
+"Sets the default scale of the popup-dialog wireless signal graph - the scale "
+"is the amount of linear data to display at one time"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:16
+msgid "Sets the offset of the applet from the edge of the dock"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:17
+msgid "Sets the width of the applet icon"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:18
+msgid "The base display unit for transfer speed (0: bits, 1: bytes)"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:19
+msgid "The interface currently selected"
+msgstr "Antara muka semasa ini dipilih"
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:20
+msgid "Throughput label control - 0: no label, 1: Sum, 2: Upload/Download"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-applet-bandwidth-monitor.schema-ini.in.h:21
+msgid ""
+"Type of graph to use for wireless devices - area: Area chart, area_bar: Area "
+"chart with colored bars, bar: Bar chart, fan: Waving chart with density, "
+"fan_bar: Waving Bar chart with density"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:40
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:260
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.desktop.in.h:2
+msgid "Bandwidth Monitor"
+msgstr "Pantau Jalur Lebar"
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:44
+msgid "Network Bandwidth monitor"
+msgstr "Pantau Jalur Lebar Rangkaian"
+
+#. Reset the Sum Interface records to zero
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:56
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:125
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:126
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:127
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:128
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:194
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:195
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:196
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:197
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:239
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:240
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:241
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:242
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:243
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:244
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:246
+#: ../applets/maintained/bandwidth-monitor/bwmprefs.py:51
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:251
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:390
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:690
+msgid "Sum Interface"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:61
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:62
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:81
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:82
+msgid "n/a"
+msgstr ""
+
+#. Reset the Multi Interface records to zero
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:76
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:132
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:133
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:134
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:135
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:201
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:202
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:203
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:204
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:247
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:777
+#: ../applets/maintained/bandwidth-monitor/bwmprefs.py:50
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:248
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:393
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:412
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:708
+msgid "Multi Interface"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:328
+msgid "Scanning"
+msgstr "Mengimbas"
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:329
+msgid "Devices"
+msgstr "Peranti"
+
+#. kilobytes per second
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:355
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:875
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:21
+#: ../applets/maintained/bandwidth-monitor/bwmprefs.py:81
+msgid "KBps"
+msgstr "KBps"
+
+#. kilobits per second
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:359
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:876
+#: ../applets/maintained/bandwidth-monitor/bwmprefs.py:84
+msgid "Kbps"
+msgstr "Kbps"
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:393
+msgid "Use KBps instead of Kbps"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:407
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:20
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:597
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:600
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:621
+msgid "Interfaces"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:420
+msgid "Please select a valid Network Device"
+msgstr "Sila pilih Peranti Rangkaian yang sah"
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:422
+#, python-format
+msgid "Total Sent: %s - Total Received: %s (All Interfaces)"
+msgstr "Jumlah Dihantar: %s - Jumlah Diterima: %s (Semua Antara Muka)"
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:832
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:470
+msgid "No Device"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:833
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:471
+msgid "Please select a valid device"
+msgstr "Sila pilih peranti yang sah"
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:875
+msgid "Bps"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:875
+msgid "MBps"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:875
+msgid "GBps"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:875
+msgid "TBps"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:876
+msgid "bps"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:876
+msgid "Mbps"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:876
+msgid "Gbps"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/awn-bwm.py:876
+msgid "Tbps"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.desktop.in.h:1
+msgid "A Network Bandwidth monitor for AWN"
+msgstr "Pemantau Jalur Lebar Rangkaian untuk AWN"
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:1
+#: ../applets/maintained/battery/battery.ui.h:1
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:5
+#: ../applets/maintained/digital-clock/dg-prefs.ui.h:4
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:2
+#: ../applets/maintained/mail/mail.ui.h:1
+#: ../applets/maintained/media-control/media-control.ui.h:1
+#: ../applets/maintained/notification-area/na-prefs.ui.h:5
+#: ../applets/maintained/volume-control/volume-control.ui.h:4
+#: ../applets/maintained/weather/weather.ui.h:2
+msgid "<b>Display</b>"
+msgstr "<b>Paparan</b>"
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:2
+msgid "Applet"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:3
+msgid "Applet Offset"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:4
+msgid ""
+"Applet Size \n"
+"Override"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:6
+msgid "Applet Width"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:7
+msgid "Background Color"
+msgstr "Warna Latar Belakang"
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:8
+msgid "Border Color"
+msgstr "Warna Sempadan"
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:9
+msgid "Dialog"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:10
+msgid "Display MBps/KBps (bytes) instead of Mbps/Kbps (bits)"
+msgstr "Papar MBps/KBps (bait) sebagai ganti Mbps/Kbps"
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:11
+msgid "Display Speed Text"
+msgstr "Papar Kepantasan Teks"
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:12
+msgid "Draw 0 bps in graphs"
+msgstr "Lukis 0 bps didalam graf"
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:13
+msgid "Draw Applet Graph"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:14
+msgid "Draw Background"
+msgstr "Lukis Latar Belakang"
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:15
+msgid "Draw Border"
+msgstr "Lukis Sempadan"
+
+#. Put the general tab together
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:16
+#: ../applets/maintained/cairo-clock/cairo-clock.py:166
+#: ../applets/maintained/file-browser-launcher/prefs.py:215
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:9
+#: ../applets/maintained/to-do/prefs.py:60
+msgid "General"
+msgstr "Am"
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:17
+msgid "Graph Only"
+msgstr "Graf Sahaja"
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:18
+msgid "Icon Font Size"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:19
+msgid "If this is checked, the common display unit will be Bytes"
+msgstr "Jika ditanda, unit papar umum adalah Bait"
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:22
+msgid "Minimum Scaling threshold"
+msgstr "Penskalaan ambang minimum"
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:23
+msgid "Signal Scale"
+msgstr ""
+
+#. Translators: short for "Sum Interface"
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:24
+#: ../applets/maintained/bandwidth-monitor/bwmprefs.py:234
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:392
+msgid "Sum"
+msgstr "Jumlah"
+
+#: ../applets/maintained/bandwidth-monitor/bandwidth-monitor.ui.h:25
+msgid "Traffic Scale"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/bwmprefs.py:229
+msgid "Device"
+msgstr "Peranti"
+
+#. Translators: short for "Multi Interface"
+#: ../applets/maintained/bandwidth-monitor/bwmprefs.py:240
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:395
+msgid "Multi"
+msgstr "Multi"
+
+#: ../applets/maintained/bandwidth-monitor/bwmprefs.py:248
+msgid "Upload Color"
+msgstr "Warna Muat Naik"
+
+#: ../applets/maintained/bandwidth-monitor/bwmprefs.py:259
+msgid "Download Color"
+msgstr "Warna Muat Naik"
+
+#: ../applets/maintained/bandwidth-monitor/bwmprefs.py:335
+msgid "Upload"
+msgstr "Muat Naik"
+
+#: ../applets/maintained/bandwidth-monitor/bwmprefs.py:337
+msgid "Download"
+msgstr "Muat Turun"
+
+#: ../applets/maintained/bandwidth-monitor/bwmprefs.py:339
+#, python-format
+msgid "%s %s Color"
+msgstr "%s %s Warna"
+
+#. Translators: do not translate, just add spacing before colon,
+#. if your locale requires it
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:208
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:212
+msgid "SSID:"
+msgstr ""
+
+#. Translators: do not translate, just add spacing before colon,
+#. if your locale requires it
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:284
+msgid "TX:"
+msgstr ""
+
+#. Translators: do not translate, just add spacing before colon,
+#. if your locale requires it
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:289
+msgid "RX:"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:591
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:601
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:631
+msgid "Options/Info"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:593
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:596
+msgid "Back to Graph"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:626
+msgid "Change Unit"
+msgstr "Ubah Unit"
+
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:670
+msgid "Status:"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:670
+msgid "IP Address:"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:670
+msgid "Subnet Mask:"
+msgstr ""
+
+#. Translators: status of a network interface
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:678
+msgid "UP"
+msgstr ""
+
+#. Translators: status of a network interface
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:682
+msgid "RUNNING"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:699
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:717
+#: ../applets/maintained/calendar/calendarprefs.py:121
+#: ../applets/maintained/dialect/dialect.ui.h:15
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:32
+msgid "None"
+msgstr "Tiada"
+
+#. Translators: members = interfaces included in the "Sum Interface"
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:704
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:721
+msgid "Members:"
+msgstr ""
+
+#: ../applets/maintained/bandwidth-monitor/interfaces_dialog.py:753
+msgid "Wireless graph type"
+msgstr ""
+
+#: ../applets/maintained/battery/awn-applet-battery.schema-ini.in.h:1
+msgid "HAL UDI of battery."
+msgstr "Bateri HAL UDI"
+
+#: ../applets/maintained/battery/awn-applet-battery.schema-ini.in.h:2
+msgid ""
+"If charge level drops below this threadhold, a warning will be displayed."
+msgstr "Jika aras cas jatuh dibawah nilai ambang, amaran akan dipaparkan."
+
+#: ../applets/maintained/battery/awn-applet-battery.schema-ini.in.h:3
+msgid "If charge level reaches this threshold, a notification will be sent."
+msgstr "Jika aras cas mencapai nilai ambang, pemberitahuan akan dihantar."
+
+#: ../applets/maintained/battery/awn-applet-battery.schema-ini.in.h:4
+msgid "If enabled, notify when the charge level reaches the high level."
+msgstr "jika dibenarkan, maklum apabila nilai cas mencapai aras  yang tinggi."
+
+#: ../applets/maintained/battery/awn-applet-battery.schema-ini.in.h:5
+msgid ""
+"If enabled, warn when the charge level drops below the warning threshold."
+msgstr ""
+"Jika dibenarkan, beri amaran jika nilai cas jatuh dibawah ambang amaran."
+
+#: ../applets/maintained/battery/awn-applet-battery.schema-ini.in.h:6
+#: ../applets/maintained/volume-control/awn-applet-volume-control.schema-ini.in.h:3
+#: ../applets/maintained/weather/awn-applet-weather.schema-ini.in.h:8
+msgid "The name of the theme of the icon."
+msgstr "Nama Tema Ikon"
+
+#: ../applets/maintained/battery/awn-applet-battery.schema-ini.in.h:7
+msgid "Unit of low level threshold (Percent or Time Remaining)."
+msgstr "Unit ambang aras rendah (Peratus atau Baki Masa)"
+
+#: ../applets/maintained/battery/battery.desktop.in.h:1
+msgid "Battery"
+msgstr "Bateri"
+
+#: ../applets/maintained/battery/battery.desktop.in.h:2
+msgid "Display battery state"
+msgstr "Papar keadaan bateri"
+
+#: ../applets/maintained/battery/battery.py:37
+msgid "Battery Status"
+msgstr "Status Bateri"
+
+#: ../applets/maintained/battery/battery.py:38
+msgid "An applet which displays battery information"
+msgstr "Aplet yang memaparkan maklumat bateri"
+
+#: ../applets/maintained/battery/battery.py:98
+msgid "No batteries"
+msgstr "Tiada bateri"
+
+#: ../applets/maintained/battery/battery.py:121
+#: ../applets/maintained/battery/battery.py:254
+#: ../applets/maintained/battery/battery.ui.h:6
+msgid "Percent"
+msgstr "Peratus"
+
+#: ../applets/maintained/battery/battery.py:209
+msgid "AC"
+msgstr ""
+
+#: ../applets/maintained/battery/battery.py:209
+msgid "battery"
+msgstr ""
+
+#: ../applets/maintained/battery/battery.py:210
+#, python-format
+msgid "Computer running on %s power"
+msgstr ""
+
+#: ../applets/maintained/battery/battery.py:213
+msgid "Battery charged"
+msgstr ""
+
+#: ../applets/maintained/battery/battery.py:221
+msgid "until charged"
+msgstr ""
+
+#: ../applets/maintained/battery/battery.py:225
+msgid "remaining"
+msgstr ""
+
+#: ../applets/maintained/battery/battery.py:263
+#: ../applets/maintained/battery/battery.ui.h:7
+msgid "Time Remaining"
+msgstr "Baki Masa"
+
+#: ../applets/maintained/battery/battery.py:279
+#, python-format
+msgid "%d hours"
+msgstr ""
+
+#: ../applets/maintained/battery/battery.py:281
+#, python-format
+msgid "%d hour"
+msgstr ""
+
+#: ../applets/maintained/battery/battery.py:285
+#, python-format
+msgid "%d minutes"
+msgstr ""
+
+#: ../applets/maintained/battery/battery.py:287
+#, python-format
+msgid "%d minute"
+msgstr ""
+
+#: ../applets/maintained/battery/battery.ui.h:2
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:5
+#: ../applets/maintained/weather/weather.ui.h:3
+msgid "<b>General Options</b>"
+msgstr "<b>Pilihan Am</b>"
+
+#: ../applets/maintained/battery/battery.ui.h:3
+msgid "<b>Notifications</b>"
+msgstr "<b>Makluman</b>"
+
+#: ../applets/maintained/battery/battery.ui.h:4
+msgid ""
+"If enabled, shows a notification when the charge level reaches a certain "
+"percentage"
+msgstr ""
+"Jika dibenarkan, papar makluman apabila aras pengecasan telah mencapai "
+"peratusan tertentu"
+
+#: ../applets/maintained/battery/battery.ui.h:5
+msgid "If enabled, shows a notification when the charge levels drops too low"
+msgstr ""
+"Jika dibenarkan, papar makluman apabila aras pengecasan turun terlalu rendah"
+
+#: ../applets/maintained/battery/battery.ui.h:8
+msgid "_Battery:"
+msgstr "_Bateri:"
+
+#: ../applets/maintained/battery/battery.ui.h:9
+msgid "_Notify when charge level reaches:"
+msgstr "_Maklum apabila aras pengecasan mencapai:"
+
+#: ../applets/maintained/battery/battery.ui.h:10
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:23
+#: ../applets/maintained/mail/mail.ui.h:7
+#: ../applets/maintained/volume-control/volume-control.ui.h:8
+#: ../applets/maintained/weather/weather.ui.h:18
+msgid "_Theme:"
+msgstr "_Tema:"
+
+#: ../applets/maintained/battery/battery.ui.h:11
+msgid "_Warn when charge level drops to:"
+msgstr "_Beri amaran apabila aras pengecasan mencapai:"
+
+#: ../applets/maintained/battery/messagehandler.py:73
+msgid "Battery is running low"
+msgstr ""
+
+#: ../applets/maintained/battery/messagehandler.py:99
+#, python-format
+msgid "You have approximately <b>%s</b> of remaining battery power (%d%%)."
+msgstr ""
+
+#: ../applets/maintained/battery/messagehandler.py:130
+msgid "Battery is critically low"
+msgstr ""
+
+#: ../applets/maintained/battery/messagehandler.py:151
+msgid "Battery is charged"
+msgstr ""
+
+#: ../applets/maintained/battery/messagehandler.py:172
+msgid "Your battery is fully charged."
+msgstr ""
+
+#: ../applets/maintained/battery/messagehandler.py:174
+#, python-format
+msgid "Your battery is charged to <b>%d%%</b>."
+msgstr ""
+
+#: ../applets/maintained/cairo-clock/awn-applet-cairo-clock.schema-ini.in.h:1
+msgid "A custom time format (strftime()), used if not empty."
+msgstr "Format masa suai (strftime()), digunakan jika tidak kosong."
+
+#: ../applets/maintained/cairo-clock/awn-applet-cairo-clock.schema-ini.in.h:2
+msgid "If enabled, besides hours and minutes, the seconds will be visible too."
+msgstr "Jika dibenarkan, selain jam dan minit, jarum saat akan dipaparkan."
+
+#: ../applets/maintained/cairo-clock/awn-applet-cairo-clock.schema-ini.in.h:3
+msgid "If enabled, displays the weather as an overlay on top of the clock."
+msgstr "Jika dibenarkan, papar cuaca sebagai tindihan atas jam."
+
+#: ../applets/maintained/cairo-clock/awn-applet-cairo-clock.schema-ini.in.h:4
+msgid "If enabled, the date will be shown in the title."
+msgstr "Jika dibenarkan, tarikh akan dipaparkan pada tajuk"
+
+#: ../applets/maintained/cairo-clock/awn-applet-cairo-clock.schema-ini.in.h:5
+msgid "If enabled, the seconds hand will be visible in the clock."
+msgstr "Jika dibenarkan, jarum saat akan dipaparkan pada jam."
+
+#: ../applets/maintained/cairo-clock/awn-applet-cairo-clock.schema-ini.in.h:6
+msgid "List of cities and timezones separated by a '#' character."
+msgstr "Senarai bandar dan zon masa dipisahkan dengan aksara ' # '."
+
+#: ../applets/maintained/cairo-clock/awn-applet-cairo-clock.schema-ini.in.h:7
+msgid ""
+"Show time in 24 hour format if enabled, or 12 hour format when disabled."
+msgstr ""
+"Papar masa dalam format 24 jam jikan dibenarkan, atau format 12 jam jika "
+"dilumpuhkan."
+
+#: ../applets/maintained/cairo-clock/awn-applet-cairo-clock.schema-ini.in.h:8
+#: ../applets/maintained/hardware-sensors/awn-applet-hardware-sensors.schema-ini.in.h:10
+msgid "Temperature unit (0: Celsius, 1: Fahrenheit, 2: Kelvin)."
+msgstr "Unit suhu (0: Celsius, 1: Fahrenheit, 2: Kelvin)."
+
+#: ../applets/maintained/cairo-clock/awn-applet-cairo-clock.schema-ini.in.h:9
+msgid "The name of the theme of the analog clock."
+msgstr "Nama tema jam analog."
+
+#: ../applets/maintained/cairo-clock/awn-applet-cairo-clock.schema-ini.in.h:10
+msgid "Wind speed unit (0: m/s, 1: km/h, 2: mph, 3: knots, 4: Beaufort)."
+msgstr "Unit kelajuan angin (0: m/s, 1: km/h, 2: mph, 3: knots, 4: Beaufort)."
+
+#: ../applets/maintained/cairo-clock/cairo-clock.desktop.in.h:1
+#: ../applets/maintained/cairo-clock/cairo-clock.py:29
+msgid "Cairo Clock"
+msgstr "Cairo Clock"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.desktop.in.h:2
+msgid ""
+"Displays an analog clock and supports additional clocks for different "
+"locations"
+msgstr "Papar jam analog dan sokong jam tambahan untuk lokasi yang berbeza"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.py:30
+msgid ""
+"Applet that displays an analog clock and supports additional clocks for "
+"different locations"
+msgstr ""
+"Aplet yang memaparkan jam analog dan menyokong jam tambahan untuk lokasi "
+"yang berbeza"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:1
+#: ../applets/maintained/weather/weather.ui.h:1
+msgid " "
+msgstr " "
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:2
+msgid "12 _hour format"
+msgstr "Format 1_2 Jam"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:3
+msgid "24 h_our format"
+msgstr "Format 2_4 Jam"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:4
+msgid "<b>Clock Display</b>"
+msgstr "<b>Paparan Jam</b>"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:6
+msgid "<b>Title Options</b>"
+msgstr "<b>Pilihan Tajuk</b>"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:7
+msgid "Beaufort"
+msgstr "Beaufort"
+
+#. Unit long strings
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:8
+#: ../applets/maintained/hardware-sensors/sensorvalues/units.py:34
+#: ../applets/maintained/weather/weather.py:59
+#: ../applets/maintained/weather/weather.py:572
+#: ../applets/maintained/weather/weather.py:577
+msgid "Celsius"
+msgstr "Selsius"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:9
+#: ../applets/maintained/hardware-sensors/sensorvalues/units.py:34
+#: ../applets/maintained/weather/weather.py:59
+#: ../applets/maintained/weather/weather.py:570
+msgid "Fahrenheit"
+msgstr "Fahrenheit"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:10
+msgid "Find _Next"
+msgstr "Cari _Seterusnya"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:11
+msgid "If enabled, besides hours and minutes, the seconds will be visible too"
+msgstr "Jika dibenarkan, selain jam dan minit, saat juga akan dipaparkan"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:12
+msgid "If enabled, the date will be shown in the title"
+msgstr "Jika dibenarkan, tarikh akan dipaparkan pada tajuk"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:13
+msgid "If enabled, the seconds hand will be visible in the clock"
+msgstr "Jika dibenarkan, jarum saat akan dipaparkan pada jam"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:14
+msgid "If enabled, time will be shown like 1:23 AM"
+msgstr "Jika dibenarkan, masa akan dipaparkan seperti 1:23 AM"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:15
+msgid "If enabled, time will be shown like 23:45"
+msgstr "Jika dibenarkan, masa akan dipaparkan seperti 23:45"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:16
+#: ../applets/maintained/hardware-sensors/sensorvalues/units.py:35
+msgid "Kelvin"
+msgstr "Kelvin"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:17
+msgid "Location Name:"
+msgstr "Nama Tempat:"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:18
+msgid "Show _seconds"
+msgstr "Papar _saat"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:19
+msgid "Show seco_nds hand"
+msgstr "Papar jarum saa_t"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:20
+msgid "Show the _date"
+msgstr "Papar tari_kh"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:21
+msgid "_Show weather of current location"
+msgstr "_Papar lokasi cuaca semasa"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:22
+msgid "_Temperature unit:"
+msgstr "Uni_t suhu:"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:24
+msgid "_Wind speed unit:"
+msgstr "Unit kelajuan a_ngin:"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:25
+msgid "km/h"
+msgstr "km/j"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:26
+msgid "knots"
+msgstr "knot"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:27
+msgid "m/s"
+msgstr "m/s"
+
+#: ../applets/maintained/cairo-clock/cairo-clock.ui.h:28
+msgid "mph"
+msgstr "bsj"
+
+#: ../applets/maintained/cairo-clock/locations.py:142
+msgid "Locations"
+msgstr "Lokasi"
+
+#: ../applets/maintained/cairo-clock/locations.py:145
+msgid "Edit"
+msgstr "Sunting"
+
+#: ../applets/maintained/cairo-menu/cairo-aux-icon.c:198
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:1042
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:1056
+#: ../applets/maintained/file-browser-launcher/prefs.py:252
+#: ../applets/maintained/places/places.desktop.in.in.h:2
+#: ../applets/maintained/yama/yama.py:268
+msgid "Places"
+msgstr "Tempat"
+
+#: ../applets/maintained/cairo-menu/cairo-aux-icon.c:202
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:1079
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:1094
+#: ../applets/maintained/yama/yama.py:349
+msgid "Recent Documents"
+msgstr "Dokumen Kebelakangan"
+
+#: ../applets/maintained/cairo-menu/cairo-aux-icon.c:206
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:1125
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:1136
+msgid "Session"
+msgstr "Sesi"
+
+#: ../applets/maintained/cairo-menu/cairo-aux-icon.c:319
+msgid "Remove Icon"
+msgstr ""
+
+#: ../applets/maintained/cairo-menu/cairo-main-icon.c:161
+#: ../applets/unmaintained/main-menu/applet.c:452
+msgid "Main Menu"
+msgstr "Menu Utama"
+
+#: ../applets/maintained/cairo-menu/cairo-menu.desktop.in.in.h:1
+msgid "A Main Menu."
+msgstr ""
+
+#: ../applets/maintained/cairo-menu/cairo-menu.desktop.in.in.h:2
+msgid "Cairo Main Menu"
+msgstr ""
+
+#. hope that gnome-session-save exists; needed for GNOME 2.22, at least.
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:125
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:129
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:134
+msgid "Logout"
+msgstr "Log keluar"
+
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:139
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:141
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:146
+#: ../applets/maintained/quit/quit-lock-screen.desktop.in.h:1
+#: ../applets/maintained/quit/quit.py:39 ../applets/maintained/quit/quit.py:46
+#: ../applets/maintained/quit/quit.py:57 ../applets/maintained/quit/quit.py:265
+#: ../applets/maintained/yama/yama.py:168
+msgid "Lock Screen"
+msgstr "Kunci Skrin"
+
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:150
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:152
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:163
+msgid "Suspend"
+msgstr "Gantung"
+
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:155
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:157
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:168
+msgid "Hibernate"
+msgstr "Hibernasi"
+
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:176
+msgid "Shutdown"
+msgstr "Matikan"
+
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:213
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:384
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:587
+#: ../applets/maintained/file-browser-launcher/prefs.py:237
+msgid "Computer"
+msgstr "Komputer"
+
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:217
+msgid "Home"
+msgstr "Rumah"
+
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:218
+#: ../applets/maintained/places/applet.c:344
+msgid "Desktop"
+msgstr "Atas Meja"
+
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:226
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:228
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:612
+#: ../applets/maintained/file-browser-launcher/prefs.py:239
+msgid "Trash"
+msgstr "Tong Sampah"
+
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:230
+msgid "File System"
+msgstr "Fail Sistem"
+
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:361
+msgid "Removable Media"
+msgstr ""
+
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:372
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:590
+msgid "Network"
+msgstr "Rangkaian"
+
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:373
+msgid "Connect to Server"
+msgstr "Sambung ke Pelayan"
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:1152
+msgid "Search…"
+msgstr ""
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/maintained/cairo-menu/gnome-menu-builder.c:1169
+msgid "Launch…"
+msgstr ""
+
+#: ../applets/maintained/cairo-menu/misc.c:161
+#: ../applets/maintained/yama/yama.py:634
+#, c-format, python-format
+msgid "Unable to mount %s"
+msgstr ""
+
+#: ../applets/maintained/cairo-menu/misc.c:407
+#: ../applets/maintained/yama/yama.py:613
+msgid "Clear the Recent Documents list?"
+msgstr ""
+
+#. Translators: This is taken from gnome-panel, when deleting the Recent Documents List.
+#. * Please use the same translation.
+#: ../applets/maintained/cairo-menu/misc.c:411
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+
+#: ../applets/maintained/cairo-menu/misc.c:423
+#: ../applets/maintained/cairo-menu/misc.c:531
+#: ../applets/maintained/yama/yama.py:363
+#: ../applets/maintained/yama/yama.py:618
+msgid "Clear Recent Documents"
+msgstr "Kosongkan Dokumen Kebelakangan"
+
+#: ../applets/maintained/calendar/awn-applet-calendar.schema-ini.in.h:1
+msgid "X"
+msgstr "X"
+
+#: ../applets/maintained/calendar/calendar.desktop.in.h:1
+msgid "Clock/Calendar Applet"
+msgstr "Applet Jam/Kalendar"
+
+#: ../applets/maintained/calendar/calendar.desktop.in.h:2
+msgid "Watch appointments on your dock"
+msgstr "Mengawas temujanji di dock anda"
+
+#: ../applets/maintained/calendar/calendarlogin.py:43
+msgid "Login to "
+msgstr "Log masuk ke "
+
+#: ../applets/maintained/calendar/calendarlogin.py:48
+msgid "Online Calendar"
+msgstr "Kalendar Atas Talian"
+
+#: ../applets/maintained/calendar/calendarlogin.py:53
+msgid "Calendar Username"
+msgstr "Nama Pengguna Kalendar"
+
+#: ../applets/maintained/calendar/calendarlogin.py:61
+msgid "Calendar Password"
+msgstr "Kata Laluan Kalendar"
+
+#: ../applets/maintained/calendar/calendarlogin.py:71
+msgid "Save Password"
+msgstr "Simpan Kata Laluan"
+
+#: ../applets/maintained/calendar/calendarlogin.py:89
+msgid ""
+"You have chosen to save your password.  Although the password will be stored "
+"in an encrypted format, there is always a remote possibility that your "
+"password can be stolen and decrypted if your computer's security is "
+"breached.  Are you still sure you want to save your password?"
+msgstr ""
+"Anda telah memilih untuk menyimpan kata laluan anda. Walaupun kata laluan "
+"tersebut disimpan dalam format yang diinkripsikan, masih ada cara kata "
+"laluan anda akan dicuri atau dinyahinkripsikan jika keselamatan komputer "
+"anda ditembusi. Anda pasti hendak menyimpan kata laluan anda?"
+
+#: ../applets/maintained/calendar/calendarprefs.py:46
+msgid "Classic LCD"
+msgstr "LCD Klasik"
+
+#: ../applets/maintained/calendar/calendarprefs.py:47
+msgid "Indy Glow LCD"
+msgstr "LCD Indy Glow"
+
+#: ../applets/maintained/calendar/calendarprefs.py:48
+msgid "Backlit Amber LCD"
+msgstr "LCD Cahaya Latar Amber"
+
+#: ../applets/maintained/calendar/calendarprefs.py:49
+msgid "Backlit Green LCD"
+msgstr "LCD Cahaya Latar Hijau"
+
+#: ../applets/maintained/calendar/calendarprefs.py:50
+msgid "Green LED"
+msgstr "LED Hijau"
+
+#: ../applets/maintained/calendar/calendarprefs.py:51
+msgid "Red LED"
+msgstr "LED Merah"
+
+#: ../applets/maintained/calendar/calendarprefs.py:52
+msgid "Blue LED"
+msgstr "LED Biru"
+
+#: ../applets/maintained/calendar/calendarprefs.py:53
+msgid "Plain White"
+msgstr "Putih"
+
+#: ../applets/maintained/calendar/calendarprefs.py:54
+msgid "Plain Black"
+msgstr "Hitam"
+
+#: ../applets/maintained/calendar/calendarprefs.py:57
+msgid "Red"
+msgstr "Merah"
+
+#: ../applets/maintained/calendar/calendarprefs.py:58
+msgid "Green"
+msgstr "Hijau"
+
+#: ../applets/maintained/calendar/calendarprefs.py:59
+msgid "Blue"
+msgstr "Biru"
+
+#: ../applets/maintained/calendar/calendarprefs.py:60
+msgid "Gray"
+msgstr "Kelabu"
+
+#: ../applets/maintained/calendar/calendarprefs.py:61
+msgid "Black"
+msgstr "Hitam"
+
+#: ../applets/maintained/calendar/calendarprefs.py:84
+msgid "Twelve Hour Clock"
+msgstr "Dua Belas Jam"
+
+#: ../applets/maintained/calendar/calendarprefs.py:104
+msgid "Clock Appearance"
+msgstr "Penampilan Jam"
+
+#: ../applets/maintained/calendar/calendarprefs.py:114
+msgid "Calendar Appearance"
+msgstr "Rupa Kalendar"
+
+#: ../applets/maintained/calendar/calendarprefs.py:122
+msgid "Evolution"
+msgstr "Evolution"
+
+#: ../applets/maintained/calendar/calendarprefs.py:123
+msgid "Google Calendar"
+msgstr "Kalendar Google"
+
+#: ../applets/maintained/calendar/calendarprefs.py:124
+msgid "Outlook Web Access"
+msgstr "Outlook Web Access"
+
+#: ../applets/maintained/calendar/calendarprefs.py:127
+msgid "Calendar Integration"
+msgstr "Integrasi Kalendar"
+
+#: ../applets/maintained/calendar/calendarprefs.py:150
+msgid "Calendar URL"
+msgstr "URL Kalendar"
+
+#. default title/tooltip to show on startup.
+#: ../applets/maintained/calendar/clockcal.py:51
+#: ../applets/maintained/calendar/clockcal.py:499
+#: ../applets/maintained/digital-clock/digital-clock.vala:120
+msgid "Calendar"
+msgstr "Kalendar"
+
+#: ../applets/maintained/calendar/clockcal.py:117
+msgid "Forget Password"
+msgstr ""
+
+#: ../applets/maintained/calendar/clockcal.py:224
+msgid ""
+"Do you want to erase your calendar password from the calendar applet?  If "
+"you choose to clear your password, you will be prompted again for your "
+"calendar login credentials."
+msgstr ""
+"Anda pasti hendak memadam kata laluan kalendar anda dari applet kalendar? "
+"Jika anda pilih untuk mengosongkan kata laluan anda, anda akan dinyatakan "
+"lagi sekali log masuk kalendar anda."
+
+#: ../applets/maintained/calendar/clockcal.py:252
+msgid "Avant Calendar Applet"
+msgstr ""
+
+#: ../applets/maintained/calendar/clockcal.py:254
+msgid "A Calendar Applet for the Avant Window Navigator. Images by Deleket."
+msgstr ""
+
+#. Translators: This is a date/time format string. You can check the
+#. output in terminal with 'date +"%x %X"'. In most cases you don't have
+#. to change it. See 'date --help' for other formats, that might be more
+#. common in your locale.
+#: ../applets/maintained/calendar/clockcal.py:299
+#, no-python-format
+msgid "%x %X"
+msgstr ""
+
+#: ../applets/maintained/calendar/clockcal.py:505
+msgid "Open in "
+msgstr "Buka dalam "
+
+#: ../applets/maintained/calendar/clockcal.py:509
+#: ../applets/maintained/weather/forecast.py:174
+msgid "Today"
+msgstr "Hari Ini"
+
+#. print "Login error: ", sys.exc_info()[0], sys.exc_info()[1]
+#: ../applets/maintained/calendar/clockcal.py:557
+msgid "Unable to read calendar data from external source."
+msgstr "Tidak dapat membaca data kalendar dari sumber luar."
+
+#: ../applets/maintained/calendar/googlecal.py:90
+msgid "No appointments."
+msgstr "Tiada temu janji."
+
+#: ../applets/maintained/calendar/icscal.py:73
+#: ../applets/maintained/calendar/owacal.py:95
+msgid "No appointments"
+msgstr "Tiada temujanji"
+
+#: ../applets/maintained/comics/awn-applet-comics.schema-ini.in.h:1
+msgid "The user agent to send when retrieving comics."
+msgstr "Agen pengguna menghantar ketika memuatkan komik."
+
+#: ../applets/maintained/comics/comics_add.py:59
+#, python-format
+msgid "Failed to download %s. Press \"next\" to try again."
+msgstr "Gagal memuat turun %s. tekan \"next\" untuk cuba lagi."
+
+#: ../applets/maintained/comics/comics_add.py:65
+msgid "The URL is not a valid comic feed. Press \"next\" to try again"
+msgstr "URL suapan komik tidak sah. Tekan \"next\" untuk cuba lagi"
+
+#: ../applets/maintained/comics/comics_add.py:169
+#, python-format
+msgid "Overwrite comic \"%s\"?"
+msgstr ""
+
+#: ../applets/maintained/comics/comics_add.py:171
+msgid "This comic is already installed with different settings."
+msgstr ""
+
+#: ../applets/maintained/comics/comics_add.py:224
+#, fuzzy
+msgid ""
+"This guide has finished.\n"
+"Press \"apply\" to add the comic."
+msgstr ""
+"Panduan ini sudah tamat.\n"
+"\n"
+"Tekan \"apply\" untuk tambah <i>%s</i>."
+
+#: ../applets/maintained/comics/comics_add.py:233
+#, python-format
+msgid "Connecting to <i>%s</i>..."
+msgstr "Menyambung ke <i>%s</i>..."
+
+#: ../applets/maintained/comics/comics_add.py:282
+#, fuzzy
+msgid ""
+"This guide has finished.\n"
+"You can change the name of this comic. Press \"apply\" to add it."
+msgstr ""
+"Panduan ini sudah tamat.\n"
+"\n"
+"Tekan \"apply\" untuk tambah <i>%s</i>."
+
+#: ../applets/maintained/comics/comics_add.py:312
+#, python-format
+msgid ""
+"Found <b>%(name)s</b>!\n"
+"\n"
+"<i>%(description)s</i>"
+msgstr ""
+"Temui <b>%(name)s</b>!\n"
+"\n"
+"<i>%(description)s</i>"
+
+#. Initialise notifications
+#: ../applets/maintained/comics/comics.desktop.in.h:1
+#: ../applets/maintained/comics/comics.py:46
+#: ../applets/maintained/comics/main.py:294
+#: ../applets/maintained/comics/main.py:300
+msgid "Comics!"
+msgstr "Komik!"
+
+#: ../applets/maintained/comics/comics.desktop.in.h:2
+#: ../applets/maintained/comics/comics.py:97
+msgid "View your favourite comics on your desktop"
+msgstr "Baca komik kegemaran anda di desktop anda"
+
+#. Translators: checkbox to show comic
+#: ../applets/maintained/comics/comics_manage.py:93
+#, fuzzy
+msgid "Show"
+msgstr "Papar pautan"
+
+#: ../applets/maintained/comics/comics_manage.py:94
+#, fuzzy
+msgid "Comic"
+msgstr "Komik"
+
+#: ../applets/maintained/comics/comics_manage.py:124
+#, fuzzy, python-format
+msgid "Are you sure you want to remove the comic \"%(name)s\"?"
+msgid_plural "Are you sure you want to remove the %(number)d selected comics?"
+msgstr[0] "Anda pasti hendak mengosongkan sampah anda? Ia mengandungi %u item."
+msgstr[1] "Anda pasti hendak mengosongkan sampah anda? Ia mengandungi %u item."
+
+#: ../applets/maintained/comics/comics_manage.py:129
+msgid "This will remove the comic from your personal comics list."
+msgid_plural "This will remove these comics from your personal comics list."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../applets/maintained/comics/comics_manage.py:156
+#, fuzzy, python-format
+msgid "Failed to remove '%s'."
+msgstr "Gagal membuang <i>%s</i>."
+
+#: ../applets/maintained/comics/comics_manage.py:162
+#: ../applets/maintained/feeds/feeds.py:391
+msgid "Error"
+msgstr "Ralat"
+
+#: ../applets/maintained/comics/comics.py:176
+#, fuzzy
+msgid "My Comics"
+msgstr "Komik"
+
+#: ../applets/maintained/comics/comics.py:179
+#: ../applets/maintained/feeds/feeds.py:1041 ../shared/python/awnlib.py:130
+#, python-format
+msgid "_About %s"
+msgstr ""
+
+#: ../applets/maintained/comics/comics.py:237
+#: ../applets/maintained/comics/main.py:192
+#, python-format
+msgid "There is a new strip of %s!"
+msgstr "Ada kartun baru %s!"
+
+#. Translators: This is a date/time format string. You can check the
+#. output in terminal with 'date +"%%A %d %B"'.
+#: ../applets/maintained/comics/comics_view.py:167
+msgid "%A %d %B"
+msgstr "%A %d %B"
+
+#: ../applets/maintained/comics/comics_view.py:369
+msgid "Size"
+msgstr "Saiz"
+
+#: ../applets/maintained/comics/comics_view.py:383
+msgid "Show link"
+msgstr "Papar pautan"
+
+#: ../applets/maintained/comics/comics_view.py:532
+#, fuzzy
+msgid "Save comic as…"
+msgstr "Kongsi komik"
+
+#: ../applets/maintained/comics/comics_view.py:563
+#, python-format
+msgid "Failed to save <i>%s</i>."
+msgstr "Gagal menyimpan  <i>%s</i>."
+
+#: ../applets/maintained/comics/ui/add.ui.h:1
+msgid "Add Comic"
+msgstr "Tambah Komik"
+
+#: ../applets/maintained/comics/ui/add.ui.h:2
+msgid "Add a comic by URL"
+msgstr ""
+
+#: ../applets/maintained/comics/ui/add.ui.h:3
+msgid ""
+"Comics! needs either an RSS feed or a web page with a comic.\n"
+"\n"
+"Comics from feeds contain several strips. You may find suitable feeds on "
+"dedicated comics websites like <a href=\"http://www.gocomics.com/features/"
+"rsspage\">gocomics.com</a>.\n"
+"\n"
+"Using a web page only the current comic is shown. You may find web pages "
+"searching the web for \"comics\" or \"webcomics\"."
+msgstr ""
+
+#: ../applets/maintained/comics/ui/add.ui.h:8
+msgid "Downloading Comic"
+msgstr "Muat Turun Komik"
+
+#: ../applets/maintained/comics/ui/add.ui.h:9
+#, fuzzy
+msgid "Name of the comic:"
+msgstr "Nama peranti."
+
+#: ../applets/maintained/comics/ui/add.ui.h:10
+#, fuzzy
+msgid "Please select how you want to add a comic:"
+msgstr "Sila pilih peranti yang sah"
+
+#: ../applets/maintained/comics/ui/add.ui.h:11
+msgid "Ready to add comic!"
+msgstr "Sedia untuk menambah komik!"
+
+#: ../applets/maintained/comics/ui/add.ui.h:12
+msgid "Select Comic"
+msgstr "Pilih Komik"
+
+#: ../applets/maintained/comics/ui/add.ui.h:13
+msgid "Select Image"
+msgstr "Pilih Imej"
+
+#: ../applets/maintained/comics/ui/add.ui.h:14
+msgid "Select a comic from a list"
+msgstr ""
+
+#: ../applets/maintained/comics/ui/add.ui.h:15
+msgid "The guide found more than one image. Please select which one to use."
+msgstr ""
+"Juru Pandu menemui lebih dari satu imej. Sila pilh yang akan digunakan."
+
+#: ../applets/maintained/comics/ui/add.ui.h:16
+msgid "This guide will help you to add a new comic."
+msgstr ""
+
+#: ../applets/maintained/comics/ui/add.ui.h:17
+#, fuzzy
+msgid "URL of the RSS feed or web page:"
+msgstr "Masukkan URL dari suapan RSS:"
+
+#: ../applets/maintained/comics/ui/manage.ui.h:1
+msgid "Manage comics"
+msgstr "Urus komik"
+
+#: ../applets/maintained/comics/main.py:152
+#, python-format
+msgid "Unknown command sent: %s"
+msgstr "Arahan tidak diketahui dihantar: %s"
+
+#: ../applets/maintained/common-folder/common-folder.desktop.in.h:1
+#: ../applets/maintained/common-folder/common-folder.py:32
+msgid "Common Folder Launcher"
+msgstr ""
+
+#: ../applets/maintained/common-folder/common-folder.desktop.in.h:2
+msgid "Launcher for common folders and bookmarks"
+msgstr ""
+
+#: ../applets/maintained/common-folder/common-folder.py:33
+msgid "Applet to launch common folders and bookmarks"
+msgstr ""
+
+#: ../applets/maintained/common-folder/common-folder.py:88
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:388
+#: ../applets/maintained/yama/yama.py:275
+msgid "Home Folder"
+msgstr "Folder Rumah"
+
+#: ../applets/maintained/cpufreq/awn-applet-cpufreq.schema-ini.in.h:1
+msgid "Index of processor."
+msgstr "Indeks pemproses"
+
+#: ../applets/maintained/cpufreq/cpufreq.desktop.in.h:1
+#: ../applets/maintained/cpufreq/cpufreq.py:40
+msgid "An applet to monitor and control the CPU frequency"
+msgstr "Applet untuk memantau dan mengawal frekuensi CPU"
+
+#: ../applets/maintained/cpufreq/cpufreq.desktop.in.h:2
+#: ../applets/maintained/cpufreq/cpufreq.py:39
+msgid "CPU Frequency Monitor"
+msgstr "Pemantau Frekuensi CPU"
+
+#: ../applets/maintained/cpufreq/cpufreq.py:235
+msgid ""
+"<span size=\"large\"><b>Scaling unavailable</b></span>\n"
+"\n"
+"Frequency scaling is not\n"
+"available for the selected CPU."
+msgstr ""
+"<span size=\"large\"><b>Penskalaan tiada</b></span>\n"
+"\n"
+"Penskalaan Frekuensi tidak disediakan\n"
+"untuk CPU yang dipilih."
+
+#: ../applets/maintained/cpufreq/cpufreq.py:263
+msgid "GHz"
+msgstr "GHz"
+
+#: ../applets/maintained/cpufreq/cpufreq.py:266
+msgid "MHz"
+msgstr "MHz"
+
+#: ../applets/maintained/cpufreq/cpufreq.ui.h:1
+msgid "<b>Monitored CPU</b>"
+msgstr "<b>CPU yang Dipantau</b>"
+
+#: ../applets/maintained/cpufreq/cpufreq.ui.h:2
+msgid "_Processor:"
+msgstr "_Pemproses:"
+
+#: ../applets/maintained/dialect/awn-applet-dialect.schema-ini.in.h:1
+msgid "Can change layout with scroll wheel."
+msgstr "Boleh menukar bentangan menggunakan roda tatal"
+
+#: ../applets/maintained/dialect/awn-applet-dialect.schema-ini.in.h:2
+msgid "Flag opacity (min: 0.0, max: 0.9)."
+msgstr "Kelegapan bendera (min: 0.0, maks: 0.9)."
+
+#: ../applets/maintained/dialect/awn-applet-dialect.schema-ini.in.h:3
+msgid "Flag size compared to icon (min: 0.1, max: 0.9)."
+msgstr "Saiz bendera yang dibandingkan dengan ikon (min: 0.1, maks:0.9)."
+
+#: ../applets/maintained/dialect/awn-applet-dialect.schema-ini.in.h:4
+msgid ""
+"Keyboard toggle to change selected layout (see prefs dialog for values)."
+msgstr ""
+"Togol Papan Kekunci untuk mengubah bentangan pilihan (lihat dialog prefs "
+"untuk mengetahui nilainya)"
+
+#: ../applets/maintained/dialect/awn-applet-dialect.schema-ini.in.h:5
+msgid "Left click action (0: previous, 1: menu, 2: next, 3: none)."
+msgstr ""
+
+#: ../applets/maintained/dialect/awn-applet-dialect.schema-ini.in.h:6
+msgid "Middle click action (0: previous, 1: menu, 2: next, 3: none)."
+msgstr ""
+
+#: ../applets/maintained/dialect/awn-applet-dialect.schema-ini.in.h:7
+msgid "Overlay selected layout flag on icon."
+msgstr "Tindih atas bendera bentangan pilihan diatas ikon."
+
+#: ../applets/maintained/dialect/awn-applet-dialect.schema-ini.in.h:8
+msgid "User selected layouts."
+msgstr "Bentangan pilihan pengguna."
+
+#: ../applets/maintained/dialect/awn-applet-dialect.schema-ini.in.h:9
+msgid "User selected variants."
+msgstr "Varian pilihan pengguna."
+
+#: ../applets/maintained/dialect/dialect.desktop.in.h:1
+msgid " Dialect Applet"
+msgstr " Applet Dialek"
+
+#: ../applets/maintained/dialect/dialect.desktop.in.h:2
+msgid "Change your keyboard input layout from Awn."
+msgstr "Ubah bentangan input papan kekunci anda dari Awn."
+
+#: ../applets/maintained/dialect/dialect.py:68
+msgid "Dialect Applet"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.py:200
+msgid ""
+"<b>User List:</b> The list of layouts you commonly use. The maximum number "
+"of layouts is restricted by the X11 xkb system (currently 4). Select an item "
+"and click the remove button to delete from your user list. You can order the "
+"list by drag and drop.\n"
+"<b>System List:</b> The complete list of layouts and variants available. "
+"Select an item and click the add button to include in your user list."
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.py:209
+msgid "small"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.py:211
+msgid "large"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.py:213
+msgid "transparent"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.py:215
+msgid "opaque"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.py:217
+msgid "System List"
+msgstr "Senarai Sistem"
+
+#: ../applets/maintained/dialect/dialect.py:219
+msgid "User List"
+msgstr "Senarai Pengguna"
+
+#: ../applets/maintained/dialect/dialect.ui.h:1
+msgid "<b>Flag on Applet Icon</b>"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.ui.h:2
+msgid "<b>Keyboard</b>"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.ui.h:3
+msgid "<b>Mouse Actions</b>"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.ui.h:4
+msgid "About Dialect Applet"
+msgstr "Perihal Applet Dialek"
+
+#: ../applets/maintained/dialect/dialect.ui.h:5
+#: ../applets/maintained/digital-clock/dg-prefs.ui.h:5
+msgid "Appearance"
+msgstr "Penampilan"
+
+#: ../applets/maintained/dialect/dialect.ui.h:6
+msgid "Change your keyboard layout from Awn."
+msgstr "Ubah bentangan papan kekunci anda dari Awn"
+
+#: ../applets/maintained/dialect/dialect.ui.h:7
+msgid "Control"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.ui.h:8
+msgid "Dialect Applet Preferences"
+msgstr "Keutamaan Applet Dialek"
+
+#: ../applets/maintained/dialect/dialect.ui.h:9
+msgid "Flag _Opacity:"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.ui.h:10
+msgid "Flag _Size:"
+msgstr ""
+
+#. A tooltip, layout = keyboard layout
+#: ../applets/maintained/dialect/dialect.ui.h:12
+msgid ""
+"If selected, scrolling up or down with your mouse wheel will select the next "
+"or previous layout in your user list"
+msgstr ""
+
+#. Keyboard layouts
+#: ../applets/maintained/dialect/dialect.ui.h:14
+msgid "Layouts"
+msgstr ""
+
+#. A tooltip, layouts = keyboard layouts
+#: ../applets/maintained/dialect/dialect.ui.h:17
+msgid "Selects the hot key combination used to change layouts"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.ui.h:18
+msgid "Show _Flag"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.ui.h:19
+msgid "Show menu with layouts"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.ui.h:20
+msgid "Switch to next layout in list"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.ui.h:21
+msgid "Switch to previous layout in list"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.ui.h:22
+msgid "_Add"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.ui.h:23
+msgid "_Allow scroll wheel to change layout"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.ui.h:24
+msgid "_Keyboard Toggle:"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.ui.h:25
+msgid "_Left Click:"
+msgstr ""
+
+#: ../applets/maintained/dialect/dialect.ui.h:26
+msgid "_Middle Click:"
+msgstr ""
+
+#: ../applets/maintained/digital-clock/awn-applet-digital-clock.schema-ini.in.h:1
+msgid "Command to execute when a calendar day is double-clicked."
+msgstr "Perintah untuk lakukan apabila hari pada kalender di dwiklik."
+
+#: ../applets/maintained/digital-clock/awn-applet-digital-clock.schema-ini.in.h:2
+msgid "Command to execute when the user wishes to adjust the date/time."
+msgstr "Perintah untuk lakukan apabila pengguna mahu menukar tarikh/masa."
+
+#: ../applets/maintained/digital-clock/awn-applet-digital-clock.schema-ini.in.h:3
+msgid "Show the date before the time."
+msgstr "Papar tarikh dibawah masa."
+
+#: ../applets/maintained/digital-clock/awn-applet-digital-clock.schema-ini.in.h:4
+msgid "The color of the clock text."
+msgstr "Warna teks jam."
+
+#: ../applets/maintained/digital-clock/awn-applet-digital-clock.schema-ini.in.h:5
+msgid "The font face of the clock text."
+msgstr "Fon teks muka hadapan jam"
+
+#: ../applets/maintained/digital-clock/awn-applet-digital-clock.schema-ini.in.h:6
+msgid "The shadow color of the clock text."
+msgstr "Warna bayang teks jam."
+
+#: ../applets/maintained/digital-clock/awn-applet-digital-clock.schema-ini.in.h:7
+msgid "Toggle 12-hour mode."
+msgstr "Togol mod 12-jam."
+
+#: ../applets/maintained/digital-clock/dg-prefs.ui.h:1
+msgid "12 hour format"
+msgstr "Format 12 jam"
+
+#: ../applets/maintained/digital-clock/dg-prefs.ui.h:2
+msgid "24 hour format"
+msgstr "Format 24 jam"
+
+#: ../applets/maintained/digital-clock/dg-prefs.ui.h:3
+msgid "<b>Clock Format</b>"
+msgstr "<b>Format Jam</b>"
+
+#: ../applets/maintained/digital-clock/dg-prefs.ui.h:6
+msgid "Commands"
+msgstr "Perintah"
+
+#: ../applets/maintained/digital-clock/dg-prefs.ui.h:7
+msgid "Date below time"
+msgstr "Tarikh dibawah masa"
+
+#: ../applets/maintained/digital-clock/dg-prefs.ui.h:8
+msgid "Digital Clock Preferences"
+msgstr "Keutamaan Jam Digital"
+
+#: ../applets/maintained/digital-clock/dg-prefs.ui.h:9
+msgid "Run Calendar:"
+msgstr "Jalankan Kalendar:"
+
+#: ../applets/maintained/digital-clock/dg-prefs.ui.h:10
+msgid "Run Time Admin:"
+msgstr "Jalankan Masa Pentadbir:"
+
+#: ../applets/maintained/digital-clock/dg-prefs.ui.h:11
+msgid "Show the date"
+msgstr "Papar tarikh"
+
+#: ../applets/maintained/digital-clock/dg-prefs.ui.h:12
+msgid "Use default Awn colors"
+msgstr "Guna warna Awn lalai"
+
+#: ../applets/maintained/digital-clock/digital-clock.desktop.in.in.h:1
+msgid "A clock and calendar in one."
+msgstr "Jam dan kalendar dalam satu."
+
+#: ../applets/maintained/digital-clock/digital-clock.desktop.in.in.h:2
+#: ../applets/maintained/digital-clock/digital-clock.vala:58
+msgid "Digital Clock"
+msgstr "Jam Digital"
+
+#. Translators: This is a date string. You can check the output with
+#. 'date +"%b %d"'. %b is the abbreviated name of the month, %d is the
+#. day of the month. If it better suites your locale, rearrange them or
+#. make the appropriate (slight) changes without making the string much
+#. longer, e.g. "%d. %b"
+#: ../applets/maintained/digital-clock/digital-clock.vala:311
+#, no-c-format
+msgid "%b %d"
+msgstr ""
+
+#. "Copy Time" menu item
+#: ../applets/maintained/digital-clock/digital-clock.vala:346
+msgid "Copy Time"
+msgstr "Salin Masa"
+
+#. "Copy Date" menu item
+#: ../applets/maintained/digital-clock/digital-clock.vala:365
+msgid "Copy Date"
+msgstr "Salin Tarikh"
+
+#. "Adjust Date & Time" menu item
+#: ../applets/maintained/digital-clock/digital-clock.vala:377
+msgid "Adjust Date & Time"
+msgstr "Laras Tarikh & Masa"
+
+#: ../applets/maintained/digital-clock/digital-clock.vala:423
+msgid "Displays digital clock."
+msgstr "Papar jam digital."
+
+#. vim:ft=vala:et:ts=2 sts=2 sw=2:ai:cindent
+#: ../applets/maintained/feeds/awn-applet-feeds.schema-ini.in.h:1
+msgid "Hide feeds which do not have any new items"
+msgstr "Sembunyikan suapan yang tidak mempunyai item baru"
+
+#: ../applets/maintained/feeds/awn-applet-feeds.schema-ini.in.h:2
+msgid "If false, all previous items will be marked as read when updating"
+msgstr ""
+
+#: ../applets/maintained/feeds/awn-applet-feeds.schema-ini.in.h:3
+msgid "Notify if any feeds have new items"
+msgstr "Maklum jika mana-man suapan mempunyai item baru"
+
+#: ../applets/maintained/feeds/awn-applet-feeds.schema-ini.in.h:4
+msgid "Show each feed's website's icon in the dialog"
+msgstr "Papar setiap ikon laman sesawang suapan didalam dialog"
+
+#: ../applets/maintained/feeds/awn-applet-feeds.schema-ini.in.h:5
+msgid "The interval (in minutes) at which to update (3-60)"
+msgstr "Selang (dalam minit) jangkamasa pengemaskinian (3-60)"
+
+#: ../applets/maintained/feeds/awn-applet-feeds.schema-ini.in.h:6
+msgid "Update automatically at a configurable interval"
+msgstr "Kemaskini secara automatik pada selang yang boleh dikonfigurkan"
+
+#: ../applets/maintained/feeds/classes.py:365
+msgid "Google"
+msgstr "Google"
+
+#: ../applets/maintained/feeds/classes.py:531
+#: ../applets/maintained/feeds/prefs.py:534
+msgid "Google Reader"
+msgstr "Pembaca Google"
+
+#: ../applets/maintained/feeds/classes.py:577
+msgid "Google Wave"
+msgstr "Google Wave"
+
+#: ../applets/maintained/feeds/classes.py:663
+msgid "Reddit Inbox"
+msgstr "Peti Masuk Reddit"
+
+#: ../applets/maintained/feeds/classes.py:763
+#, python-format
+msgid "Comment reply from %s"
+msgstr "Ulasan balasan dari %s"
+
+#: ../applets/maintained/feeds/classes.py:766
+#, python-format
+msgid "Post reply from %s"
+msgstr "Pos balasa dari %s"
+
+#: ../applets/maintained/feeds/classes.py:809
+#: ../applets/maintained/feeds/prefs.py:428
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../applets/maintained/feeds/classes.py:936
+msgid "Untitled"
+msgstr "Tiada Tajuk"
+
+#: ../applets/maintained/feeds/feeds.desktop.in.h:1
+#: ../applets/maintained/feeds/feeds.py:243
+#: ../applets/maintained/feeds/feeds.py:409
+#: ../applets/maintained/feeds/feeds.py:493
+#: ../applets/maintained/feeds/feeds.py:1041
+#: ../applets/maintained/feeds/feeds.py:1114
+msgid "Feeds Applet"
+msgstr "Applet Suapan"
+
+#: ../applets/maintained/feeds/feeds.desktop.in.h:2
+msgid "Monitor web feeds"
+msgstr ""
+
+#. "Loading feeds..." label
+#: ../applets/maintained/feeds/feeds.py:98
+#: ../applets/maintained/feeds/feeds.py:155
+#: ../applets/maintained/feeds/feeds.py:232
+msgid "Loading feeds..."
+msgstr "Memuatkan suapan..."
+
+#. No feeds label
+#: ../applets/maintained/feeds/feeds.py:162
+msgid "You don't have any feeds."
+msgstr "Anda tidak mempunyai suapan."
+
+#: ../applets/maintained/feeds/feeds.py:484
+#, python-format
+msgid ""
+"%s\n"
+"  <a href='%s'>%s</a>\n"
+"  <a href='%s'>%s</a>\n"
+"(%s More)\n"
+msgstr ""
+"%s\n"
+"  <a href='%s'>%s</a>\n"
+"  <a href='%s'>%s</a>\n"
+"(%s Lagi)\n"
+
+#: ../applets/maintained/feeds/feeds.py:494
+#, python-format
+msgid "%s New Item - Feeds Applet"
+msgid_plural "%s New Items - Feeds Applet"
+msgstr[0] "%s Item baru - Aplet Suapan"
+msgstr[1] "%s Item baru - Aplet Suapan"
+
+#. +Add Feed button
+#: ../applets/maintained/feeds/feeds.py:535
+msgid "_Add Feed"
+msgstr "_Tambah Suapan"
+
+#: ../applets/maintained/feeds/feeds.py:584
+msgid "Open this feed's website"
+msgstr "Buka laman sesawang suapan ini"
+
+#: ../applets/maintained/feeds/feeds.py:593
+#: ../applets/maintained/feeds/prefs.py:270
+msgid "Loading..."
+msgstr "Memuatkan..."
+
+#: ../applets/maintained/feeds/feeds.py:631
+#: ../applets/maintained/feeds/feeds.py:790
+msgid "Show this feed's items"
+msgstr "Papar item suapan ini"
+
+#: ../applets/maintained/feeds/feeds.py:780
+msgid "Hide this feed's items"
+msgstr "Sembunyi item suapan ini"
+
+#. Create the items
+#: ../applets/maintained/feeds/feeds.py:1036
+#: ../applets/maintained/feeds/prefs.py:359
+msgid "Add Feed"
+msgstr "Tambah Suapan"
+
+#: ../applets/maintained/feeds/feeds.py:1038
+msgid "Show Only _New Feeds"
+msgstr "Hanya Papar Suapan _Baru"
+
+#: ../applets/maintained/feeds/feeds.py:1119
+msgid "Applet to monitor web feeds"
+msgstr ""
+
+#: ../applets/maintained/feeds/feeds.py:1162
+msgid "OPML Import"
+msgstr "Import OPML"
+
+#: ../applets/maintained/feeds/feeds.py:1165
+#, python-format
+msgid "Do you want to add %d feed?"
+msgid_plural "Do you want to add %d feeds?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../applets/maintained/feeds/feeds.py:1193
+#: ../applets/maintained/feeds/feeds.py:1221
+#, python-format
+msgid "Could not open '%s'"
+msgstr ""
+
+#: ../applets/maintained/feeds/feeds.py:1206
+#: ../applets/maintained/feeds/prefs.py:328
+#, python-format
+msgid "Could not save '%s'"
+msgstr ""
+
+#: ../applets/maintained/feeds/prefs.py:53
+msgid "Feeds Applet Preferences"
+msgstr "Keutamaan Applet Suapan"
+
+#: ../applets/maintained/feeds/prefs.py:63
+msgid "Feeds"
+msgstr "Suapan"
+
+#: ../applets/maintained/feeds/prefs.py:64
+msgid "Updating"
+msgstr "Mengemaskini"
+
+#: ../applets/maintained/feeds/prefs.py:103
+msgid "_Show website icons"
+msgstr "_Papar ikon laman sesawang"
+
+#: ../applets/maintained/feeds/prefs.py:108
+msgid "Show _only new feeds"
+msgstr "Hanya _papar suapan baru"
+
+#. TODO: this position is a little ugly, but I don't know how to do it better.
+#. Import and export buttons (OPML)
+#: ../applets/maintained/feeds/prefs.py:115
+msgid "Import"
+msgstr "Import"
+
+#: ../applets/maintained/feeds/prefs.py:118
+msgid "Export"
+msgstr "Eksport"
+
+#. Updating section (enable/disable automatically updating and change how often)
+#. Checkbox: Notify for updated feeds
+#: ../applets/maintained/feeds/prefs.py:145
+msgid "_Notify for updated feeds"
+msgstr "_Maklum suapan yang dikemaskini"
+
+#. Checkbox: Update automatically
+#: ../applets/maintained/feeds/prefs.py:151
+msgid "_Update automatically"
+msgstr "_Kemaskini secara automatik"
+
+#. Update every [SpinButton] minutes
+#: ../applets/maintained/feeds/prefs.py:157
+msgid "Update every "
+msgstr "Kemaskini setiap "
+
+#: ../applets/maintained/feeds/prefs.py:158
+msgid " minutes"
+msgstr " minit"
+
+#: ../applets/maintained/feeds/prefs.py:170
+msgid "Keep items unread when updating"
+msgstr ""
+
+#: ../applets/maintained/feeds/prefs.py:277
+msgid "Open OPML File"
+msgstr "Buka fail OPML"
+
+#: ../applets/maintained/feeds/prefs.py:291
+msgid "Save OPML File"
+msgstr "Simpan fail OPML"
+
+#. Note: the following string is used as an exmaple filename
+#: ../applets/maintained/feeds/prefs.py:297
+msgid "feeds.opml"
+msgstr "suapan.opml"
+
+#: ../applets/maintained/feeds/prefs.py:308
+msgid "Awn Feeds Applet Items"
+msgstr "Item Applet Suapan untuk Awn"
+
+#. Source: label and radio buttons
+#: ../applets/maintained/feeds/prefs.py:363
+msgid "Source:"
+msgstr "Sumber:"
+
+#: ../applets/maintained/feeds/prefs.py:373
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:593
+#: ../applets/maintained/tomboy-applet/tomboy-applet.py:151
+msgid "Search"
+msgstr "Gelintar"
+
+#: ../applets/maintained/feeds/prefs.py:376
+msgid "You must sign in to a Google service to search for feeds."
+msgstr "Anda mesti mendaftar ke perkhidmatan Google untuk menggelintar suapan."
+
+#: ../applets/maintained/feeds/prefs.py:385
+msgid "RSS/Atom"
+msgstr "RSS/Atom"
+
+#: ../applets/maintained/feeds/prefs.py:430
+msgid "Timeline"
+msgstr "Garis Masa"
+
+#: ../applets/maintained/feeds/prefs.py:435
+msgid "Replies"
+msgstr "Balasan"
+
+#. "Search for" label and entry
+#: ../applets/maintained/feeds/prefs.py:464
+msgid "Search for"
+msgstr "Gelintar untuk"
+
+#. URL: label and entry
+#: ../applets/maintained/feeds/prefs.py:478
+#: ../applets/maintained/webapplet/applet.c:276
+msgid "URL:"
+msgstr "URL:"
+
+#. Username: label and entry
+#: ../applets/maintained/feeds/prefs.py:492
+#: ../applets/maintained/mail/mail.py:729
+#: ../applets/maintained/mail/mail.py:820
+#: ../applets/maintained/mail/mail.py:971
+#: ../applets/maintained/mail/mail.py:1086
+msgid "Username:"
+msgstr "Nama pengguna:"
+
+#. Password: label and entry
+#: ../applets/maintained/feeds/prefs.py:506
+#: ../applets/maintained/mail/mail.py:732
+#: ../applets/maintained/mail/mail.py:823
+#: ../applets/maintained/mail/mail.py:974
+#: ../applets/maintained/mail/mail.py:1089
+msgid "Password:"
+msgstr "Katalaluan:"
+
+#: ../applets/maintained/feeds/prefs.py:533
+msgid "Feed search by "
+msgstr "Gelintar suapan melalui "
+
+#. If signed in to Google Reader
+#: ../applets/maintained/feeds/prefs.py:571
+msgid "_Search"
+msgstr "_Gelintar"
+
+#: ../applets/maintained/feeds/prefs.py:775
+msgid ""
+"There was an error while searching.\n"
+"Please try again later."
+msgstr ""
+"Ada ralat semasa menggelintar.\n"
+"Sila cuba sekali lagi."
+
+#: ../applets/maintained/feeds/prefs.py:825
+msgid ""
+"No results found.\n"
+"Try checking your spelling or using different search terms."
+msgstr ""
+"Tiada keputusan ditemui.\n"
+"Cuba semak ejaan anda atau gunakan terma carian yang berbeza."
+
+#: ../applets/maintained/file-browser-launcher/awn-applet-file-browser-launcher.schema-ini.in.h:1
+msgid ""
+"0: one icon with dialog; 1: one icon with docklet on click; 2: persistent "
+"docklet"
+msgstr ""
+
+#: ../applets/maintained/file-browser-launcher/awn-applet-file-browser-launcher.schema-ini.in.h:2
+msgid "The action to perform on left click"
+msgstr "Tindakan yang dilaksanakan apabila klik kiri"
+
+#: ../applets/maintained/file-browser-launcher/awn-applet-file-browser-launcher.schema-ini.in.h:3
+msgid "The action to perform on middle click"
+msgstr "Tindakan yang dilaksanakan apabila klik tengah"
+
+#: ../applets/maintained/file-browser-launcher/awn-applet-file-browser-launcher.schema-ini.in.h:4
+msgid "The file browser to use"
+msgstr "Pelayar fail yang digunakan"
+
+#: ../applets/maintained/file-browser-launcher/awn-applet-file-browser-launcher.schema-ini.in.h:5
+msgid "The path to use on left click"
+msgstr "Laluan yang digunakan apabila klik kiri"
+
+#: ../applets/maintained/file-browser-launcher/awn-applet-file-browser-launcher.schema-ini.in.h:6
+msgid "The path to use on middle click"
+msgstr "Laluan yang digunakan apabila klik tengah"
+
+#: ../applets/maintained/file-browser-launcher/awn-applet-file-browser-launcher.schema-ini.in.h:7
+msgid "Whether or not to display Connect to server"
+msgstr "Papar atau tidak paparkan Sambungan ke pelayan"
+
+#: ../applets/maintained/file-browser-launcher/awn-applet-file-browser-launcher.schema-ini.in.h:8
+msgid "Whether or not to display bookmarks"
+msgstr "Papar atau tidak paparkan tanda buku"
+
+#: ../applets/maintained/file-browser-launcher/awn-applet-file-browser-launcher.schema-ini.in.h:9
+msgid "Whether or not to display local drives"
+msgstr "Papar atau tidak paparkan pemacu setempat"
+
+#: ../applets/maintained/file-browser-launcher/awn-applet-file-browser-launcher.schema-ini.in.h:10
+msgid "Whether or not to display network drives"
+msgstr "Papar atau tidak paparkan pemacu rangkaian"
+
+#: ../applets/maintained/file-browser-launcher/awn-applet-file-browser-launcher.schema-ini.in.h:11
+msgid "Whether or not to display the Filesystem"
+msgstr "Papar atau tidak paparkan Fail sistem"
+
+#: ../applets/maintained/file-browser-launcher/awn-applet-file-browser-launcher.schema-ini.in.h:12
+msgid "Whether or not to display the Trash"
+msgstr ""
+
+#: ../applets/maintained/file-browser-launcher/awn-applet-file-browser-launcher.schema-ini.in.h:13
+msgid "Whether or not to display the computer"
+msgstr ""
+
+#: ../applets/maintained/file-browser-launcher/awn-applet-file-browser-launcher.schema-ini.in.h:14
+msgid "Whether or not to display the home folder"
+msgstr "Papar atau tidak paparkan folder rumah"
+
+#: ../applets/maintained/file-browser-launcher/awn-applet-file-browser-launcher.schema-ini.in.h:15
+msgid "Whether or not to focus the location text box"
+msgstr "Fokus atau tidak fokuskan kotak teks"
+
+#: ../applets/maintained/file-browser-launcher/awn-applet-file-browser-launcher.schema-ini.in.h:16
+msgid "Whether or not to open the place when clicked"
+msgstr "Buka atau tidak buka Tempat apabila diklik"
+
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.desktop.in.h:1
+msgid "A launcher for your file manager"
+msgstr "Pelancar untuk pengurus fail anda"
+
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.desktop.in.h:2
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:63
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:1290
+msgid "File Browser Launcher"
+msgstr "Pelancar Pelayar Fail"
+
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:392
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:575
+#: ../applets/maintained/file-browser-launcher/prefs.py:237
+msgid "Filesystem"
+msgstr "Sistem Fail"
+
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:521
+#: ../applets/maintained/yama/yama.py:333
+msgid "Connect to Server..."
+msgstr "Sambung ke Pelayan..."
+
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:596
+msgid "CD/DVD Burner"
+msgstr "Pembakar CD/DVD"
+
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:599
+msgid "Fonts"
+msgstr "Fon"
+
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:603
+#: ../applets/maintained/file-browser-launcher/prefs.py:298
+#: ../applets/maintained/file-browser-launcher/prefs.py:373
+msgid "Folder"
+msgstr "Folder"
+
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:609
+#, python-format
+msgid "Trash (%d)"
+msgstr "Sampah (%d)"
+
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:719
+msgid "DVD Drive"
+msgstr "Pemacu DVD"
+
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:723
+msgid "CD Drive"
+msgstr "Pemacu CD"
+
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:1069
+msgid "Eject"
+msgstr "Lenting"
+
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:1077
+msgid "Empty Trash"
+msgstr "Kosongkan Sampah"
+
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:1100
+msgid "Confirm deletion"
+msgstr ""
+
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:1108
+msgid ""
+"<big><b>Are you sure you want to delete\n"
+"every item from the trash?</b></big>"
+msgstr ""
+
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:1110
+msgid "This action cannot be undone."
+msgstr "Tindakan ini tidak dapat dilaksanakan"
+
+#: ../applets/maintained/file-browser-launcher/file-browser-launcher.py:1293
+msgid "A customizable launcher for browsing your files."
+msgstr "Pelancar suai untuk melayar fail anda."
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:44
+msgid "File Browser Launcher Preferences"
+msgstr "Keutamaan Pelancar Pelayar Fail"
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:104
+msgid "File Browser"
+msgstr "Pelayar Fail"
+
+#. xdg-open (aka system default)
+#: ../applets/maintained/file-browser-launcher/prefs.py:114
+msgid "System Default"
+msgstr "Lalai Sistem"
+
+#. Last option: custom with an entry for the app name
+#: ../applets/maintained/file-browser-launcher/prefs.py:138
+msgid "Other"
+msgstr "Lain-lain"
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:174
+msgid "One icon with dialog"
+msgstr "Satu ikon dengan dialog"
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:179
+msgid "One icon with docklet"
+msgstr "Satu ikon dengan docklet"
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:186
+msgid "Multiple icons"
+msgstr "Ikon berbilang"
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:193
+msgid "Focus text entry"
+msgstr ""
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:202
+msgid "Open place when clicked"
+msgstr "Buka tempat apabila diklik"
+
+#. Show all places
+#: ../applets/maintained/file-browser-launcher/prefs.py:222
+msgid "Show all places"
+msgstr "Papar semua tempat"
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:237
+msgid "Home folder"
+msgstr "Folder Rumah"
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:238
+msgid "Mounted local drives"
+msgstr ""
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:238
+msgid "Mounted network drives"
+msgstr "Pemacu rangkaian terdakap"
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:239
+msgid "Connect to server"
+msgstr "Sambung ke pelayan"
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:239
+msgid "Bookmarks"
+msgstr "Tanda Buku"
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:273
+#: ../applets/maintained/file-browser-launcher/prefs.py:348
+msgid "Display dialog/docklet"
+msgstr "Papar dialog/docklet"
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:273
+#: ../applets/maintained/file-browser-launcher/prefs.py:348
+msgid "Open the folder"
+msgstr "Buka folder"
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:274
+#: ../applets/maintained/file-browser-launcher/prefs.py:349
+msgid "Nothing"
+msgstr "Tiada"
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:327
+msgid "Left Click"
+msgstr "Klik Kiri"
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:402
+msgid "Middle Click"
+msgstr "Klik Tengah"
+
+#: ../applets/maintained/file-browser-launcher/prefs.py:555
+msgid "Choose a folder"
+msgstr "Pilih folder"
+
+#: ../applets/maintained/garbage/applet.vala:60
+#: ../applets/maintained/garbage/garbage.desktop.in.in.h:2
+msgid "Garbage"
+msgstr "Sampah"
+
+#. set the title as well
+#. $display_name: $count item(s)
+#: ../applets/maintained/garbage/applet.vala:179
+#, c-format
+msgid "%u item"
+msgid_plural "%u items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../applets/maintained/garbage/applet.vala:199
+#, c-format
+msgid "Could not open the trash folder with your file manager: %s"
+msgstr "Tidak dapat membuka folder sampah melalui pengurus fail anda: %s"
+
+#: ../applets/maintained/garbage/applet.vala:215
+msgid "_Empty Trash"
+msgstr "Kosongkan _Sampah"
+
+#: ../applets/maintained/garbage/applet.vala:232
+#: ../applets/maintained/garbage/garbage.desktop.in.in.h:1
+msgid "A lightweight, cross-desktop trash applet"
+msgstr ""
+
+#: ../applets/maintained/garbage/applet.vala:247
+#, c-format
+msgid ""
+"Are you sure you want to empty your trash? It currently contains %u item(s)."
+msgstr "Anda pasti hendak mengosongkan sampah anda? Ia mengandungi %u item."
+
+#: ../applets/maintained/garbage/applet.vala:356
+#, c-format
+msgid "Could not send the dragged file(s) to the trash: %s"
+msgstr "Tidak dapat menghatar fail yang diseret ke sampah: %s"
+
+#. vim: set ft=vala et ts=2 sts=2 sw=2 ai :
+#: ../applets/maintained/garbage/awn-applet-garbage.schema-ini.in.h:1
+msgid "Enable the confirmation dialog form when one wishes to empty the trash."
+msgstr ""
+"Benarkan borang dialog pengesahan apabila anda ingin mengosongkan sampah."
+
+#: ../applets/maintained/garbage/awn-applet-garbage.schema-ini.in.h:2
+msgid "Show the number of items in the trash on top of the icon."
+msgstr "Papar bilangan item didalam sampah diletakkan diatas ikon."
+
+#. This is a window title, %s is an applet's name.
+#: ../applets/maintained/garbage/prefs.vala:32 ../shared/python/awnlib.py:379
+#, c-format, python-format
+msgid "%s Preferences"
+msgstr "%s Keutamaan"
+
+#: ../applets/maintained/garbage/prefs.vala:47
+msgid "Confirm when _emptying the trash"
+msgstr ""
+
+#: ../applets/maintained/garbage/prefs.vala:52
+msgid "Show the _item count on the icon"
+msgstr ""
+
+#. vim: set ft=vala et ts=2 sts=2 sw=2 ai :
+#: ../applets/maintained/hardware-sensors/awn-applet-hardware-sensors.schema-ini.in.h:1
+msgid "Applet theme."
+msgstr "Tema applet"
+
+#: ../applets/maintained/hardware-sensors/awn-applet-hardware-sensors.schema-ini.in.h:2
+msgid "For each sensor, whether to show it in main dialog or not."
+msgstr "Bagi setiap pengesan, paparkannya pada dialog utama atau tidak."
+
+#: ../applets/maintained/hardware-sensors/awn-applet-hardware-sensors.schema-ini.in.h:3
+msgid "High value limit (at which alarm triggers) for each sensor."
+msgstr "Had nilai tinggi (ketika pengera berbunyi) bagi setiap pengesan"
+
+#: ../applets/maintained/hardware-sensors/awn-applet-hardware-sensors.schema-ini.in.h:4
+msgid "If enabled, show sensor value(s) as an overlay in the icon."
+msgstr ""
+
+#: ../applets/maintained/hardware-sensors/awn-applet-hardware-sensors.schema-ini.in.h:5
+msgid "In what row of dialog is the sensor shown."
+msgstr ""
+
+#: ../applets/maintained/hardware-sensors/awn-applet-hardware-sensors.schema-ini.in.h:6
+msgid "Low value limit (at which alarm triggers) for each sensor."
+msgstr "Had nilai rendah (apabila penggera berbunyi) bagi setiap pengesan."
+
+#: ../applets/maintained/hardware-sensors/awn-applet-hardware-sensors.schema-ini.in.h:7
+msgid "Sensor ids."
+msgstr "Id Pengesan"
+
+#: ../applets/maintained/hardware-sensors/awn-applet-hardware-sensors.schema-ini.in.h:8
+msgid "Sensor labels."
+msgstr "Label pengesan."
+
+#: ../applets/maintained/hardware-sensors/awn-applet-hardware-sensors.schema-ini.in.h:9
+msgid "Size of value overlay in the icon (0: small, 1: medium, 2: large)."
+msgstr ""
+
+#: ../applets/maintained/hardware-sensors/awn-applet-hardware-sensors.schema-ini.in.h:11
+msgid "The color (RGBA) of the meter hand/needle."
+msgstr "Warna (RGBA) jarum jam/jarum."
+
+#: ../applets/maintained/hardware-sensors/awn-applet-hardware-sensors.schema-ini.in.h:12
+msgid "Timeout between two value updates (in seconds)."
+msgstr ""
+
+#: ../applets/maintained/hardware-sensors/awn-applet-hardware-sensors.schema-ini.in.h:13
+msgid "Whether alarm should trigger at high value limit or not."
+msgstr ""
+
+#: ../applets/maintained/hardware-sensors/awn-applet-hardware-sensors.schema-ini.in.h:14
+msgid "Whether alarm should trigger at low value limit or not."
+msgstr ""
+
+#: ../applets/maintained/hardware-sensors/awn-applet-hardware-sensors.schema-ini.in.h:15
+msgid "Whether to show a sensor in applet icon or not."
+msgstr "Sama ada paparkan pengesan didalam ikon applet atau tidak."
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.desktop.in.h:1
+msgid "Applet to show the hw sensors readouts"
+msgstr "Applet yang memaparkan bacaan pengesan hw"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.desktop.in.h:2
+#: ../applets/maintained/hardware-sensors/hardware-sensors.py:48
+msgid "Hardware Sensors"
+msgstr "Pengesan Perkakasan"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.py:50
+msgid "Applet to show the hardware sensors readouts"
+msgstr "Applet yang memaparkan bacaan pengesan perkakasan"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.py:61
+#: ../applets/maintained/weather/weather.ui.h:13
+msgid "Small"
+msgstr "Kecil"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.py:61
+#: ../applets/maintained/weather/weather.ui.h:11
+msgid "Medium"
+msgstr "Sederhana"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.py:61
+#: ../applets/maintained/weather/weather.ui.h:9
+msgid "Large"
+msgstr "Besar"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.py:84
+msgid "Warning from Hardware Sensors: No sensors found"
+msgstr "Amaran dari Pengesan Perkakasan: Tiada pengesan ditemui"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.py:85
+msgid ""
+"Install one or more of ACPI, HDDTemp, LM-Sensors, nvidia-settings or nvclock "
+"and restart the applet."
+msgstr ""
+"Pasang satu atau lebih ACPI, HDDTemp, Pengesan-LM, tetapan nvidia atau "
+"nvclock dan mula semula applet."
+
+#. == Dialog == #
+#. Create main applet dialog showing selected sensors.
+#: ../applets/maintained/hardware-sensors/hardware-sensors.py:119
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:14
+msgid "Sensors"
+msgstr "Pengesan"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.py:471
+msgid "Interface"
+msgstr "Antara Muka"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.py:473
+msgid "Name"
+msgstr "Nama"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.py:475
+msgid "Label"
+msgstr "Label"
+
+#. Set the cell "active" attribute to column_show - retrieve the state
+#. of the toggle button from that column in liststore
+#: ../applets/maintained/hardware-sensors/hardware-sensors.py:479
+msgid "In dialog"
+msgstr "dalam dialog"
+
+#. Add treeview-column to treeview
+#: ../applets/maintained/hardware-sensors/hardware-sensors.py:517
+msgid "Sensors displayed in icon"
+msgstr "Pengesan dipaparkan di dalam ikon"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.py:535
+msgid "properties"
+msgstr "ciri-ciri"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:1
+msgid "<b>Alarms</b>"
+msgstr "<b>Penggera</b>"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:3
+msgid "<b>Sensor value limits</b>"
+msgstr "<b>Had nilai pengesan</b>"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:4
+#: ../applets/maintained/mail/mail.ui.h:3
+msgid "<b>Update</b>"
+msgstr "<b>Kemaskini</b>"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:5
+msgid "Add"
+msgstr "Tambah"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:6
+msgid "Enable high alarm"
+msgstr ""
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:7
+msgid "Enable low alarm"
+msgstr ""
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:8
+msgid "Font size:"
+msgstr "Saiz fon:"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:10
+msgid "Meter hand color:"
+msgstr "Warna jarum meter:"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:11
+msgid "Remove"
+msgstr "Buang"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:12
+msgid "Sensor high value"
+msgstr "Pengesan nilai tinggi"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:13
+msgid "Sensor low value"
+msgstr "Pengesan nilai rendah"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:15
+msgid "Show value in icon"
+msgstr "Papar nilai di dalam ikon"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:16
+msgid "Temperature unit:"
+msgstr "Unit Suhu:"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:17
+msgid "Theme:"
+msgstr "Tema:"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:18
+msgid "Update interval:"
+msgstr "Kemas kini selang:"
+
+#: ../applets/maintained/hardware-sensors/hardware-sensors.ui.h:19
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:45
+msgid "seconds"
+msgstr "saat"
+
+#: ../applets/maintained/hardware-sensors/sensorvalues/units.py:35
+msgid "Volt"
+msgstr "Volt"
+
+#: ../applets/maintained/hardware-sensors/sensorvalues/units.py:35
+msgid "rpm"
+msgstr "rpm"
+
+#: ../applets/maintained/indicator-applet/applet.c:89
+#: ../applets/maintained/indicator-applet/applet.c:182
+#: ../applets/maintained/indicator-applet/applet.c:797
+#: ../applets/maintained/indicator-applet/indicator-applet.desktop.in.in.h:2
+msgid "Indicator Applet"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:92
+#: ../applets/maintained/indicator-applet/indicator-applet.desktop.in.in.h:1
+msgid "An applet to hold all of the system indicators"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:170
+msgid "Indicator Applet Preferences"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:177
+msgid "Enabled Entries"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:184
+msgid "Indicator Applet Session (Quit)"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:186
+msgid "Me Menu"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:188
+msgid "Messaging Menu"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:190
+msgid "Network Menu"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:192
+msgid "Sound Control Menu"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:194
+msgid "Other Menus"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:204
+msgid "Options"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:212
+msgid "Number of rows:"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:216
+msgid "Number of columns:"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:228
+msgid "Enable Applet Icon mode"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:777
+msgid "Me menu"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:781
+msgid "Messaging menu"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:785
+msgid "Network menu"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:789
+msgid "Indicator Applet Session"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/applet.c:793
+msgid "Sound Menu"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/awn-applet-indicator-applet.schema-ini.in.h:1
+msgid "If true, show any other menus"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/awn-applet-indicator-applet.schema-ini.in.h:2
+msgid "If true, show the Me menu (chat, microblogging, etc)"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/awn-applet-indicator-applet.schema-ini.in.h:3
+msgid "If true, show the Messaging icon"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/awn-applet-indicator-applet.schema-ini.in.h:4
+msgid "If true, show the Network menu"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/awn-applet-indicator-applet.schema-ini.in.h:5
+msgid "If true, show the Sound control menu"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/awn-applet-indicator-applet.schema-ini.in.h:6
+msgid "If true, show the indicator applet icons"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/awn-applet-indicator-applet.schema-ini.in.h:7
+msgid ""
+"If true, show the indicator applet session icon (lock screen, switch users, "
+"etc)"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/awn-applet-indicator-applet.schema-ini.in.h:8
+msgid "If true, use an Awn applet icon instead"
+msgstr ""
+
+#: ../applets/maintained/indicator-applet/awn-applet-indicator-applet.schema-ini.in.h:9
+msgid "The number of rows (top and bottom edge) or columns (side edges)"
+msgstr ""
+
+#: ../applets/maintained/mail/awn-applet-mail.schema-ini.in.h:1
+msgid "Display any network errors"
+msgstr "Papar apa-apa ralat rangkaian"
+
+#: ../applets/maintained/mail/awn-applet-mail.schema-ini.in.h:2
+msgid "The Desktop Email client to use"
+msgstr "Klien Emel Desktop yang digunakan"
+
+#: ../applets/maintained/mail/awn-applet-mail.schema-ini.in.h:3
+msgid "The Email backend to use"
+msgstr "Emel belakang yang digunakan"
+
+#: ../applets/maintained/mail/awn-applet-mail.schema-ini.in.h:4
+#, fuzzy
+msgid "The Unix Spool file"
+msgstr "Kili Unix"
+
+#: ../applets/maintained/mail/awn-applet-mail.schema-ini.in.h:5
+msgid "The theme to use for the icon"
+msgstr "Tema yang digunakan untuk ikon"
+
+#: ../applets/maintained/mail/awn-applet-mail.schema-ini.in.h:6
+msgid "Timeout between two value updates (in minutes)."
+msgstr "Masa rehat diantara dua nilai yang dikemaskini (dalam minit)"
+
+#: ../applets/maintained/mail/awn-applet-mail.schema-ini.in.h:7
+msgid "Used for logging in; do not touch"
+msgstr "Digunakan untuk log masuk; jangan ganggu"
+
+#: ../applets/maintained/mail/mail.desktop.in.h:1
+msgid "Check Your Email from AWN"
+msgstr "Semak Emel anda dari Awn"
+
+#: ../applets/maintained/mail/mail.desktop.in.h:2
+#: ../applets/maintained/mail/mail.py:294
+#: ../applets/maintained/mail/mail.py:1149
+msgid "Mail Applet"
+msgstr "Aplet Surat"
+
+#: ../applets/maintained/mail/mail.py:40
+#, python-format
+msgid "You have %d new message"
+msgid_plural "You have %d new messages"
+msgstr[0] "Anda mempunyai %d mesej baru"
+msgstr[1] "Anda mempunyai %d mesej-mesej baru"
+
+#: ../applets/maintained/mail/mail.py:44
+#, python-format
+msgid "%d unread message"
+msgid_plural "%d unread messages"
+msgstr[0] "Mesej yang belum dibaca"
+msgstr[1] "Mesej-mesej yang belum dibaca"
+
+#: ../applets/maintained/mail/mail.py:89 ../applets/maintained/mail/mail.py:689
+#: ../applets/maintained/mail/mail.py:705
+#: ../applets/maintained/mail/mail.py:780
+#: ../applets/maintained/mail/mail.py:796
+#: ../applets/maintained/mail/mail.py:873
+#: ../applets/maintained/mail/mail.py:958
+msgid "[No Subject]"
+msgstr "[Tiada subjek]"
+
+#: ../applets/maintained/mail/mail.py:121
+#: ../applets/maintained/mail/mail.py:274
+msgid "Mail Applet (Click to Log In)"
+msgstr "Aplet Surat (Klik untuk Log Masuk)"
+
+#: ../applets/maintained/mail/mail.py:130
+msgid "GNOME keyring not available: Password won't be saved"
+msgstr ""
+
+#: ../applets/maintained/mail/mail.py:141
+msgid ""
+"Default GNOME keyring or \"login\" keyring not found:\n"
+"Password won't be saved"
+msgstr ""
+
+#: ../applets/maintained/mail/mail.py:295
+#, python-format
+msgid "Logging in as %s"
+msgstr "Log masuk sebagai %s"
+
+#: ../applets/maintained/mail/mail.py:310
+msgid "Network error - Mail Applet"
+msgstr "Ralat rangkaian - Aplet Mel"
+
+#: ../applets/maintained/mail/mail.py:320
+msgid "New Mail - Mail Applet"
+msgstr "Surat Baru - Aplet Surat"
+
+#: ../applets/maintained/mail/mail.py:404
+msgid "Mail"
+msgstr "Mel"
+
+#: ../applets/maintained/mail/mail.py:440
+msgid "Open Web Mail"
+msgstr "Buka Mel Sesawang"
+
+#: ../applets/maintained/mail/mail.py:449
+msgid "Open Desktop Client"
+msgstr "Buka Klien Desktop"
+
+#: ../applets/maintained/mail/mail.py:458
+msgid "Refresh"
+msgstr "Segar semula"
+
+#: ../applets/maintained/mail/mail.py:467 ../applets/maintained/quit/quit.py:39
+#: ../applets/maintained/quit/quit.py:47 ../applets/maintained/quit/quit.py:58
+#: ../applets/maintained/quit/quit.py:267
+msgid "Log Out"
+msgstr "Daftar Keluar"
+
+#: ../applets/maintained/mail/mail.py:500
+msgid "No unread messages"
+msgstr "Tiada mesej yang belum dibaca"
+
+#: ../applets/maintained/mail/mail.py:502
+msgid "No new messages"
+msgstr "Tiada mesej baru"
+
+#: ../applets/maintained/mail/mail.py:518
+msgid "Wrong username or password"
+msgstr "Kata nama atau kata laluan salah"
+
+#: ../applets/maintained/mail/mail.py:526
+#: ../applets/maintained/mail/mail.py:610
+msgid "Log In"
+msgstr "Log masuk"
+
+#: ../applets/maintained/mail/mail.py:574
+msgid "Type:"
+msgstr "Jenis:"
+
+#: ../applets/maintained/mail/mail.py:579
+msgid "Backend"
+msgstr "Backend"
+
+#: ../applets/maintained/mail/mail.py:677
+#: ../applets/maintained/mail/mail.py:769
+msgid ""
+"There seem to be problems with our connection to your account. Your best bet "
+"is probably to log out and try again."
+msgstr ""
+"Ada masalah sambungan kami ke akaun anda. Cara yang terbaik ialah daftar "
+"keluar dan cuba lagi."
+
+#: ../applets/maintained/mail/mail.py:691
+#: ../applets/maintained/mail/mail.py:782
+msgid "[Unknown]"
+msgstr ""
+
+#: ../applets/maintained/mail/mail.py:752
+msgid "Google Apps"
+msgstr "Google Apps"
+
+#: ../applets/maintained/mail/mail.py:827
+msgid "Domain:"
+msgstr "Domain:"
+
+#: ../applets/maintained/mail/mail.py:855
+msgid "Unix Spool"
+msgstr "Kili Unix"
+
+#: ../applets/maintained/mail/mail.py:881
+msgid "Spool Path:"
+msgstr "Laluan Kili:"
+
+#: ../applets/maintained/mail/mail.py:924
+#: ../applets/maintained/mail/mail.py:926
+#: ../applets/maintained/mail/mail.py:939
+msgid "Could not log in: "
+msgstr "Tidak dapat mendaftar masuk: "
+
+#: ../applets/maintained/mail/mail.py:933
+msgid "Could not log in: Username or password incorrect"
+msgstr "Tidak dapat mendaftar masuk: Kata nama atau kata laluan salah"
+
+#: ../applets/maintained/mail/mail.py:978
+#: ../applets/maintained/mail/mail.py:1093
+msgid "Server:"
+msgstr "Pelayan:"
+
+#: ../applets/maintained/mail/mail.py:981
+#: ../applets/maintained/mail/mail.py:1096
+msgid "Use SSL encryption"
+msgstr "Guna enkripsi SSL"
+
+#: ../applets/maintained/mail/mail.py:1030
+msgid "Server did not respond"
+msgstr ""
+
+#: ../applets/maintained/mail/mail.py:1035
+msgid "Could not log in"
+msgstr "Tidak dapat log masuk"
+
+#: ../applets/maintained/mail/mail.py:1042
+msgid "Folder does not exst"
+msgstr "Folder tidak wujud"
+
+#: ../applets/maintained/mail/mail.py:1099
+msgid "Get messages from only one folder"
+msgstr "Dapatkan mesej dari satu folder sahaja"
+
+#: ../applets/maintained/mail/mail.py:1103
+msgid "Folder:"
+msgstr "Folder:"
+
+#: ../applets/maintained/mail/mail.py:1152
+msgid "An applet to check one's email"
+msgstr "Aplet untuk memeriksa email seseorang"
+
+#: ../applets/maintained/mail/mail.ui.h:2
+msgid "<b>Mail</b>"
+msgstr "<b>Mel</b>"
+
+#: ../applets/maintained/mail/mail.ui.h:4
+msgid "Update _interval:"
+msgstr ""
+
+#: ../applets/maintained/mail/mail.ui.h:5
+msgid "_Alert on network errors"
+msgstr "_Beri amaran pada ralat rangkaian"
+
+#: ../applets/maintained/mail/mail.ui.h:6
+msgid "_Email client:"
+msgstr "Klien _Emel:"
+
+#: ../applets/maintained/mail/mail.ui.h:8
+msgid "minutes"
+msgstr "minit"
+
+#: ../applets/maintained/media-control/awn-applet-media-control.schema-ini.in.h:1
+msgid "Close the docklet when mouse moves out from it."
+msgstr "Tutup docklet apabila penuding bergerak keluar daripadanya."
+
+#: ../applets/maintained/media-control/awn-applet-media-control.schema-ini.in.h:2
+msgid "Display album art if available."
+msgstr "Papar album art jika ada."
+
+#: ../applets/maintained/media-control/awn-applet-media-control.schema-ini.in.h:3
+msgid "Display docklet instead of standard applet dialog."
+msgstr "Papar docklet selain dialog aplet piawai."
+
+#: ../applets/maintained/media-control/awn-applet-media-control.schema-ini.in.h:4
+msgid "Size of the album art."
+msgstr "Saiz album art"
+
+#: ../applets/maintained/media-control/awn-applet-media-control.schema-ini.in.h:5
+msgid "Tooltip format to use."
+msgstr "Format tooltip yang digunakan"
+
+#: ../applets/maintained/media-control/media-control.desktop.in.h:1
+msgid "Control your music player"
+msgstr "Mengawal pemain muzik anda"
+
+#: ../applets/maintained/media-control/media-control.desktop.in.h:2
+msgid "Media Control"
+msgstr "Kawalan Media"
+
+#: ../applets/maintained/media-control/media_control.py:51
+#: ../applets/maintained/media-control/media_control.py:653
+msgid "Media Control Applet"
+msgstr ""
+
+#. Used in this sentence: Title by Artist from Album
+#: ../applets/maintained/media-control/media_control.py:509
+msgid "by"
+msgstr ""
+
+#. Used in this sentence: Title by Artist from Album
+#: ../applets/maintained/media-control/media_control.py:512
+msgid "from"
+msgstr ""
+
+#: ../applets/maintained/media-control/media_control.py:613
+msgid "Title - Artist"
+msgstr "Tajuk - Artis"
+
+#: ../applets/maintained/media-control/media_control.py:613
+msgid "Artist - Title"
+msgstr "Artis - Tajuk"
+
+#: ../applets/maintained/media-control/media_control.py:656
+msgid "Controls your favourite music player."
+msgstr ""
+
+#: ../applets/maintained/media-control/media-control.ui.h:2
+msgid "Close docklet when mouse leaves it"
+msgstr "Tutup docklet apabila penuding keluar darinya."
+
+#: ../applets/maintained/media-control/media-control.ui.h:3
+msgid "Display _docklet instead of dialog"
+msgstr "Papar _docklet selain dialog"
+
+#: ../applets/maintained/media-control/media-control.ui.h:4
+msgid "Media-control preferences"
+msgstr "Keutamaan kawalan-media"
+
+#: ../applets/maintained/media-control/media-control.ui.h:5
+msgid "Show _album art when available"
+msgstr "Papar _album art jika ada"
+
+#: ../applets/maintained/media-control/media-control.ui.h:6
+msgid "_Size of the album art:"
+msgstr "_Saiz album art:"
+
+#: ../applets/maintained/media-control/media-control.ui.h:7
+msgid "_Tooltip format:"
+msgstr "Format _tooltip:"
+
+#: ../applets/maintained/media-control/media-control.ui.h:8
+#: ../applets/maintained/media-player/media-player-prefs.ui.h:8
+#: ../applets/maintained/notification-area/na-prefs.ui.h:12
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:44
+#: ../applets/maintained/weather/weather.ui.h:19
+msgid "pixels"
+msgstr "piksel"
+
+#: ../applets/maintained/media-icons/media-icon-next.desktop.in.h:1
+#: ../applets/maintained/media-icons/media-icons.py:68
+msgid "A media-control applet (Next Track)"
+msgstr "Aplet kawalan-media (Trek berikut)"
+
+#: ../applets/maintained/media-icons/media-icon-next.desktop.in.h:2
+#: ../applets/maintained/media-icons/media-icons.py:74
+msgid "Media Icons Next"
+msgstr "Ikon Media Berikut"
+
+#: ../applets/maintained/media-icons/media-icon-previous.desktop.in.h:1
+#: ../applets/maintained/media-icons/media-icons.py:69
+msgid "A media-control applet (Previous Track)"
+msgstr "Aplet kawalan-media (Trek sebelum)"
+
+#: ../applets/maintained/media-icons/media-icon-previous.desktop.in.h:2
+#: ../applets/maintained/media-icons/media-icons.py:75
+msgid "Media Icons Previous"
+msgstr "Ikon Media Sebelum"
+
+#: ../applets/maintained/media-icons/media-icons.desktop.in.h:1
+#: ../applets/maintained/media-icons/media-icons.py:70
+msgid "A media-control applet (Play/Pause)"
+msgstr "Aplet kawalan-media (Main/Jeda)"
+
+#: ../applets/maintained/media-icons/media-icons.desktop.in.h:2
+#: ../applets/maintained/media-icons/media-icons.py:76
+msgid "Media Icons Play/Pause"
+msgstr "Ikon Media Main/Jeda"
+
+#: ../applets/maintained/media-icons/media-icons.py:57
+msgid "Next"
+msgstr "Berikut"
+
+#: ../applets/maintained/media-icons/media-icons.py:58
+msgid "Previous"
+msgstr "Sebelum"
+
+#: ../applets/maintained/media-icons/media-icons.py:59
+msgid "Play/Pause"
+msgstr "Main/Jeda"
+
+#: ../applets/maintained/media-player/awn-applet-media-player.schema-ini.in.h:1
+msgid "Audio sink to use."
+msgstr ""
+
+#: ../applets/maintained/media-player/awn-applet-media-player.schema-ini.in.h:2
+msgid "Height of the video window."
+msgstr "Tinggi tetingkap video"
+
+#: ../applets/maintained/media-player/awn-applet-media-player.schema-ini.in.h:3
+msgid "List of recently played URLs."
+msgstr "Senarai URL yang dimainkan baru-baru ini."
+
+#: ../applets/maintained/media-player/awn-applet-media-player.schema-ini.in.h:4
+msgid "Video sink to use."
+msgstr "Video sink yang digunakan"
+
+#: ../applets/maintained/media-player/awn-applet-media-player.schema-ini.in.h:5
+msgid "Width of the video window."
+msgstr "Lebar tetingkap video."
+
+#: ../applets/maintained/media-player/media-player.desktop.in.h:1
+msgid "Media Player"
+msgstr "Pemain Media"
+
+#: ../applets/maintained/media-player/media-player.desktop.in.h:2
+msgid "Plays any media files you drop on the applet"
+msgstr "Mana apa-apa fail media yang anda seret ke aplet"
+
+#. PyGObject doesn't have BOXED support implemented
+#. recent_items = gobject.property(type=gobject.TYPE_BOXED,
+#. nick='Recent Items')
+#: ../applets/maintained/media-player/media_player.py:50
+#: ../applets/maintained/media-player/media_player.py:423
+msgid "Media Player Applet"
+msgstr ""
+
+#. Popup menu
+#: ../applets/maintained/media-player/media_player.py:78
+msgid "Recent items"
+msgstr ""
+
+#: ../applets/maintained/media-player/media_player.py:406
+msgid "Please restart the applet to apply changes to sinks."
+msgstr ""
+
+#: ../applets/maintained/media-player/media_player.py:426
+msgid "Plays any media files you drop on the applet."
+msgstr ""
+
+#: ../applets/maintained/media-player/media-player-prefs.ui.h:1
+msgid "<b>GStreamer properties</b>"
+msgstr "<b>Ciri-ciri GStreamer</b>"
+
+#: ../applets/maintained/media-player/media-player-prefs.ui.h:2
+msgid "<b>Video size</b>"
+msgstr "<b>Saiz video</b>"
+
+#: ../applets/maintained/media-player/media-player-prefs.ui.h:3
+msgid "Media Player Preferences"
+msgstr "Keutamaan Pemain Media"
+
+#: ../applets/maintained/media-player/media-player-prefs.ui.h:4
+msgid "_Audiosink:"
+msgstr "_Audiosink:"
+
+#: ../applets/maintained/media-player/media-player-prefs.ui.h:5
+msgid "_Height:"
+msgstr "_Tinggi:"
+
+#: ../applets/maintained/media-player/media-player-prefs.ui.h:6
+msgid "_Videosink:"
+msgstr "_Videosink"
+
+#: ../applets/maintained/media-player/media-player-prefs.ui.h:7
+msgid "_Width:"
+msgstr "_Lebar:"
+
+#: ../applets/maintained/mount/awn-applet-mount.schema-ini.in.h:1
+msgid "Command to execute after mounting a mountpoint."
+msgstr ""
+
+#: ../applets/maintained/mount/awn-applet-mount.schema-ini.in.h:2
+msgid "List of mountpoints that should remain hidden in the UI."
+msgstr "Senarai titik lekap yang seharusnya kekal tetsembunyi didalam UI."
+
+#: ../applets/maintained/mount/mount.desktop.in.h:1
+#: ../applets/maintained/mount/mount.py:31
+msgid "An applet to (un)mount devices"
+msgstr "Aplet untuk (nyah)lekap peranti"
+
+#: ../applets/maintained/mount/mount.desktop.in.h:2
+#: ../applets/maintained/mount/mount.py:30
+msgid "Mount Applet"
+msgstr "Aplet Lekap"
+
+#: ../applets/maintained/mount/mount.ui.h:2
+#, no-c-format
+msgid "<i><b>Note:</b> use %D for the mountpoint</i>"
+msgstr "<i><b>Nota:</b> guna %D untuk titik lekap</i>"
+
+#: ../applets/maintained/mount/mount.ui.h:3
+msgid "List of hidden mountpoints, separated by a space"
+msgstr "Senarai titik lekap tersembunyi, dijarakkan dengan space"
+
+#: ../applets/maintained/mount/mount.ui.h:4
+msgid "_Execute command after successful mount:"
+msgstr "_Jalankan perintah selepas lekapan berjaya:"
+
+#: ../applets/maintained/mount/mount.ui.h:5
+msgid "_Hidden mountpoints:"
+msgstr "Titik lekap _Tersembunyi:"
+
+#: ../applets/maintained/notification-area/awn-applet-notification-area.schema-ini.in.h:1
+msgid "Extra offset from the panel's egde."
+msgstr "Ofset tambahan dari pinggir panel."
+
+#: ../applets/maintained/notification-area/awn-applet-notification-area.schema-ini.in.h:2
+msgid ""
+"Maximum number of rows (or columns depending on the orientation of the "
+"panel) of the tray icons in the applet."
+msgstr ""
+"Bilangan baris maksimum (atau lajur bergantung pada orientasi panel) ikon "
+"talam didalam aplet."
+
+#: ../applets/maintained/notification-area/awn-applet-notification-area.schema-ini.in.h:3
+msgid "Size of the icons (in percent of applet size)."
+msgstr "Saiz ikon (dalam peratus bagi saiz aplet)"
+
+#: ../applets/maintained/notification-area/awn-applet-notification-area.schema-ini.in.h:4
+msgid "The background color of the notification-area."
+msgstr "Warna latar belakang kawasan-pemberitahuan"
+
+#: ../applets/maintained/notification-area/awn-applet-notification-area.schema-ini.in.h:5
+msgid "The border color of the notification-area."
+msgstr "Warna sempadan kawasan-pemberitahuan"
+
+#: ../applets/maintained/notification-area/egg-tray-child.c:170
+#, c-format
+msgid "tray icon has requested a size of (%i x %i), resizing to (%i x %i)"
+msgstr "ikon talam meminta satu saiz (%i x %i), disaizkan kepada (%i x %i)"
+
+#: ../applets/maintained/notification-area/eggtraymanager.c:148
+msgid "Orientation"
+msgstr "Orientasi"
+
+#: ../applets/maintained/notification-area/eggtraymanager.c:149
+msgid "The orientation of the tray."
+msgstr "Orientasi talam."
+
+#: ../applets/maintained/notification-area/na-prefs.ui.h:2
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:2
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: ../applets/maintained/notification-area/na-prefs.ui.h:3
+msgid "<b>Background Color</b>"
+msgstr "<b>Warna Latar Belakang</b>"
+
+#: ../applets/maintained/notification-area/na-prefs.ui.h:4
+msgid "<b>Border Color</b>"
+msgstr "<b>Warna Sempadan</b>"
+
+#: ../applets/maintained/notification-area/na-prefs.ui.h:6
+msgid "Automatic"
+msgstr "Automatik"
+
+#: ../applets/maintained/notification-area/na-prefs.ui.h:7
+msgid "Custom:"
+msgstr "Suai:"
+
+#: ../applets/maintained/notification-area/na-prefs.ui.h:8
+msgid "Extra _offset:"
+msgstr "_Ofset tambahan:"
+
+#: ../applets/maintained/notification-area/na-prefs.ui.h:9
+msgid "Icon _size:"
+msgstr "_Saiz ikon:"
+
+#: ../applets/maintained/notification-area/na-prefs.ui.h:10
+msgid "Notification Area Preferences"
+msgstr "Keutamaan Kawasan Pemberitahuan"
+
+#: ../applets/maintained/notification-area/na-prefs.ui.h:11
+msgid "_Number of icon rows:"
+msgstr "_Bilangan baris ikon:"
+
+#: ../applets/maintained/notification-area/notification-area.desktop.in.in.h:1
+msgid "A Notification Area (systray)"
+msgstr "Kawasan Pemberitahuan (systray)"
+
+#: ../applets/maintained/notification-area/notification-area.desktop.in.in.h:2
+msgid "Notification Area"
+msgstr "Kawasan Pemberitahuan"
+
+#: ../applets/maintained/notification-area/notification-area.vala:637
+msgid "There is already another notification area running on this screen!"
+msgstr ""
+
+#: ../applets/maintained/notification-area/notification-area.vala:641
+msgid ""
+"Please remove the existing notification area and then restart the applet."
+msgstr ""
+
+#: ../applets/maintained/notification-daemon/awn-applet-notification-daemon.schema-ini.in.h:1
+msgid "Background colour in the form (Hex) rrggbbaa"
+msgstr "Warna latar belakang dalam bentuk (Heks) rrggbbaa"
+
+#: ../applets/maintained/notification-daemon/awn-applet-notification-daemon.schema-ini.in.h:2
+msgid "Border Width. A value of 0 indicates that is should not be drawn."
+msgstr "Lebar Sempadan. Nilai 0 menunjukkan tiada sempadan dilukis."
+
+#: ../applets/maintained/notification-daemon/awn-applet-notification-daemon.schema-ini.in.h:3
+msgid ""
+"Border colour in the form (Hex) rrggbbaa.  Also use for the timer widget"
+msgstr ""
+"Warna sempadan dalam bentuk (Heks) rrggbbaa. Juga digunakan pada widget "
+"pemasa"
+
+#: ../applets/maintained/notification-daemon/awn-applet-notification-daemon.schema-ini.in.h:4
+msgid ""
+"Display icon for awn notification daemon.  Allows toggling of notification "
+"display"
+msgstr ""
+"Papar ikon untuk daemon pemberitahuan awn. Benarkan penogolan paparan "
+"pemberitahuan"
+
+#: ../applets/maintained/notification-daemon/awn-applet-notification-daemon.schema-ini.in.h:5
+msgid ""
+"Gradient Factor applied to the notification window. Range of 0 to 1. The "
+"lower the number the more noticeable the effect."
+msgstr ""
+"Faktor gradient digunakan pada tetingkap pemberitahuan. Julat dari 0 hingga "
+"1. Semakin rendah nombornya semakin jelas kesannya."
+
+#: ../applets/maintained/notification-daemon/awn-applet-notification-daemon.schema-ini.in.h:6
+msgid ""
+"If the value is >0.0 then this opacity value will be applied to window "
+"instead of hiding."
+msgstr ""
+"Jika nilai >0.0 maka nilai kelegapan akan digunakan pada tetingkap selain "
+"menyembunyikannya."
+
+#: ../applets/maintained/notification-daemon/awn-applet-notification-daemon.schema-ini.in.h:7
+msgid ""
+"NOTE:  This key should not be considered stable... it is likely to change.  "
+"Arbitrary X position for notification window.  Default is -1 which signifies "
+"awn-notification-daemon should place windows relative to its position in the "
+"bar."
+msgstr ""
+
+#: ../applets/maintained/notification-daemon/awn-applet-notification-daemon.schema-ini.in.h:8
+msgid ""
+"NOTE:  This key should not be considered stable... it is likely to change.  "
+"Arbitrary Y position for notification window.  Default is -1 which signifies "
+"awn-notification-daemon should place windows relative to its position in the "
+"bar."
+msgstr ""
+
+#: ../applets/maintained/notification-daemon/awn-applet-notification-daemon.schema-ini.in.h:9
+msgid "Sound."
+msgstr "Bunyi"
+
+#: ../applets/maintained/notification-daemon/awn-applet-notification-daemon.schema-ini.in.h:10
+msgid ""
+"Text colour in the form (Hex) rrggbbaa. Currently the alpha component is "
+"ignored"
+msgstr ""
+"Warna teks dalam bentuk (Heks) rrggbbaa. Buat masa ini komponen alfa "
+"diabaikan"
+
+#: ../applets/maintained/notification-daemon/awn-applet-notification-daemon.schema-ini.in.h:11
+msgid ""
+"The default sound file used unless a notification supplies the 'sound-file' "
+"or 'suppress-sound' hint. Leave empty for no default sound."
+msgstr ""
+"Fail bunyi asal digunakan melainkan ada terdapat pemberitahuan yang memberi "
+"bayangan 'sound-file' atau 'suppress-sound'.  Biarkan kosong bagi yang tiada "
+"bunyi lalai.."
+
+#: ../applets/maintained/notification-daemon/awn-applet-notification-daemon.schema-ini.in.h:12
+msgid ""
+"This will override the client and default timeout periods for all "
+"notification windows with a timeout.  Value is in ms. A value less than or "
+"equal to 0 indicates that client and default values should be honoured."
+msgstr ""
+"Ini akan menghapuskan klien dan tempoh masa tamat lalai untuk semua "
+"tetingkap pemberitahuan yang mempunyai masa tamat. Nilainya dalam ms. Nilai "
+"yang kurang atau sama dengam 0 menunjukkan klien dan nilai lalai tersebut "
+"diambilkira."
+
+#: ../applets/maintained/notification-daemon/awn-applet-notification-daemon.schema-ini.in.h:13
+msgid "Use bold text."
+msgstr "Guna teks tebal."
+
+#: ../applets/maintained/notification-daemon/awn-applet-notification-daemon.schema-ini.in.h:14
+msgid "Whether to attempt to kill any running notification-daemons."
+msgstr ""
+"Sama ada cuba mematikan mana-mana notification-daemon yang sedang berjalan."
+
+#: ../applets/maintained/notification-daemon/awn-applet-notification-daemon.schema-ini.in.h:15
+msgid "Whether to honour client notification window positioning requests."
+msgstr ""
+"Sama ada menghormati permintaan menentududukan tetingkap pemberitahuan klien."
+
+#: ../applets/maintained/notification-daemon/awn-applet-notification-daemon.schema-ini.in.h:16
+msgid "Whether to the use configured awn theme color values for xxxx."
+msgstr ""
+"Sama ada menggunakan nilai warna tema bagi awn yang dikonfigur kepada xxxx."
+
+#: ../applets/maintained/notification-daemon/notification-daemon.desktop.in.in.h:1
+msgid ""
+"A replacement for the standard notification daemon and notify-osd. This will "
+"disable existing notification daemons while the applet is active."
+msgstr ""
+
+#: ../applets/maintained/notification-daemon/notification-daemon.desktop.in.in.h:2
+msgid "Notification Daemon"
+msgstr ""
+
+#: ../applets/maintained/notification-daemon/daemon.c:1425
+#, c-format
+msgid "%u is not a valid notification ID"
+msgstr "%u bukan ID pemberitahuan yang sah"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:35
+msgid "Whether to show tooltips when hovering over a place.);"
+msgstr "Sama ada paparkan tooltip apabila terapung pada tempat.);"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:33
+msgid "The width of the menu's border.);"
+msgstr "Lebar sempadan menu.);"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:31
+msgid "The size of the text in the menu, in pixels.);"
+msgstr "Saiz teks didalam menu, dalam piksel.);"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:29
+msgid "The icon theme name of the applet's icon.);"
+msgstr "Nama tema ikon bagi ikon aplet.);"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:27
+msgid "The file manager that shows the contents of the places.);"
+msgstr "Pengurus fail yang memaparkan kandungan tempat.);"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:25
+msgid ""
+"The colour (RGBA) of the text when a place is selected or the mouse hovers "
+"over it.);"
+msgstr ""
+"Warna (RGBA) teks apabila tempat dipilih atau penuding terapung diatasnya.);"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:23
+msgid "The colour (RGBA) of the text in the menu.);"
+msgstr "Warna (RGBA) teks didalam menu.);"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:21
+msgid ""
+"The colour (RGBA) of the menu's border, if the border width is greater than "
+"zero.);"
+msgstr ""
+"Warna (RGBA)sempadan menu, jika lebar sempadan lebih daripada kosong.);"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:19
+msgid ""
+"The color (RGBA) of the text when a place is selected or the mouse hovers "
+"over it.);"
+msgstr ""
+"Warna (RGBA) teks apabila tempat dipilih atau penuding terapung diatasnya.);"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:17
+msgid "The color (RGBA) of the text in the menu.);"
+msgstr "Warna (RGBA) teks didalam menu.);"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:15
+msgid ""
+"The color (RGBA) of the menu's border, if the border width is greater than "
+"zero.);"
+msgstr ""
+"Warna (RGBA)sempadan menu, jika lebar sempadan lebih daripada kosong.);"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:13
+msgid "The background colour (RGBA) of the menu.);"
+msgstr "Warna latar belakang (RGBA) menu.);"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:11
+msgid ""
+"The background colour (RGBA) of an entry in the menu when it is selected or "
+"the mouse hovers over it.);"
+msgstr ""
+"Warna latar belakang (RGBA) masukan pada menu apabila ia dipilih atau "
+"penuding terapung diatasnya.);"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:9
+msgid "The background color (RGBA) of the menu.);"
+msgstr "Warna latar belakang (RGBA) menu.);"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:7
+msgid ""
+"The background color (RGBA) of an entry in the menu when it is selected or "
+"the mouse hovers over it.);"
+msgstr ""
+"Warna latar belakang (RGBA) masukan pada menu apabila ia dipilih atau "
+"penuding terapung diatasnya.);"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:5
+msgid ""
+"Determines whether to use the current Gtk+ theme's colour/font settings, or "
+"the applet-specific style settings.);"
+msgstr ""
+"Tentukan sama ada guna tetapan warna/fon tema GTK+ semasa, atau tetapan gaya "
+"spesifik aplet.);"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:3
+msgid ""
+"Determines whether to use the current Gtk+ theme's color/font settings, or "
+"the applet-specific style settings.);"
+msgstr ""
+"Tentukan sama ada guna tetapan warna/fon tema Gtk+ semasa, atau tetapan gaya "
+"spesifik aplet.);"
+
+#: ../applets/maintained/places/awn-applet-places.schema-ini.in.h:1
+msgid ""
+"Creates an alpha gradient in the menu item background.  At the top and "
+"bottom of the menu, the alpha value is the background color's alpha value "
+"multiplied by this value.  At 20 percent from the top of the menu, the alpha "
+"value is the background color's alpha value.);"
+msgstr ""
+"Cipta gradient alfa pada latar belakang item menu. pada bahagian atas dan "
+"bawah menu, nila alfa ialah nilai alfa warna latar belakang yang digandakan "
+"dengan nilai ini. Pada nilai 20 peratus bermula dari bahagian atas menu, "
+"nilai alfa ialah nilai alfa warna latar belakang.);"
+
+#: ../applets/maintained/places/places.desktop.in.in.h:1
+msgid "Launch your folder bookmarks"
+msgstr "Lancar folder tanda buku anda"
+
+#: ../applets/maintained/python-test/python-test.desktop.in.h:1
+msgid "A simple applet to test python support"
+msgstr "Aplet mudah untuk menguji sokongan python"
+
+#: ../applets/maintained/python-test/python-test.desktop.in.h:2
+msgid "Test Python Applet"
+msgstr "Aplet Uji Python"
+
+#: ../applets/maintained/quit/awn-applet-quit.schema-ini.in.h:1
+msgid "Action to perform when left clicking on the icon."
+msgstr "Tindakan yang dilakukan apabila pengklikan kiri pada ikon."
+
+#: ../applets/maintained/quit/awn-applet-quit.schema-ini.in.h:2
+msgid "Command to execute if org.gnome.ScreenSaver is not available."
+msgstr "Perintah yang dijalankan jika org.gnome.ScreenSaver tiada."
+
+#: ../applets/maintained/quit/awn-applet-quit.schema-ini.in.h:3
+msgid "Command to execute if org.gnome.SessionManager is not available."
+msgstr "Perintah yang dijalankan jika org.gnome.SessionManager tiada."
+
+#: ../applets/maintained/quit/quit.desktop.in.h:1
+msgid "An applet to exit or log out of your session"
+msgstr "Applet untuk tutup atau daftar keluar sesi anda"
+
+#: ../applets/maintained/quit/quit.desktop.in.h:2
+msgid "Quit-Log Out applet"
+msgstr "Applet Tutup-Daftar Keluar"
+
+#: ../applets/maintained/quit/quit-lock-screen.desktop.in.h:2
+#: ../applets/maintained/yama/yama.py:168
+msgid "Protect your computer from unauthorized use"
+msgstr "Lindungi komputer anda daripada penggunaan yang tidak diingini"
+
+#: ../applets/maintained/quit/quit-log-out.desktop.in.h:1
+msgid "Log Out..."
+msgstr "Daftar keluar"
+
+#: ../applets/maintained/quit/quit-log-out.desktop.in.h:2
+msgid "Log out of this session to log in as a different user"
+msgstr "Daftar keluar dari sesi ini untuk daftar masuk sebagai pengguna lain"
+
+#: ../applets/maintained/quit/quit-shut-down.desktop.in.h:1
+#: ../applets/maintained/quit/quit.py:48 ../applets/maintained/yama/yama.py:186
+msgid "Shut Down..."
+msgstr "Tutup..."
+
+#: ../applets/maintained/quit/quit-shut-down.desktop.in.h:2
+#: ../applets/maintained/yama/yama.py:186
+msgid "Shut down the system"
+msgstr "Tutup sistem"
+
+#: ../applets/maintained/quit/quit.py:33
+msgid "Quit-Log Out"
+msgstr ""
+
+#: ../applets/maintained/quit/quit.py:34
+msgid ""
+"An applet to lock your screen, log out of your session, or shut down the "
+"system"
+msgstr ""
+
+#: ../applets/maintained/quit/quit.py:39 ../applets/maintained/quit/quit.py:52
+#: ../applets/maintained/quit/quit.py:104
+#: ../applets/maintained/quit/quit.py:114
+#: ../applets/maintained/quit/quit.py:231
+#: ../applets/maintained/quit/quit.py:263
+msgid "Show Docklet"
+msgstr ""
+
+#: ../applets/maintained/quit/quit.py:39 ../applets/maintained/quit/quit.py:48
+#: ../applets/maintained/quit/quit.py:59 ../applets/maintained/quit/quit.py:89
+#: ../applets/maintained/quit/quit.py:90 ../applets/maintained/quit/quit.py:233
+#: ../applets/maintained/quit/quit.py:269
+msgid "Shut Down"
+msgstr ""
+
+#. Translators: %s is a username
+#. Translators: %s is a user name.
+#: ../applets/maintained/quit/quit.py:43 ../applets/maintained/yama/yama.py:182
+#, python-format
+msgid "Log Out %s..."
+msgstr ""
+
+#: ../applets/maintained/quit/quit.py:247
+msgid "Left click _action:"
+msgstr ""
+
+#: ../applets/maintained/related/related.desktop.in.in.h:1
+msgid "Applet displaying related items by talking to Zeitgeist"
+msgstr ""
+
+#: ../applets/maintained/related/related.desktop.in.in.h:2
+msgid "Related applet"
+msgstr ""
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:1
+msgid " The color (RGBA) applet border."
+msgstr " Warna (RGBA) sempadan aplet."
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:2
+msgid " The color of the desktop (RGBA) if grab_wallpaper is FALSE."
+msgstr " Warna bagi desktop (RGBA) jika grab_wallpaper adalah PALSU."
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:3
+msgid "0... centre  1 NW    2 NE   3 SE  4 SW\t"
+msgstr "0... tengah 1NW 2 NE 3 SE 4 SW\t"
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:4
+msgid "Alpha to apply to icon overlayed on active window."
+msgstr "Alfa untuk digunakan pada ikon yang ditindih atas tetingkap aktif."
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:5
+msgid "Alpha to apply to icon overlayed on inactive window."
+msgstr ""
+"Alfa untuk digunakan pada ikon yang ditindih atas tetingkap tidak aktif."
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:6
+msgid "Alpha value to apply to active workspace background."
+msgstr "Nilai alfa yang digunakan untuk latar belakang ruang kerja aktif."
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:7
+msgid "Alpha value to apply to inactive workspace background."
+msgstr ""
+"Nilai alfa yang digunakan untuk latar belakang ruang kerja tidak aktif."
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:8
+msgid "Applet border width.  0 indicates no border."
+msgstr "Lebar sempadan aplet, 0 menunjukkan tiada sempadan."
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:9
+msgid ""
+"Factor to scale icons as specified by scale_icon_mode.  range greater 0, "
+"less or equal 1"
+msgstr ""
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:10
+msgid "Method to grab windows.  0...gdk."
+msgstr ""
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:11
+msgid ""
+"Mousewheel  0. off. 1 up left, down right. 2 Opposite direction of 1. 3 Same "
+"as 1 no wrap. 4 opposite direction of 3."
+msgstr ""
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:12
+msgid ""
+"Number of seconds before a cached window surface is considered to be "
+"expired.  After this duration it will be updated when needed if it possible "
+"to do so."
+msgstr ""
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:13
+msgid ""
+"Queued render timer. Number of milliseconds between queued render updates. "
+"The smaller the number the less lag will be apparent on shinyswitcher "
+"updates.  Multiples of 1000 are more power and CPU efficient."
+msgstr ""
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:14
+msgid "Scales the applet size relative to the maximum icon size"
+msgstr "Skalakan saiz aplet yang relatif kepada saiz ikon maksimum"
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:15
+msgid "The colour (RGBA) of the applet border."
+msgstr "Warna (RGBA) bagi sempadan aplet."
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:16
+msgid "The colour of the desktop (RGBA) if grab_wallpaper is FALSE."
+msgstr "Warna desktop (RGBA) jika grab_wallpaper adalah PALSU."
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:17
+msgid "The number of columns in the pager."
+msgstr "Bilangan lajur didalam pager"
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:18
+msgid "The number of rows in the pager."
+msgstr "Bilangan baris didalam pager."
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:19
+msgid ""
+"When to  overly the app icon:  0...no\t1...on inactive workspace onlt\t2..."
+"all but active win\t3..all."
+msgstr ""
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:20
+msgid ""
+"When to scale icons:  0...none  1...on all active ws  2...on_active_win 3..."
+"all"
+msgstr ""
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:21
+msgid "Whether to grab wallpaper."
+msgstr ""
+
+#: ../applets/maintained/shiny-switcher/awn-applet-shinyswitcher.schema-ini.in.h:22
+msgid ""
+"Win grabs:  0...none\t1...all (grab method may override) 2..active ws (and "
+"sticky)  3...active win"
+msgstr ""
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:3
+msgid "<b>Background transparency</b>"
+msgstr "<b>Kelutsinaran Latar Belakang</b>"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:4
+msgid "<b>Background</b>"
+msgstr "<b>LatarBelakang</b>"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:6
+msgid "<b>Icon transparency</b>"
+msgstr "<b>Kelutsinaran ikon</b>"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:7
+msgid "<b>Timers</b>"
+msgstr "<b>Pemasa</b>"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:8
+msgid "<b>Viewport size</b>"
+msgstr "<b>Saiz port pandang</b>"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:9
+msgid "<b>Windows</b>"
+msgstr "<b>Tetingkap</b>"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:10
+msgid "Active window:"
+msgstr "Tetingkap aktif:"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:11
+msgid "Active workspace"
+msgstr "Ruang kerja aktif"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:12
+msgid "Active workspace:"
+msgstr "Ruang kerja aktif:"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:13
+msgid "All window"
+msgstr "Semua tetingkap"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:14
+msgid "All windows"
+msgstr "Semua tetingkap"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:15
+msgid "B_order color:"
+msgstr "Warna S_empadan:"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:17
+msgid "Border _size:"
+msgstr "_Saiz sempadan:"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:18
+msgid "C_ustom color:"
+msgstr "Warna suai:"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:19
+msgid "Cache expiration:"
+msgstr "Tempoh tamat cache:"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:20
+msgid "Center"
+msgstr "Tengah"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:21
+msgid "Co_lumns:"
+msgstr "Lajur:"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:22
+msgid "Icon _display:"
+msgstr "_Papar ikon:"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:23
+msgid "Icon _scaling:"
+msgstr "_Penskalaan ikon"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:24
+msgid "Inactive window:"
+msgstr "Tetingkap tak aktif:"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:25
+msgid "Inactive windows"
+msgstr "Tetingkap tak aktif"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:26
+msgid "Inactive workspace:"
+msgstr "Ruang kerja tak aktif:"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:27
+msgid "Inactive workspaces"
+msgstr "Ruang kerja tak aktif"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:28
+msgid "Look"
+msgstr "Lihat"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:29
+msgid "Lower left"
+msgstr "Kiri bawah"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:30
+msgid "Lower right"
+msgstr "Kanan bawah"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:31
+msgid "Never"
+msgstr "Jangan sesekali"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:33
+msgid "Only active window"
+msgstr "Hanya tetingkap aktif"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:34
+msgid "Render update:"
+msgstr ""
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:35
+msgid "Scale _amount:"
+msgstr "Jumlah Penskalaan:"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:36
+msgid "Scaled icon _position:"
+msgstr "_Kedudukan ikon terskala:"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:37
+msgid "Shiny Switcher Preferences"
+msgstr "Keutamaan Penukar Shiny"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:38
+msgid "Upper left"
+msgstr "Kiri atas"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:39
+msgid "Upper right"
+msgstr "Kanan atas"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:40
+msgid "Use _desktop background"
+msgstr "Guna latar belakang _desktop"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:41
+msgid "_Applet size:"
+msgstr "Saiz _aplet:"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:42
+msgid "_Rows:"
+msgstr "_Baris:"
+
+#: ../applets/maintained/shiny-switcher/shiny-prefs.ui.h:43
+msgid "_Thumbnailing:"
+msgstr ""
+
+#: ../applets/maintained/shiny-switcher/shinyswitcher.desktop.in.in.h:1
+msgid "A prettier desktop switcher"
+msgstr ""
+
+#: ../applets/maintained/shiny-switcher/shinyswitcher.desktop.in.in.h:2
+#: ../applets/maintained/shiny-switcher/shinyswitcherapplet.c:2476
+msgid "Shiny Switcher"
+msgstr ""
+
+#: ../applets/maintained/shiny-switcher/shinyswitcherapplet.c:643
+#: ../applets/maintained/shiny-switcher/shinyswitcherapplet.c:736
+#: ../applets/maintained/shiny-switcher/shinyswitcherapplet.c:1978
+#: ../applets/maintained/shiny-switcher/shinyswitcherapplet.c:2045
+msgid "Applet Preferences"
+msgstr ""
+
+#: ../applets/maintained/showdesktop/applet.vala:40
+#: ../applets/maintained/showdesktop/showdesktop.desktop.in.in.h:2
+msgid "Show Desktop"
+msgstr "Papar Desktop"
+
+#. vim:ft=vala:et:ts=2 sts=2 sw=2:ai:cindent
+#: ../applets/maintained/showdesktop/applet.vala:78
+#: ../applets/maintained/showdesktop/showdesktop.desktop.in.in.h:1
+msgid "Hides your windows and shows your desktop."
+msgstr "Sembunyi tetingkap anda dan papar desktop anda."
+
+#: ../applets/maintained/showdesktop/applet.vala:93
+msgid "Show hidden windows"
+msgstr "Papar tertingkap tersembunyi"
+
+#: ../applets/maintained/showdesktop/applet.vala:98
+msgid "Hide windows and show desktop"
+msgstr "Sembunyi tetingkap dan papar desktop"
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:1
+msgid "The background color of the dialog"
+msgstr "Warna latar belakang dialog"
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:2
+msgid "The border color of a drawn window"
+msgstr "Warna sempadan tetingkap yang dilukis"
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:3
+msgid "The border color of the dialog"
+msgstr "Warna sempadan bagi dialog"
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:4
+msgid "The bottom part of the shiny gradient"
+msgstr "Bahagian bawah gradient shiny"
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:5
+msgid "The bottom part of the shiny gradient when hovered"
+msgstr "Bahagian bawah gradient shiny apabila terapung"
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:6
+msgid "The drop shadow color of the drawn number"
+msgstr ""
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:7
+msgid "The file to use as the background image"
+msgstr "Fail yang digunakan sebagai imej latar belakang"
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:8
+msgid "The height of a workspace widget"
+msgstr "Tinggi widget ruang kerja"
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:9
+msgid "The hovered border color of a workspace widget"
+msgstr "Warna sempadan terapung bagi widget ruang kerja"
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:10
+msgid "The icon's border color"
+msgstr "Warna sempadan ikon"
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:11
+msgid "The main color of a drawn window"
+msgstr "Warna utama bagi tetingkap yang dilukis"
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:12
+msgid "The main color of the drawn number"
+msgstr ""
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:13
+msgid "The normal border color of a workspace widget"
+msgstr "Warna sempadan normal bagi widget ruang kerja"
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:14
+msgid "The top part of the shiny gradient"
+msgstr "Bahagian atas gradient shiny"
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:15
+msgid "The top part of the shiny gradient when hovered"
+msgstr "Bahagian atas gradient shiny apabila terapung"
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:16
+msgid "The width of a workspace widget"
+msgstr "Lebar widget ruang kerja"
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:17
+msgid "Whether or not to use custom colors for the dialog"
+msgstr "Sama ada guna atau tidak gunakan warna suai bagi dialog"
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:18
+msgid "Whether or not to use the standard text overlay"
+msgstr "Sama ada guna atau tidak gunakan tindihan atas teks piawai"
+
+#: ../applets/maintained/slickswitcher/awn-applet-slickswitcher.schema-ini.in.h:19
+msgid "Which background image(s) source to use: gnome, compiz, file"
+msgstr "Sumber imej latar belakang yang digunakan: fail, gnome, compiz"
+
+#: ../applets/maintained/slickswitcher/prefs.py:69
+msgid "SlickSwitcher Preferences"
+msgstr "Keutamaan SlickSwitcher"
+
+#. Colors: Borders, Windows, and Dialog
+#. Border Colors
+#: ../applets/maintained/slickswitcher/prefs.py:94
+msgid "Border Colors"
+msgstr "Warna Sempadan"
+
+#. Icon Border
+#: ../applets/maintained/slickswitcher/prefs.py:100
+msgid "Icon border:"
+msgstr "Sempadan ikon:"
+
+#. Normal Border
+#: ../applets/maintained/slickswitcher/prefs.py:103
+msgid "Normal border:"
+msgstr "Sempadan normal:"
+
+#. Hovered Border
+#: ../applets/maintained/slickswitcher/prefs.py:106
+msgid "Hovered border:"
+msgstr "Sempadan terapung:"
+
+#. Window Colors
+#: ../applets/maintained/slickswitcher/prefs.py:109
+msgid "Window Colors"
+msgstr "Warna Tetingkap"
+
+#. Main Color
+#: ../applets/maintained/slickswitcher/prefs.py:115
+#: ../applets/maintained/slickswitcher/prefs.py:200
+msgid "Main color:"
+msgstr "Warna utama:"
+
+#. Border Color
+#: ../applets/maintained/slickswitcher/prefs.py:118
+#: ../applets/maintained/slickswitcher/prefs.py:137
+msgid "Border color:"
+msgstr "Warna sempadan:"
+
+#. Dialog Colors
+#: ../applets/maintained/slickswitcher/prefs.py:121
+msgid "Dialog colors"
+msgstr "Warna dialog"
+
+#. Use custom colors (CheckButton)
+#: ../applets/maintained/slickswitcher/prefs.py:127
+#: ../applets/maintained/slickswitcher/prefs.py:193
+msgid "Use custom colors"
+msgstr "Guna warna suai"
+
+#. Background Color
+#: ../applets/maintained/slickswitcher/prefs.py:134
+msgid "Background color:"
+msgstr "Warna latar belakang:"
+
+#: ../applets/maintained/slickswitcher/prefs.py:183
+msgid "Colors"
+msgstr "Warna"
+
+#. Other colors: text and shine
+#. Number Colors
+#: ../applets/maintained/slickswitcher/prefs.py:187
+msgid "Number Colors"
+msgstr "Warna Nombor"
+
+#. Drop-Shadow Color
+#: ../applets/maintained/slickswitcher/prefs.py:203
+msgid "Drop-shadow color:"
+msgstr "Warna bayangan-jatuh:"
+
+#. Shine Colors
+#: ../applets/maintained/slickswitcher/prefs.py:206
+msgid "Shine Colors"
+msgstr "Warna Shine"
+
+#. Top Color
+#: ../applets/maintained/slickswitcher/prefs.py:212
+msgid "Top color:"
+msgstr "Warna atas:"
+
+#. Bottom Color
+#: ../applets/maintained/slickswitcher/prefs.py:215
+msgid "Bottom color:"
+msgstr "Warna bawah:"
+
+#. Hover Top Color
+#: ../applets/maintained/slickswitcher/prefs.py:218
+msgid "Hover top color:"
+msgstr ""
+
+#. Hover Bottom Color
+#: ../applets/maintained/slickswitcher/prefs.py:221
+msgid "Hover bottom color:"
+msgstr ""
+
+#: ../applets/maintained/slickswitcher/prefs.py:254
+msgid "Other colors"
+msgstr "Warna lain"
+
+#. Width
+#: ../applets/maintained/slickswitcher/prefs.py:262
+msgid "Width:"
+msgstr "Lebar:"
+
+#. Height
+#: ../applets/maintained/slickswitcher/prefs.py:279
+msgid "Height:"
+msgstr "Tinggi:"
+
+#: ../applets/maintained/slickswitcher/prefs.py:299
+msgid "Workspace Size"
+msgstr "Saiz Ruang Kerja"
+
+#. Mode
+#: ../applets/maintained/slickswitcher/prefs.py:315
+msgid "Mode:"
+msgstr "Mod:"
+
+#: ../applets/maintained/slickswitcher/prefs.py:318
+msgid "GNOME"
+msgstr "GNOME"
+
+#: ../applets/maintained/slickswitcher/prefs.py:319
+msgid "Compiz Wallpaper Plugin"
+msgstr "Pemalam Kertas Dinding Compiz"
+
+#: ../applets/maintained/slickswitcher/prefs.py:320
+msgid "File"
+msgstr "Fail"
+
+#. File
+#: ../applets/maintained/slickswitcher/prefs.py:339
+msgid "File:"
+msgstr "Fail:"
+
+#: ../applets/maintained/slickswitcher/prefs.py:341
+msgid "Choose a Background Image"
+msgstr "Pilih Imej Latar Belakang"
+
+#: ../applets/maintained/slickswitcher/prefs.py:347
+msgid "Pictures"
+msgstr "Gambar"
+
+#: ../applets/maintained/slickswitcher/prefs.py:367
+#: ../applets/maintained/to-do/prefs.py:445
+msgid "Background"
+msgstr "Latar Belakang"
+
+#: ../applets/maintained/slickswitcher/prefs.py:379
+msgid "Advanced"
+msgstr "Lanjutan"
+
+#: ../applets/maintained/slickswitcher/slickswitcher.desktop.in.h:1
+#: ../applets/maintained/slickswitcher/slickswitcher.py:279
+msgid "A visual workspace switcher"
+msgstr "Penukar ruang kerja visual"
+
+#: ../applets/maintained/slickswitcher/slickswitcher.desktop.in.h:2
+#: ../applets/maintained/slickswitcher/slickswitcher.py:63
+#: ../applets/maintained/slickswitcher/slickswitcher.py:270
+msgid "SlickSwitcher"
+msgstr "SlickSwitcher"
+
+#: ../applets/maintained/sysmon/awn-applet-sysmon.schema-ini.in.h:1
+msgid ""
+"CPU graph type to use.  Note that some Icons do not support all graph "
+"types.  If this occurs an icon will revert to it's own default (value of 0)."
+msgstr ""
+
+#: ../applets/maintained/sysmon/awn-applet-sysmon.schema-ini.in.h:2
+msgid "If the updates are time based then how frequently to update in ms."
+msgstr ""
+
+#: ../applets/maintained/sysmon/awn-applet-sysmon.schema-ini.in.h:3
+msgid "Just a dummy key.. this will be removed later."
+msgstr ""
+
+#: ../applets/maintained/sysmon/awn-applet-sysmon.schema-ini.in.h:4
+msgid "List of icons"
+msgstr "Senarai ikon"
+
+#: ../applets/maintained/sysmon/awn-applet-sysmon.schema-ini.in.h:5
+msgid "Render background."
+msgstr ""
+
+#. Translators: %2.0lf is a number, %% is a percent sign, do not change them
+#: ../applets/maintained/sysmon/cpuicon.c:161
+#: ../applets/maintained/sysmon/cpuicon.c:204
+#, c-format
+msgid "CPU: %2.0lf%%"
+msgstr ""
+
+#: ../applets/maintained/sysmon/cpuicon.c:353
+#: ../applets/maintained/sysmon/cpu-dialog.c:256
+msgid "CPU"
+msgstr ""
+
+#: ../applets/maintained/sysmon/cpuicon.c:580
+msgid "Graph Type"
+msgstr ""
+
+#. Translators: refers to a graph type
+#: ../applets/maintained/sysmon/cpuicon.c:587
+msgid "Area"
+msgstr ""
+
+#: ../applets/maintained/sysmon/cpuicon.c:590
+msgid "Circle"
+msgstr ""
+
+#: ../applets/maintained/sysmon/cpuicon.c:593
+msgid "Bars"
+msgstr ""
+
+#: ../applets/maintained/sysmon/cpuicon.c:596
+msgid "Default"
+msgstr ""
+
+#. item = gtk_menu_item_new_with_label ("Add Icon");
+#. gtk_menu_shell_append(GTK_MENU_SHELL(priv->context_menu), item);
+#. submenu = gtk_menu_new ();
+#. gtk_menu_item_set_submenu (GTK_MENU_ITEM(item),submenu);
+#. item = gtk_menu_item_new_with_label ("CPU");
+#. gtk_menu_shell_append(GTK_MENU_SHELL(submenu), item);
+#.
+#. item = gtk_menu_item_new_with_label ("Remove Icon");
+#. gtk_menu_shell_append(GTK_MENU_SHELL(priv->context_menu), item);
+#.
+#: ../applets/maintained/sysmon/cpuicon.c:610
+msgid "Render Background"
+msgstr ""
+
+#: ../applets/maintained/sysmon/cpu-dialog.c:240
+msgid "PID"
+msgstr ""
+
+#: ../applets/maintained/sysmon/cpu-dialog.c:248
+msgid "Process Name"
+msgstr ""
+
+#: ../applets/maintained/sysmon/sysmon.desktop.in.in.h:1
+#: ../applets/unmaintained/awnsystemmonitor/awnsystemmonitor.desktop.in.in.h:2
+msgid "Manage system activity"
+msgstr "Urus aktivit sistem"
+
+#: ../applets/maintained/sysmon/sysmon.desktop.in.in.h:2
+msgid "System Monitor"
+msgstr "Pemantau Sistem"
+
+#: ../applets/maintained/thinkhdaps/thinkhdaps.desktop.in.h:1
+#: ../applets/maintained/thinkhdaps/thinkhdaps.py:35
+msgid "Applet that shows the shock protection status of your disks"
+msgstr "Applet yang memaparkan status perliindungan gegaran pada cakera anda"
+
+#: ../applets/maintained/thinkhdaps/thinkhdaps.desktop.in.h:2
+#: ../applets/maintained/thinkhdaps/thinkhdaps.py:34
+msgid "ThinkHDAPS"
+msgstr "ThinkHDAPS"
+
+#: ../applets/maintained/thinkhdaps/thinkhdaps.py:40
+#, python-format
+msgid "%s protected from shocks"
+msgstr ""
+
+#: ../applets/maintained/thinkhdaps/thinkhdaps.py:41
+#, python-format
+msgid "%s not protected from shocks"
+msgstr ""
+
+#: ../applets/maintained/thinkhdaps/thinkhdaps.py:151
+msgid "No hard disk found"
+msgstr ""
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:1
+msgid "Background color for high priority items"
+msgstr "Warna latar belakang untuk item keutamaan tinggi"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:2
+msgid "Background color for low priority items"
+msgstr "Warna latar belakang untuk item keutamaan rendah"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:3
+msgid "Background color for medium priority items"
+msgstr "Warna latar belakang untuk item keutamaan sederhana"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:4
+msgid "List of colors to use for the custom color"
+msgstr "Senarai warna yang digunakan untuk warna suai"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:5
+msgid "List of items' details"
+msgstr "Senarai perincian item"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:6
+msgid "List of items' names"
+msgstr "Senarai nama item"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:7
+msgid "List of items' priorities (0-3)"
+msgstr "Senarai keutamaan item (0-3)"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:8
+msgid "List of items' progresses in percent (0-100)"
+msgstr ""
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:9
+msgid "Text color for high priority items"
+msgstr "Warna teks untuk item keutamaan tinggi"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:10
+msgid "Text color for low priority items"
+msgstr "Warna teks untuk item keutamaan rendah"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:11
+msgid "Text color for medium priority items"
+msgstr "Warna teks untuk item keutamaan sederhana"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:12
+msgid "The color to use for the icon"
+msgstr "Warna yang digunakan pada ikon"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:13
+msgid "The custom width for the item entries"
+msgstr "Lebar suai untuk masukan item"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:14
+msgid "The icon's opacity (10-100)"
+msgstr "Kelegapan ikon (10-100)"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:15
+msgid "The list of categories that are expanded"
+msgstr "Senarai kategori yang telah dikembangkan"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:16
+msgid "The list of categories' names"
+msgstr "Senarai nama kategori"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:17
+msgid "The list of items' categories"
+msgstr "Senarai item kategori"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:18
+msgid "The title to display"
+msgstr "Tajuk paparan"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:19
+msgid "What type of icon to display (progress, progress-items, items)"
+msgstr "Jenis ikon yang dipaparkan (kemajuan, item-kemajuan, item)"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:20
+msgid "Whether or not to confirm the deletion of categories"
+msgstr "Samada sah atau tidak sah penghapusan kategori"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:21
+msgid "Whether or not to confirm the deletion of items"
+msgstr "Samada sah atau tidak sah penghapusan item"
+
+#: ../applets/maintained/to-do/awn-applet-to-do.schema-ini.in.h:22
+msgid "Whether or not to use a custom width for the entries"
+msgstr "Samada guna atau tidak gunakan lebar suai untuk masukan"
+
+#: ../applets/maintained/to-do/prefs.py:32
+msgid "Custom"
+msgstr "Suai"
+
+#: ../applets/maintained/to-do/prefs.py:32
+msgid "Current Theme"
+msgstr "Tema Semasa"
+
+#: ../applets/maintained/to-do/prefs.py:32
+msgid "Butter"
+msgstr "Mentega"
+
+#: ../applets/maintained/to-do/prefs.py:33
+msgid "Chameleon"
+msgstr "Kameleon"
+
+#: ../applets/maintained/to-do/prefs.py:33
+msgid "Orange"
+msgstr "Oren"
+
+#: ../applets/maintained/to-do/prefs.py:33
+msgid "Sky Blue"
+msgstr "Biru Langit"
+
+#: ../applets/maintained/to-do/prefs.py:33
+msgid "Plum"
+msgstr "Plum"
+
+#: ../applets/maintained/to-do/prefs.py:33
+msgid "Chocolate"
+msgstr "Coklat"
+
+#: ../applets/maintained/to-do/prefs.py:34
+msgid "Scarlet Red"
+msgstr "Merah Skarlet"
+
+#: ../applets/maintained/to-do/prefs.py:34
+msgid "Aluminium 1"
+msgstr "Aluminium 1"
+
+#: ../applets/maintained/to-do/prefs.py:34
+msgid "Aluminium 2"
+msgstr "Aluminium 2"
+
+#: ../applets/maintained/to-do/prefs.py:37
+msgid "Number of Items"
+msgstr "Bilangan Item"
+
+#: ../applets/maintained/to-do/prefs.py:37
+msgid "Progress"
+msgstr "Kemajuan"
+
+#: ../applets/maintained/to-do/prefs.py:37
+msgid "Both"
+msgstr "Kedua-duanya"
+
+#: ../applets/maintained/to-do/prefs.py:45
+msgid "To-Do List Preferences"
+msgstr "Keutamaan Senarai Perlu-Buat"
+
+#: ../applets/maintained/to-do/prefs.py:61
+msgid "Priority"
+msgstr "Keutamaan"
+
+#: ../applets/maintained/to-do/prefs.py:62
+msgid "Icon"
+msgstr "Ikon"
+
+#. Label: Title (bold)
+#: ../applets/maintained/to-do/prefs.py:72
+msgid "Title"
+msgstr "Tajuk"
+
+#. Label: Confirm when removing... (bold)
+#: ../applets/maintained/to-do/prefs.py:86
+msgid "Confirm when removing..."
+msgstr "Sahkan apabila membuang..."
+
+#. CheckButton: Items
+#: ../applets/maintained/to-do/prefs.py:95
+msgid "_Items"
+msgstr "_Item"
+
+#. CheckButton: Categories
+#: ../applets/maintained/to-do/prefs.py:102
+msgid "C_ategories"
+msgstr "K_ategori"
+
+#. Label: Width (bold)
+#: ../applets/maintained/to-do/prefs.py:109
+msgid "Width"
+msgstr "Lebar"
+
+#. CheckButton: Use Custom Width
+#: ../applets/maintained/to-do/prefs.py:118
+msgid "_Use Custom Width"
+msgstr "_Guna Lebag Suai"
+
+#. Label: Width (pixels)
+#: ../applets/maintained/to-do/prefs.py:125
+msgid "Width (pixels)"
+msgstr "Lebar (piksel)"
+
+#. Label: Low Priority (bold)
+#: ../applets/maintained/to-do/prefs.py:173
+msgid "Low Priority"
+msgstr "Keutamaan Rendah"
+
+#. Label: Medium Priority (bold)
+#: ../applets/maintained/to-do/prefs.py:186
+msgid "Medium Priority"
+msgstr "Keutamaan Sederhana"
+
+#. Label: High Priority (bold)
+#: ../applets/maintained/to-do/prefs.py:199
+msgid "High Priority"
+msgstr "Keutamaan Tinggi"
+
+#. Label: Icon Color (bold)
+#: ../applets/maintained/to-do/prefs.py:251
+msgid "Icon Color"
+msgstr "Warna Ikon"
+
+#. Label: Custom Colors (bold)
+#: ../applets/maintained/to-do/prefs.py:274
+msgid "Custom Colors"
+msgstr "Warna Suai"
+
+#. Colors: Outer Border, Inner Border, Main Color, Text Color
+#: ../applets/maintained/to-do/prefs.py:283
+msgid "Outer Border"
+msgstr "Sempadan Luar"
+
+#: ../applets/maintained/to-do/prefs.py:284
+msgid "Inner Border"
+msgstr "Sempadan Dalam"
+
+#: ../applets/maintained/to-do/prefs.py:285
+msgid "Main"
+msgstr "Utama"
+
+#: ../applets/maintained/to-do/prefs.py:286
+#: ../applets/maintained/to-do/prefs.py:447
+msgid "Text"
+msgstr "Teks"
+
+#. Label: Icon Type (bold)
+#: ../applets/maintained/to-do/prefs.py:289
+msgid "Icon Type"
+msgstr "Jenis Ikon"
+
+#: ../applets/maintained/to-do/to-do.desktop.in.h:1
+msgid "Manage a simple To-Do list"
+msgstr "Urus senarai To-Do yang ringkas"
+
+#: ../applets/maintained/to-do/to-do.desktop.in.h:2
+#: ../applets/maintained/to-do/to-do.py:69
+#: ../applets/maintained/to-do/to-do.py:218
+#: ../applets/maintained/to-do/to-do.py:270
+#: ../applets/maintained/to-do/to-do.py:908
+msgid "To-Do List"
+msgstr "To-Do List"
+
+#: ../applets/maintained/to-do/to-do.py:221
+msgid "A simple To-Do List"
+msgstr "Senarai To-Do yang ringkas"
+
+#: ../applets/maintained/to-do/to-do.py:300
+msgid "Remove item"
+msgstr "Buang item"
+
+#: ../applets/maintained/to-do/to-do.py:382
+msgid "Remove category"
+msgstr "Buang kategori"
+
+#: ../applets/maintained/to-do/to-do.py:406
+msgid "View/Edit details"
+msgstr "Papar/Sunting perincian"
+
+#. Make the RadioButtons for each category
+#. First category: No category! (Uncategorized)
+#: ../applets/maintained/to-do/to-do.py:526
+msgid "_Uncategorized"
+msgstr ""
+
+#. First RadioButton - ( )Category
+#: ../applets/maintained/to-do/to-do.py:550
+msgid "_Category"
+msgstr "_Kategori"
+
+#. Second RadioButton - (-)To-Do item
+#. TODO: better text than "To-Do item"?
+#: ../applets/maintained/to-do/to-do.py:557
+msgid "_To-Do item"
+msgstr "Item _To-Do"
+
+#. Label: Priority:
+#: ../applets/maintained/to-do/to-do.py:642
+msgid "Priority: "
+msgstr "Keutamaan: "
+
+#. Neutral, Low, Medium, and High priority RadioButtons
+#: ../applets/maintained/to-do/to-do.py:645
+msgid "_Neutral"
+msgstr "_Neutral"
+
+#: ../applets/maintained/to-do/to-do.py:647
+msgid "_Low"
+msgstr "_Rendah"
+
+#: ../applets/maintained/to-do/to-do.py:649
+msgid "_Medium"
+msgstr "_Sederhana"
+
+#: ../applets/maintained/to-do/to-do.py:651
+msgid "_High"
+msgstr "_Tinggi"
+
+#. Label: Progress(%):
+#: ../applets/maintained/to-do/to-do.py:679
+msgid "Progress(%): "
+msgstr "Kemajuan(%): "
+
+#. Make Label
+#: ../applets/maintained/to-do/to-do.py:1131
+#, python-format
+msgid ""
+"Are you sure you want to remove the category \"%s?\"\n"
+"All of its items will be removed."
+msgstr ""
+
+#. Make CheckButton
+#: ../applets/maintained/to-do/to-do.py:1135
+#: ../applets/maintained/to-do/to-do.py:1171
+msgid "Don't show this again."
+msgstr ""
+
+#. Make Label
+#: ../applets/maintained/to-do/to-do.py:1168
+msgid "Are you sure you want to remove this item?"
+msgstr ""
+
+#. Set the tooltip: X% done
+#. Translators: %d is a number, %% is a percent sign, please don't change them,
+#. but you may add a space character between them, e.g. in German: %d %% erledigt
+#. Reset the tooltip
+#. Translators: %d is a number, %% is a percent sign, please don't change them,
+#. but you may add a space character between them, e.g. in German: %d %% erledigt
+#: ../applets/maintained/to-do/to-do.py:1360
+#: ../applets/maintained/to-do/to-do.py:1371
+#, python-format
+msgid "%d%% done"
+msgstr ""
+
+#: ../applets/maintained/tomboy-applet/tomboy-applet.desktop.in.h:1
+#: ../applets/maintained/tomboy-applet/tomboy-applet.py:31
+msgid "Control Tomboy with D-Bus"
+msgstr "Kawal Tomboy dengan D-Bus"
+
+#: ../applets/maintained/tomboy-applet/tomboy-applet.desktop.in.h:2
+#: ../applets/maintained/tomboy-applet/tomboy-applet.py:30
+msgid "Tomboy Applet"
+msgstr "Applet Tomboy"
+
+#: ../applets/maintained/tomboy-applet/tomboy-applet.py:108
+#: ../applets/maintained/tomboy-applet/tomboy-applet.py:130
+msgid "Select a tag:"
+msgstr "Pilih tag:"
+
+#: ../applets/maintained/tomboy-applet/tomboy-applet.py:114
+msgid "No tags were created yet"
+msgstr ""
+
+#: ../applets/maintained/tomboy-applet/tomboy-applet.py:119
+msgid "Select a note:"
+msgstr "Pilih nota:"
+
+#: ../applets/maintained/tomboy-applet/tomboy-applet.py:149
+#, python-format
+msgid "Version: %s"
+msgstr "Versi: %s"
+
+#: ../applets/maintained/tomboy-applet/tomboy-applet.py:155
+msgid "New Note"
+msgstr "Nota Baru"
+
+#: ../applets/maintained/tomboy-applet/tomboy-applet.py:159
+msgid "New Tagged Note"
+msgstr "Nota Bertag Baru"
+
+#: ../applets/maintained/tomboy-applet/tomboy-applet.py:163
+msgid "View Tagged Note"
+msgstr "Papar Nota Bertag"
+
+#: ../applets/maintained/vala-test/vala-test.desktop.in.in.h:1
+msgid "A simple applet to test vala support"
+msgstr "Aplet ringkas untuk menguji sokongan vala"
+
+#: ../applets/maintained/vala-test/vala-test.desktop.in.in.h:2
+msgid "Test Vala Applet"
+msgstr "Uji Aplet Vala"
+
+#: ../applets/maintained/volume-control/awn-applet-volume-control.schema-ini.in.h:1
+msgid "Name of the device."
+msgstr "Nama peranti."
+
+#: ../applets/maintained/volume-control/awn-applet-volume-control.schema-ini.in.h:2
+msgid "Name of the mixer track."
+msgstr "Nama trek pengadun."
+
+#: ../applets/maintained/volume-control/volume-control.desktop.in.h:1
+msgid "Control your computer's volume"
+msgstr "Kawal volum komputer anda"
+
+#: ../applets/maintained/volume-control/volume-control.desktop.in.h:2
+#: ../applets/maintained/volume-control/volume-control.py:43
+msgid "Volume Control"
+msgstr "Kawalan Volum"
+
+#: ../applets/maintained/volume-control/volume-control.py:44
+msgid "Applet to control your computer's volume"
+msgstr ""
+
+#: ../applets/maintained/volume-control/volume-control.py:49
+#: ../applets/maintained/weather/weather.py:62
+msgid "System theme"
+msgstr ""
+
+#: ../applets/maintained/volume-control/volume-control.py:67
+#, python-format
+msgid ""
+"Install the appropriate plug-ins for one or more of the following GStreamer "
+"elements: %s."
+msgstr ""
+
+#: ../applets/maintained/volume-control/volume-control.py:68
+msgid "Could not find any devices."
+msgstr ""
+
+#: ../applets/maintained/volume-control/volume-control.py:180
+msgid "_Open Volume Control"
+msgstr ""
+
+#: ../applets/maintained/volume-control/volume-control.py:378
+msgid "No GStreamer mixer found"
+msgstr ""
+
+#: ../applets/maintained/volume-control/volume-control.py:384
+msgid "No devices found"
+msgstr ""
+
+#: ../applets/maintained/volume-control/volume-control.ui.h:2
+#, no-c-format
+msgid "100%"
+msgstr ""
+
+#: ../applets/maintained/volume-control/volume-control.ui.h:3
+msgid "<b>Audio Options</b>"
+msgstr "<b>Plihan Audio</b>"
+
+#: ../applets/maintained/volume-control/volume-control.ui.h:5
+msgid "_Device:"
+msgstr "_Peranti:"
+
+#: ../applets/maintained/volume-control/volume-control.ui.h:6
+msgid "_Mixer track:"
+msgstr "Trek _pengadun:"
+
+#: ../applets/maintained/volume-control/volume-control.ui.h:7
+msgid "_Mute"
+msgstr ""
+
+#: ../applets/maintained/weather/awn-applet-weather.schema-ini.in.h:1
+msgid "City, and country of the weather location."
+msgstr "Lokasi cuaca untuk bandar dan negara."
+
+#: ../applets/maintained/weather/awn-applet-weather.schema-ini.in.h:2
+msgid "Code that identifies the weather location."
+msgstr "Lokasi cuaca mengikut kod."
+
+#: ../applets/maintained/weather/awn-applet-weather.schema-ini.in.h:3
+msgid "If enabled, show the temperature as an overlay in the icon."
+msgstr "Jika dibenarkan, papar suhu sebagai tindihan atas ikon."
+
+#: ../applets/maintained/weather/awn-applet-weather.schema-ini.in.h:4
+msgid "Maximum width of map in pixels."
+msgstr "Lebar maksimum peta didalam piksel"
+
+#: ../applets/maintained/weather/awn-applet-weather.schema-ini.in.h:5
+msgid "Show days of forecast in a transparent, curved dialog."
+msgstr "Papar hari ramalan didalam dialog lengkung dan lutsinar."
+
+#: ../applets/maintained/weather/awn-applet-weather.schema-ini.in.h:6
+msgid ""
+"Size of the temperature overlay in the icon (0: small, 1: medium, 2: large)."
+msgstr ""
+
+#: ../applets/maintained/weather/awn-applet-weather.schema-ini.in.h:7
+msgid "Temperature unit (0: Celsius, 1: Fahrenheit)."
+msgstr ""
+
+#: ../applets/maintained/weather/forecast.py:54
+#: ../applets/maintained/weather/forecast.py:84
+msgid "Forecast"
+msgstr "Ramalan"
+
+#: ../applets/maintained/weather/forecast.py:54
+#: ../applets/maintained/weather/forecast.py:84
+msgid "for"
+msgstr "untuk"
+
+#: ../applets/maintained/weather/forecast.py:172
+msgid "WEEKDAY"
+msgstr "HARIMINGGU"
+
+#: ../applets/maintained/weather/forecast.py:176
+msgid "Tomorrow"
+msgstr "Esok"
+
+#. Weather condition
+#: ../applets/maintained/weather/forecast.py:202
+#: ../applets/maintained/weather/weather.py:484
+msgid "DESCRIPTION"
+msgstr "KETERANGAN"
+
+#: ../applets/maintained/weather/forecast.py:254
+msgid "Weather data provided by weather.com"
+msgstr "Data cuaca yang disediakan oleh weather.com"
+
+#: ../applets/maintained/weather/weathertext.py:38
+msgid "Blowing Snow"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:39
+msgid "Blustery"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:40
+msgid "Clear"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:41
+msgid "Cloudy"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:42
+msgid "Cold"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:43
+msgid "Drizzle"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:44
+msgid "Dust"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:45
+msgid "Fair"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:46
+msgid "Fog"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:47
+msgid "Freezing Drizzle"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:48
+msgid "Freezing Rain"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:49
+msgid "Hail"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:50
+msgid "Haze"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:51
+msgid "Heavy Snow"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:52
+msgid "Hot"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:53
+msgid "Hurricane"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:54
+msgid "Isolated Thunderstorms"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:55
+msgid "Light Drizzle"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:56
+msgid "Light Rain Shower"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:57
+msgid "Light Rain with Thunder"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:58
+msgid "Light Snow"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:59
+msgid "Light Snow Showers"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:60
+msgid "Mist"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:61
+msgid "Mixed Precipitation"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:62
+msgid "Mixed Rain and Hail"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:63
+msgid "Mixed Rain and Sleet"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:64
+msgid "Mixed Rain and Snow"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:65
+msgid "Mostly Cloudy"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:66
+msgid "N/A"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:67
+msgid "Partly Cloudy"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:68
+msgid "Scattered Showers"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:69
+msgid "Scattered Snow Showers"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:70
+msgid "Scattered Thunderstorms"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:71
+msgid "Severe Thunderstorms"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:72
+msgid "Showers"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:73
+msgid "Showers in the Vicinity"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:74
+msgid "Sleet"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:75
+msgid "Smoke"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:76
+msgid "Snow"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:77
+msgid "Snow and Fog"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:78
+msgid "Snow Flurries"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:79
+msgid "Snow Showers"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:80
+msgid "Thunder Showers"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:81
+msgid "Thunderstorms"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:82
+msgid "Tornado"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:83
+msgid "Tropical Storm"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:84
+msgid "Windy"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:89
+msgid "AM Clouds / PM Sun"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:91
+msgid "AM Drizzle"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:93
+msgid "AM Drizzle / Wind"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:95
+msgid "AM Fog / PM Sun"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:97
+msgid "AM Light Rain"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:99
+msgid "AM Light Snow"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:101
+msgid "AM Rain / Snow"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:103
+msgid "AM Rain / Wind"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:105
+msgid "AM Showers"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:107
+msgid "AM Snow Showers"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#. T-Showers = Thunder Showers
+#: ../applets/maintained/weather/weathertext.py:110
+msgid "AM T-Showers"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#. T-Storms = Thunderstorms
+#: ../applets/maintained/weather/weathertext.py:113
+msgid "AM T-Storms"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:115
+msgid "Few Showers"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:117
+msgid "Heavy Rain"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#. T-Storms = Thunderstorms
+#: ../applets/maintained/weather/weathertext.py:120
+msgid "Isolated T-Storms"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:122
+msgid "Light Rain"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:124
+msgid "Light Rain / Wind"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:126
+msgid "Light Snow / Fog"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:128
+msgid "Mostly Sunny"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:130
+msgid "Partly Cloudy / Wind"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:132
+msgid "PM Drizzle"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:134
+msgid "PM Light Rain"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:136
+msgid "PM Light Snow"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:138
+msgid "PM Rain"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:140
+msgid "PM Rain / Snow"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:142
+msgid "PM Showers"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#. T-Showers = Thunder Showers
+#: ../applets/maintained/weather/weathertext.py:145
+msgid "PM T-Showers"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#. T-Storms = Thunderstorms
+#: ../applets/maintained/weather/weathertext.py:148
+msgid "PM T-Storms"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:150
+msgid "Rain"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:152
+msgid "Rain / Snow"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:154
+msgid "Rain / Snow Showers"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:156
+msgid "Rain / Thunder"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:158
+msgid "Rain / Wind"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:160
+msgid "Scattered Showers / Wind"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#. T-Storms = Thunderstorms
+#: ../applets/maintained/weather/weathertext.py:163
+msgid "Scattered T-Storms"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:165
+msgid "Showers / Wind"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:167
+msgid "Snow Shower"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:169
+msgid "Snow to Rain"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:171
+msgid "Snow to Wintry Mix"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:173
+msgid "Snow / Wind"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:175
+msgid "Sunny"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#: ../applets/maintained/weather/weathertext.py:177
+msgid "Sunny / Wind"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#. T-Showers = Thunder Showers
+#: ../applets/maintained/weather/weathertext.py:180
+msgid "T-Showers"
+msgstr ""
+
+#. Please keep translation short, approx. 12 characters
+#. T-Storms = Thunderstorms
+#: ../applets/maintained/weather/weathertext.py:183
+msgid "T-Storms"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:187
+msgid "Monday"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:188
+msgid "Tuesday"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:189
+msgid "Wednesday"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:190
+msgid "Thursday"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:191
+msgid "Friday"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:192
+msgid "Saturday"
+msgstr ""
+
+#: ../applets/maintained/weather/weathertext.py:193
+msgid "Sunday"
+msgstr ""
+
+#: ../applets/maintained/weather/weather.desktop.in.h:1
+msgid "Display the local weather"
+msgstr "Papar cuaca setempat"
+
+#: ../applets/maintained/weather/weather.desktop.in.h:2
+msgid "Weather Applet"
+msgstr "Aplet Cuaca"
+
+#: ../applets/maintained/weather/weather.py:41
+msgid "Weather"
+msgstr ""
+
+#: ../applets/maintained/weather/weather.py:42
+msgid "Applet to display current weather and forecast"
+msgstr ""
+
+#: ../applets/maintained/weather/weather.py:71
+msgid ""
+"Could not retrieve weather data. You may be experiencing connectivity issues."
+msgstr ""
+
+#: ../applets/maintained/weather/weather.py:205
+msgid "Network error in Weather"
+msgstr ""
+
+#: ../applets/maintained/weather/weather.py:213
+#: ../applets/maintained/weather/weather.py:259
+msgid "Fetching conditions for"
+msgstr "Mengambil suasana untuk"
+
+#: ../applets/maintained/weather/weather.py:277
+msgid "Show _Map"
+msgstr "Papar _Peta"
+
+#: ../applets/maintained/weather/weather.py:329
+#: ../applets/maintained/weather/weather.py:407
+msgid "No records found"
+msgstr "Tiada rekod ditemui"
+
+#: ../applets/maintained/weather/weather.py:398
+msgid "Searching..."
+msgstr "Menggelintar..."
+
+#: ../applets/maintained/weather/weather.ui.h:4
+msgid "<b>Icon Display</b>"
+msgstr "<b>Papar Ikon</b>"
+
+#: ../applets/maintained/weather/weather.ui.h:5
+msgid ""
+"<i><b>Examples:</b> Boston; Portland, ME, Amsterdam; or Osaka, Japan.</i>"
+msgstr ""
+"<i><b>Contoh:</b> Boston; Portland, ME, Amsterdam; atau Osaka, Japan.</i>"
+
+#: ../applets/maintained/weather/weather.ui.h:6
+msgid "Current _location:"
+msgstr "_Lokasi semasa:"
+
+#: ../applets/maintained/weather/weather.ui.h:7
+msgid ""
+"If enabled, the dialog will be transparent, and the five days of the "
+"forecast will be curved"
+msgstr ""
+"Jika dibenarkan, dialog akan menjadi lutsinar, dan ramalan dalam tempoh lima "
+"hari akan menjadi lengkung"
+
+#: ../applets/maintained/weather/weather.ui.h:8
+msgid "If enabled, the temperature will be displayed in the icon"
+msgstr "Jika dibenarkan, suhu akan dipaparkan pada ikon"
+
+#: ../applets/maintained/weather/weather.ui.h:10
+msgid "Maximum _map width:"
+msgstr "Lebar _peta maksimum"
+
+#: ../applets/maintained/weather/weather.ui.h:12
+msgid "Show temperature in _icon"
+msgstr "Papar suhu pada ikon"
+
+#: ../applets/maintained/weather/weather.ui.h:14
+msgid "Temperature _unit:"
+msgstr "_Unit suhu:"
+
+#: ../applets/maintained/weather/weather.ui.h:15
+msgid "Temperature font _size:"
+msgstr "Saiz fon suhu:"
+
+#: ../applets/maintained/weather/weather.ui.h:16
+msgid "Use transparent/curved _forecast dialog"
+msgstr "Guna dialog ramalan_lengkung/lutsinar"
+
+#: ../applets/maintained/weather/weather.ui.h:17
+msgid "_Location Name:"
+msgstr "Nama _Lokasi:"
+
+#. Make the dialog
+#: ../applets/maintained/webapplet/applet.c:262
+#: ../applets/maintained/webapplet/applet.c:460
+msgid "Open Location"
+msgstr "Buka Lokasi"
+
+#: ../applets/maintained/webapplet/applet.c:281
+msgid "Set as new _Home Page"
+msgstr "Tetapkan sebagai Laman  baru"
+
+#: ../applets/maintained/webapplet/applet.c:399
+#: ../applets/maintained/webapplet/webapplet.desktop.in.in.h:2
+msgid "Web Applet"
+msgstr "Applet Sesawang"
+
+#. vim: set et ts=2 sts=2 sw=2 :
+#: ../applets/maintained/webapplet/awn-applet-webapplet.schema-ini.in.h:1
+msgid "Flag that enables usage of the \"Open Location\" dialog in the applet."
+msgstr ""
+
+#: ../applets/maintained/webapplet/awn-applet-webapplet.schema-ini.in.h:2
+msgid "HTML engine to use."
+msgstr "Enjin HTML yang digunakan."
+
+#: ../applets/maintained/webapplet/awn-applet-webapplet.schema-ini.in.h:3
+msgid "If true display location entry and website buttons"
+msgstr "Jika benar papar masukan lokasi dan butang laman sesawang"
+
+#: ../applets/maintained/webapplet/awn-applet-webapplet.schema-ini.in.h:4
+msgid "Name of specialized website to use"
+msgstr "Nama laman sesawang  khusus yang digunakan"
+
+#: ../applets/maintained/webapplet/awn-applet-webapplet.schema-ini.in.h:5
+msgid "URI"
+msgstr "URI"
+
+#: ../applets/maintained/webapplet/awn-applet-webapplet.schema-ini.in.h:7
+#, no-c-format
+msgid "Width in %% or px."
+msgstr "Lebar dalam %% atau px."
+
+#: ../applets/maintained/webapplet/awn-applet-webapplet.schema-ini.in.h:9
+#, no-c-format
+msgid "height in %% or px."
+msgstr "Tinggi dalam %% atau px."
+
+#: ../applets/maintained/webapplet/webapplet.desktop.in.in.h:1
+msgid "Applet for Websites"
+msgstr "Applet Laman Sesawang"
+
+#: ../applets/maintained/wobblyzini/wobblyzini.desktop.in.in.h:1
+msgid "A simple test animation"
+msgstr "Uji animasi yang ringkas"
+
+#: ../applets/maintained/wobblyzini/wobblyzini.desktop.in.in.h:2
+msgid "Wobbly Zini"
+msgstr "Wobbly Zini"
+
+#: ../applets/maintained/yama/yama.desktop.in.h:1
+#: ../applets/maintained/yama/yama.py:53
+msgid "Main menu with places and recent documents"
+msgstr "Menu utama dengan tempat dan dokumen terbaru"
+
+#: ../applets/maintained/yama/yama.desktop.in.h:2
+msgid "Yet Another Menu Applet"
+msgstr "Aplet Menu yang Lain"
+
+#: ../applets/maintained/yama/yama.py:52
+msgid "YAMA"
+msgstr ""
+
+#: ../applets/maintained/yama/yama.py:182
+#, python-format
+msgid "Log out %s of this session to log in as a different user"
+msgstr ""
+
+#: ../applets/maintained/yama/yama.py:200
+msgid "_Edit Menus"
+msgstr ""
+
+#: ../applets/maintained/yama/yama.py:275
+msgid "Open your personal folder"
+msgstr ""
+
+#: ../applets/maintained/yama/yama.py:282
+msgid "Open the contents of your desktop in a folder"
+msgstr ""
+
+#: ../applets/maintained/yama/yama.py:333
+msgid "Connect to a remote computer or shared disk"
+msgstr ""
+
+#: ../applets/maintained/yama/yama.py:363
+msgid "Clear all items from the recent documents list"
+msgstr ""
+
+#: ../applets/maintained/yama/yama.py:416
+#, python-format
+msgid "Open '%s'"
+msgstr ""
+
+#: ../applets/maintained/yama/yama.py:457
+#, python-format
+msgid "Mount %s"
+msgstr ""
+
+#: ../applets/maintained/yama/yama.py:619
+msgid ""
+"Clearing the Recent Documents list will clear the following:\n"
+"* All items from the Places > Recent Documents menu item.\n"
+"* All items from the recent documents list in all applications."
+msgstr ""
+
+#: ../applets/unmaintained/awnsystemmonitor/awnsystemmonitor.desktop.in.in.h:1
+msgid "Awn System Monitor"
+msgstr "Pemantau Sistem Awn"
+
+#: ../applets/unmaintained/awnsystemmonitor/awnsystemmonitor.schemas.in.h:1
+msgid "Graph update frequency, in milliseconds."
+msgstr "Frekuensi kemaskini graf, dalam milisaat"
+
+#: ../applets/unmaintained/awnsystemmonitor/awnsystemmonitor.schemas.in.h:2
+msgid "Set to 1 (true) to draw the gradient overlay on the graph."
+msgstr ""
+"Tetapkan kepada 1 (benar) untuk melukis tindihan atas gradient pada graf"
+
+#: ../applets/unmaintained/awnsystemmonitor/awnsystemmonitor.schemas.in.h:3
+msgid "The color used in the applet border."
+msgstr "Warna yang digunakan pada sempadan aplet."
+
+#: ../applets/unmaintained/awnsystemmonitor/awnsystemmonitor.schemas.in.h:4
+msgid "The color used in the graph lines."
+msgstr "Warna yang digunakan pada garis graf."
+
+#: ../applets/unmaintained/awnsystemmonitor/awnsystemmonitor.schemas.in.h:5
+msgid "The color used in the graph lines. Valid values are 0.0 through 1.0."
+msgstr "Warna yang digunakan pada garis graf. Nilai sah adalah 0.0 ke 1.0."
+
+#: ../applets/unmaintained/awnsystemmonitor/awnsystemmonitor.schemas.in.h:6
+msgid "The pixel width of the applet border."
+msgstr "Lebar piksel bagi sempadan aplet."
+
+#: ../applets/unmaintained/main-menu/applet.c:393
+#: ../applets/unmaintained/main-menu/main-menu.desktop.in.in.h:2
+msgid "Awn Main Menu"
+msgstr "Menu Utama Awn"
+
+#: ../applets/unmaintained/main-menu/applet.c:394
+msgid "Displays a list of all your applications"
+msgstr "Papar senarai semua aplikasi anda"
+
+#: ../applets/unmaintained/main-menu/main-menu.desktop.in.in.h:1
+msgid "A main menu for Awn"
+msgstr "Menu utama untuk Awn"
+
+#: ../applets/unmaintained/pandora/awn-applet-pandora.schema-ini.in.h:1
+msgid "The url of the Pandora mini flash player."
+msgstr "Url pemain flash Pandora mini"
+
+#: ../applets/unmaintained/pandora/pandora.desktop.in.h:1
+msgid "Listen to Pandora Internet Radio"
+msgstr "Dengar Radio Internet Pandora"
+
+#: ../applets/unmaintained/pandora/pandora.desktop.in.h:2
+msgid "Pandora Radio"
+msgstr "Radio Pandora"
+
+#~ msgid "Your comics"
+#~ msgstr "Komik anda"
+
+#~ msgid "Manage Comics"
+#~ msgstr "Urus Komik"
+
+#~ msgid ""
+#~ "This guide will help you to add a new comic.\n"
+#~ "\n"
+#~ "To find comics suitable for adding, you may search the Internet for "
+#~ "\"comics rss\".\n"
+#~ "\n"
+#~ "Press \"next\" to proceed."
+#~ msgstr ""
+#~ "Juru Pandu akan membantu anda menambah komik baru.\n"
+#~ "\n"
+#~ "Untuk mencari komik yang sesuai, anda boleh menggelintar internet untuk "
+#~ "carian \"comics rss\".\n"
+#~ "\n"
+#~ "Tekan \"next\" untuk teruskan."
+
+#~ msgid "The following comics are installed:"
+#~ msgstr "Komik yang telah dipasang:"
+
+#~ msgid "Hide the icon if there is no new mail"
+#~ msgstr "Sembunyikan ikon jika tiada mel baru"
+
+#~ msgid "Could not log in: No username"
+#~ msgstr "Tidak dapat mendaftar masuk: Tiada kata nama"
+
+#~ msgid "Could not log in: No username or domain"
+#~ msgstr "Tidak dapat mendaftar masuk: Tiada kata nama atau domain"
+
+#~ msgid "_Hide applet if no new messages"
+#~ msgstr "_Sembunyi aplet jika tiada mesej baru"
+
+#~ msgid " Upload/Download"
+#~ msgstr " Muat naik/Muat turun"
+
+#~ msgid "Statistics calculation requires read access to /proc/net/dev"
+#~ msgstr "Pengiraan statistik memerlukan kebenaran membaca di /proc/net/dev"
+
+#~ msgid "Unable to caclulate statistics"
+#~ msgstr "Tidak dapat mengira statistik"
+
+#~ msgid "Sent"
+#~ msgstr "Dihantar"
+
+#~ msgid "Received"
+#~ msgstr "Diterima"
+
+#~ msgid "Sending"
+#~ msgstr "Menghantar"
+
+#~ msgid "Receiving"
+#~ msgstr "Menerima"
+
+#~ msgid "No"
+#~ msgstr "Tidak"
+
+#~ msgid "Do not display the speed as text, only draw the graph"
+#~ msgstr "Jangan papar kepantasan dalam bentuk teks, hanya dalam bentuk graf"
+
+#~ msgid "Display the sum of upload and download"
+#~ msgstr "Papar jumlah muat naik dan muat turun"
+
+#~ msgid "Display upload and download text representation of speed"
+#~ msgstr "Papar teks yang mewakili kepantasan muat naik dan muat turun"
+
+#~ msgid ""
+#~ "If this is checked the applet background will use the selected color. If "
+#~ "unchecked, background will be transparent"
+#~ msgstr ""
+#~ "Jika ditanda latar belakang applet akan menggunakan warna pilihan. Jika "
+#~ "tidak, latar belakang akan menjadi lutsinar"
+
+#~ msgid ""
+#~ "If this is checked the applet border will use the selected color. If "
+#~ "unchecked, border will be transparent"
+#~ msgstr ""
+#~ "Jika ditanda latar belakang applet akan menggunakan warna pilihan. Jika "
+#~ "tidak, latar belakang akan menjadi lutsinar"
+
+#~ msgid "Beaufort)."
+#~ msgstr "Beafort)."
+
+#~ msgid "Kelvin)."
+#~ msgstr "Kelvin)."
+
+#~ msgid "Celcius"
+#~ msgstr "Selsius"
+
+#~ msgid " bytes)"
+#~ msgstr " bait"
+
+#~ msgid ""
+#~ "If enabled, this will draw a line at the bottom of the graph even if the "
+#~ "value is 0. If unchecked, values below 1 are not drawn in the graph."
+#~ msgstr ""
+#~ "Jika dibenarkan, garis di bahagian bawah graf dilukis walaupun nilai "
+#~ "tersebut adalah 0. Jika dinyah tanda, nilai-nilai di bawah 1 tidak akan "
+#~ "dilukis didalam graf."
+
+#~ msgid ""
+#~ "Sets the minimum threshold for scaling to not show large spikes for small "
+#~ "amounts of traffic. e.g.: Setting to 32.0 KBps will cause the graph to "
+#~ "only draw if throughput exceeds 32.0 KBps"
+#~ msgstr ""
+#~ "Tetapkan ambang minimum bagi penskalaan untuk menghidari puncak yang "
+#~ "terlalu tinggi  (nilai trafik yang kecil). contohnya: Tetapan 32.0 KBps "
+#~ "akan menyebabkan graf hanya dilukis jika daya pemprosesan melebihi 32.0 "
+#~ "KBps"
+
+#~ msgid " none)."
+#~ msgstr " tiada)."
+
+#~ msgid " 0.9)."
+#~ msgstr " 0.9)."
+
+#~ msgid ""
+#~ "\n"
+#~ "DIALECT APPLET v 09.12.09\n"
+#~ "\n"
+#~ "(C) 2009, Lachlan Turner (Denham 2010)\n"
+#~ "\n"
+#~ "This applet allows you to change your keyboard input language with just a "
+#~ "click of the mouse.\n"
+#~ "You can select any of the available input languages on your system, or "
+#~ "from a list you most commonly use.\n"
+#~ "\n"
+#~ "See the Mouse Actions and Layout Lists tabs for configuration options.\n"
+#~ "\n"
+#~ "The applet depends on the python xklavier module (available from http://"
+#~ "download.sugarlabs.org/sources/external/python-xklavier/python-"
+#~ "xklavier-0.1.tar.gz).\n"
+#~ "\n"
+#~ "This applet is licensed under GPL2. The flag icons distributed with this "
+#~ "applet are from the xfce4-xkb-plugin-0.5.3.3 panel applet, licensed under "
+#~ "the 2-clause BSD license. See the About dialog for licensing details.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "APPLET DIALEK v 09.12.09\n"
+#~ "\n"
+#~ "(C) 2009, Lachlan Turner (Denham 2010)\n"
+#~ "\n"
+#~ "Applet ini membenarkan anda mengubah bahasa input papan kekunci anda "
+#~ "dengan menekan klik tetikus.\n"
+#~ "anda boleh pilih mana-mana input bahasa didalam sistem anda, atau dari "
+#~ "senarai yang anda biasa gunakan.\n"
+#~ "\n"
+#~ "Sila lihat Tindakan Tetikus dan Senarai Bentangan untuk pilihan "
+#~ "konfigurasi.\n"
+#~ "\n"
+#~ "Applet ini bergantung kepada modul xklavier (boleh diperoleh di http://"
+#~ "download.sugarlabs.org/sources/external/python-xklavier/python-"
+#~ "xklavier-0.1.tar.gz).\n"
+#~ "\n"
+#~ "Applet ini dilesenkan dibawah GPL2. Ikon bendera yang diedarkan bersama-"
+#~ "sama applet ini diambil dari applet panel xfce4-xkb-plugin-0.5.3.3, juga "
+#~ "dilesenkan dibawah lesen BSD klausa-2. rujuk pada dialog Perihal untuk "
+#~ "perincian pelesenan.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Left Click:\n"
+#~ "\n"
+#~ "\tNext Layout\t\tselects the next layout in your user list.\n"
+#~ "\tPrevious Layout\tselects the previous layout in your user list.\n"
+#~ "\tMenu\t\t\tselect a layout from a menu of your user list.\n"
+#~ "\tNone\t\t\tbutton will have no action.\n"
+#~ "\n"
+#~ "Middle Click:\n"
+#~ "\n"
+#~ "\tNext Layout\t\tselects the next layout in your user list.\n"
+#~ "\tPrevious Layout\tselects the previous layout in your user list.\n"
+#~ "\tMenu\t\t\tselect a layout from a menu of your user list.\n"
+#~ "\tNone\t\t\tbutton will have no action.\n"
+#~ "\n"
+#~ "Allow scroll wheel to change layout:\n"
+#~ "\n"
+#~ "\tIf selected, scrolling up or down with your mouse wheel will select\n"
+#~ "\tthe next or previous layout in your user list.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Klik Kiri:\n"
+#~ "\n"
+#~ "\tBentangan Seterus\t\tpilih bentangan seterus didalam senarai pengguna "
+#~ "anda.\n"
+#~ "\tBentangan Sebelum\tpilih bentangan sebelum didalam senarai pengguna "
+#~ "anda.\n"
+#~ "\tMenu\t\t\tsPilih bentangan dari menu senarai pengguna anda.\n"
+#~ "\tTiada\t\t\tbutang tidak akan membuat apa-apa tindakan.\n"
+#~ "\n"
+#~ "Klik Tengah:\n"
+#~ "\n"
+#~ "\tBentangan Seterus\t\tpilih bentangan seterus didalam senarai pengguna "
+#~ "anda.\n"
+#~ "\tBentangan Sebelum\tpilih bentangan sebelum didalam senarai pengguna "
+#~ "anda.\n"
+#~ "\tMenu\t\t\tsPilih bentangan dari menu senarai pengguna anda.\n"
+#~ "\tTiada\t\t\tbutang tidak akan membuat apa-apa tindakan.\n"
+#~ "\n"
+#~ "Benarkan roda tatal mengubah bentangan:\n"
+#~ "\n"
+#~ "\tJika dipilih, penatalan atas atau bawah menggunakan roda tetikus anda "
+#~ "akan memilih\n"
+#~ "\tbentangan seterus atau sebelum didalam senarai pengguna anda.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Overlay layout flag on applet icon:\n"
+#~ "\n"
+#~ "\tIf selected, the flag of your selected layout will overlay the applet "
+#~ "icon.\n"
+#~ "\n"
+#~ "Flag Scale:\n"
+#~ "\n"
+#~ "\tThe size of the flag in relation to the applet icon.\n"
+#~ "\tPossible values range from 0.1 to 0.9\n"
+#~ "\n"
+#~ "Flag Opacity:\n"
+#~ "\n"
+#~ "\tRanging from 0.0 (flag is not visible) to 0.9 (flag is almost opaque).\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Tindihan atas bendera bentangan pada ikon applet:\n"
+#~ "\n"
+#~ "\tJika dipilih, bendera bentangan pilihan anda akan tindih atas ikon "
+#~ "applet.\n"
+#~ "\n"
+#~ "Skala Bendera:\n"
+#~ "\n"
+#~ "\tSaiz bendera yang berkaitan dengan ikon applet.\n"
+#~ "\tNilai yang munasabah diantara 0.1 hingga 0.9\n"
+#~ "\n"
+#~ "Kelegapan Bendera:\n"
+#~ "\n"
+#~ "\tDiantara nilai 0.0 (bendera akan hilang) kepada nilai 0.9 (bendera akan "
+#~ "kelihatan legap).\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "System List:\n"
+#~ "\n"
+#~ "\tThe complete list of layouts and variants available.\n"
+#~ "\tSelect an item and click the add button to include in your user list.\n"
+#~ "\n"
+#~ "User List:\n"
+#~ "\n"
+#~ "\tThe list of layouts you commonly use.\n"
+#~ "\tThe maximum number of layouts is restricted by the X11 xkb system "
+#~ "(currently 4).\n"
+#~ "\tSelect an item and click the remove button to delete from your user "
+#~ "list.\n"
+#~ "\tYou can order the list by drag and drop.\n"
+#~ "\n"
+#~ "Keyboard Toggle:\n"
+#~ "\tSelects the hot key combination used to change layouts.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Senarai Sistem:\n"
+#~ "\n"
+#~ "\tSenarai lengkap bentangan dan varian yang ada.\n"
+#~ "\tPilih item dan klik butang tambah untuk dimasukkan kedalam senarai "
+#~ "pengguna anda.\n"
+#~ "\n"
+#~ "Senarai Pengguna:\n"
+#~ "\n"
+#~ "\tSenarai bentangan yang anda selalu gunakan.\n"
+#~ "\tBilangan maksimum bentangan dihadkan oleh sistem X11 xkb (biasanya 4).\n"
+#~ "\tPilih item dan klik butang buang untuk dikeluarkan dari senarai "
+#~ "pengguna anda.\n"
+#~ "\tAnda boleh susun senarai tersebut dengan cara seret dan lepas.\n"
+#~ "\n"
+#~ "Togol Papan Kekunci:\n"
+#~ "\tPilih gabungan kekunci panas untuk digunakan semasa menukar bentangan.\n"
+
+#~ msgid "(C) 2009, Lachlan Turner (Denham 2010)."
+#~ msgstr "(C) 2009, Lachlan Turner (Denham 2010)."
+
+#~ msgid "Layout Lists"
+#~ msgstr "Senarai Bentangan"
+
+#~ msgid "Keyboard Toggle"
+#~ msgstr "Togol Papan kekunci"
+
+#~ msgid "Flag Scale"
+#~ msgstr "Skala Bendera"
+
+#~ msgid "Flag Overlay"
+#~ msgstr "Tindihan Atas Bendera"
+
+#~ msgid "Flag Opacity"
+#~ msgstr "Kelegapan Bendera"
+
+#~ msgid "Allow scroll wheel to change layout"
+#~ msgstr "Benarkan roda tatal mengubah bentangan"
+
+#~ msgid "Dialect Applet Help"
+#~ msgstr "Bantuan Applet Dialek"
+
+#~ msgid "Overlay layout flag on applet icon"
+#~ msgstr "Tindihan atas bendera bentangan pada ikon applet"
+
+#~ msgid "Next Layout"
+#~ msgstr "Bentengan Seterus"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Mouse Actions"
+#~ msgstr "Tindakan Tetikus"
+
+#~ msgid "Monitor Web Feeds"
+#~ msgstr "Memantau Suapan Sesawang"
+
+#~ msgid "Previous Layout"
+#~ msgstr "Bentangan Terdahulu"
+
+#~ msgid "Search\\u2026"
+#~ msgstr "Search\\u2026"
+
+#~ msgid "Launch\\u2026"
+#~ msgstr "Launch\\u2026"
+
+#~ msgid "Do you want to add these %s feeds?"
+#~ msgstr "Anda hendak menambah %s suapan ini?"
+
+#~ msgid "Do you want to add this feed?"
+#~ msgstr "Anda hendak menambah suapan ini?"
+
+#~ msgid "Templates"
+#~ msgstr "Templat"
+
+#~ msgid "Public"
+#~ msgstr "Awam"
+
+#~ msgid "Videos"
+#~ msgstr "Video"
+
+#~ msgid "Downloads"
+#~ msgstr "Muat Turun"
+
+#~ msgid "Documents"
+#~ msgstr "Dokumen"
+
+#~ msgid "Music"
+#~ msgstr "Muzik"
+
+#~ msgid "%s: %u item"
+#~ msgid_plural "%s: %u items"
+#~ msgstr[0] "%s: %u item"
+#~ msgstr[1] "%s: %u item"
+
+#~ msgid "Confirm when emptying the trash"
+#~ msgstr "Sahkan apabila mengosongkan sampah"
+
+#~ msgid "Show the item count on the icon"
+#~ msgstr "Papar kiraan item diatas ikon"
+
+#~ msgid "large)."
+#~ msgstr "besar)."
+
+#~ msgid " gdk."
+#~ msgstr " gdk."
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid " persistent docklet"
+#~ msgstr " docklet persistent"
+
+#~ msgid "%s New Item%s - Feeds Applet"
+#~ msgstr "%s Item Baru%s - Aplet Suapan"
+
+#~ msgid "+"
+#~ msgstr "+"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "Fahrenheit)."
+#~ msgstr "Fahrenheit)."
+
+#~ msgid "File operation to use."
+#~ msgstr "Operasi fail yang digunakan."
+
+#~ msgid " sort by date)."
+#~ msgstr " isih mengikut tarikh)."
+
+#~ msgid ""
+#~ "Backend type for this applet (0 - file, 1 - folder, 2 - plugger, 3 - "
+#~ "trasher, 4 - recent files)."
+#~ msgstr ""
+#~ "Jenis belakang bagi applet ini (0 - fail, 1 - folder, 2 - pemalam, 3 - "
+#~ "sampah, 4 - fail terkini)."
+
+#~ msgid "Close dialog on focusout."
+#~ msgstr "Tutup dialog pada focusout."
+
+#~ msgid "Display number of items in the stack."
+#~ msgstr "Papar bilangan item didalam susunan."
+
+#~ msgid "Hoverbox background color 1."
+#~ msgstr "Warna latar belakang kotak apung 1"
+
+#~ msgid "Hoverbox background color 2."
+#~ msgstr "Warna latar belakang kotak apung 2"
+
+#~ msgid "Icon to use for empty stack."
+#~ msgstr "Ikon yang digunakan untuk susunan kosong."
+
+#~ msgid "Icon to use for full stack."
+#~ msgstr "Ikon yang digunakan untuk susunan penuh."
+
+#~ msgid "Hoverbox border color."
+#~ msgstr "Warna sempadan kotak apung"
+
+#~ msgid "Label hover background color."
+#~ msgstr "Warna label latar belakang apung."
+
+#~ msgid "Label hover border color."
+#~ msgstr "Warna label sempadan apung"
+
+#~ msgid "Label border color."
+#~ msgstr "Warna label sempadan."
+
+#~ msgid "Label background color."
+#~ msgstr "Label warna latar belakang."
+
+#~ msgid "Label length."
+#~ msgstr "Panjang label."
+
+#~ msgid "Size of the icons inside stack."
+#~ msgstr "Saiz ikon didalam susunan."
+
+#~ msgid "Sort direction of the items."
+#~ msgstr "Isih arah item."
+
+#~ msgid "Number of columns to use."
+#~ msgstr "Bilangan lajur yang digunnakan."
+
+#~ msgid "Number of rows to use."
+#~ msgstr "Bilangan baris yang digunakan."
+
+#~ msgid "Layout interval."
+#~ msgstr "Selang bentangan."
+
+#~ msgid "Layout direction."
+#~ msgstr "Arah bentangan."
+
+#~ msgid "Label text hover color."
+#~ msgstr "Warna teks label apung."
+
+#~ msgid "Label text color."
+#~ msgstr "Warna teks label"
+
+#~ msgid "Layout radius."
+#~ msgstr "Radius bentangan."
+
+#~ msgid "Sort folders before files."
+#~ msgstr "Isih folder sebelum fail."
+
+#~ msgid "Tooltip font name."
+#~ msgstr "Nama fon tooltip."
+
+#~ msgid "Tooltip background color 2."
+#~ msgstr "Warna latar belakang tooltip 2."
+
+#~ msgid "Tooltip border color."
+#~ msgstr "Warna sempadan tooltip."
+
+#~ msgid "Tooltip background color 1."
+#~ msgstr "Warna latar belakang tooltip 1."
+
+#~ msgid "Whether hoverbox contains label."
+#~ msgstr "Sama ada kotak apung mengandungi label."
+
+#~ msgid "Tooltip text color."
+#~ msgstr "Warna teks tooltip."
+
+#~ msgid "Use Awn's tooltip font."
+#~ msgstr "Guna fon tooltip Awn"
+
+#~ msgid "Type of UI used for the stack."
+#~ msgstr "Jenis UI yang digunakan pada susunan."
+
+#~ msgid "Whether to browse stack contents."
+#~ msgstr "Sama ada melayar kandungan susunan."
+
+#~ msgid "Whether tooltips are enabled."
+#~ msgstr "Sama ada tooltip dibenarkan."
+
+#~ msgid ""
+#~ "Whether to combine icons of the files inside the stacks with its icon."
+#~ msgstr ""
+#~ "Sama ada gabungkan ikon fail yang berada didalam susunan dengan ikonnya."
